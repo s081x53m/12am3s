@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        body {
+            background-color: rgba(0, 0, 0, 0.1);
+            zoom: 0.8;
+            /* Other non-webkit browsers */
+            zoom: 80%;
+            /* Webkit browsers */
+        }
+
+
+        /* styling paper */
+        #paper {
+            position: relative;
+            margin: 0 auto;
+            padding-top: 40px;
+            background-color: #ededed;
+            box-shadow: 0px 0px 5px 0px #888;
+        }
+
+        /* styling red vertical line */
+        #paper::before {
+            content: '';
+            width: 2px;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 40px;
+            background-color: rgba(255, 0, 0, 0.6);
+        }
+
+        /* styling blue horizontal lines */
+        #pattern {
+            height: 100%;
+            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
+            background-size: 100% 25px;
+        }
+
+        /* styling text content */
+        #content {
+            padding-top: 4px;
+            padding-left: 50px;
+            padding-right: 15px;
+            line-height: 25px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            color: rgb(0, 0, 104);
+            letter-spacing: 1px;
+            word-spacing: 4.8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="paper">
+        <div id="pattern">
+            <div id="content">
+                <br>
+
+                <center>Unit 3 - Sports</center>
+                <br>
+                Notes by: Subarna Poudel
+                <br>
+                <br>
+
+                Working with words <br>
+                <br>
+                A. Many English words are from other languages, such as redemption in the news above comes from the
+                Latin word redimere, a combination of re(d)-, meaning &ldquo;back,&rdquo; and emere, meaning
+                &ldquo;buy.&rdquo;
+                <br>
+                Now, find out the origin and the meaning of the following words from the text. <br>
+                <br>
+                Penalty : From Middle French p&eacute;nalit&eacute;<br>
+
+                a punishment imposed for breaking a law, rule, or contract<br>
+                <br>
+                Major : From Latin word &quot;great&quot; and French word &quot;majeur&quot;<br>
+                important, serious, or significant.
+                <br>
+                <br>
+                Stadium : From Latin word meaning &quot;study&quot;, &quot;zeal&quot;, &quot;dedication&quot;<br>
+                A center for the study of the Liberal Arts<br><br>
+                Trophy : From the French troph&eacute;e in 1513, Old French trophee, from Latin trophaeum<br>
+                A cup or other decorative object awarded as a prize for a victory or success.<br>
+                <br>
+                Defender : From the Latin word in this sense was &quot;defensor&quot; and Old French
+                &quot;defendeor&quot;<br>
+                One who protects from injury a champion<br>
+                <br>Anthem : From Greek antiph&#333;nos<br>
+                
+                A rousing or uplifting song identified with a particular group, body, or cause.<br>
+                <br>Dejection : From the Latin deicere meaning &quot;throw down.&quot;
+                <br>
+                A sad and depressed state; low spirits.<br>
+                <br>Jubilant : From Latin word &quot;jubilare&quot;<br>
+                
+                Making a joyful noise<br>
+                <br>Record : Form Latin word &quot;cor&quot; and &quot;re-&quot;<br>
+               
+                A thing constituting a piece of evidence about the past, especially an account kept in writing or some
+                other permanent form.<br>
+                <br> Suave : Form Latin word &quot; suavis&quot; means &quot;agreeable.&quot;<br>
+               
+                Charming, confident, and elegant (typically used of a man)<br>
+                <br> Podium : Form Greek word &quot;pous and pod&quot; meaning &quot;foot&quot;
+                <br>
+                (Of a competitor in a sporting event) finish first, second, or third, so as to appear on a podium to
+                receive an award.<br>
+                <br> Tournament : Form old French torneiement<br>
+                
+                A series of contests between a number of competitors, competing for an overall prize.<br>
+                <br> Reminiscent : Form Latin word &quot;reminisce&quot; meaning remembering<br>
+               
+                Tending to remind one of something.<br>
+                <br>Incredible : Form Latin word &quot;In-&quot; meaning &quot;not&quot; and &quot;credibills&quot; meaning
+                is &quot;believe.&quot;<br>
+                <br>Savor : Form Latin word &quot;sapere&quot; meaning &quot;to taste&quot;<br>
+                <br>
+                <br>
+                <br>
+                <br>
+                B. Consult a dictionary and define the following terms related to cricket. <br>
+                <br>
+                Example: <br>
+                wicket: two sets of three sticks standing in the ground with pieces of wood lying <br>
+                <br>
+                Stump:<br>
+                Each of the three upright pieces of wood which form a wicket.<br>
+                <br>
+                Crease:<br>
+                Any of a number of lines marked on the pitch at specified places.<br>
+                <br>
+                Boundary:<br>
+                A hit crossing the limits of the field, scoring four or six runs.<br>
+                <br>
+                Sixer:<br>
+                A hit for 6 runs.<br>
+                <br>
+                Googly:<br>
+                Type of deceptive delivery bowled by a right-arm leg-spin bowler.<br>
+                <br>
+                Leg-by:<br>
+                A run scored from a ball that has touched part of the batsman's body (apart from the hand) without
+                touching the bat.<br>
+                <br>
+                Wicket:<br>
+                Each of the sets of three stumps with two bails across the top at either end of the pitch<br>
+                <br>
+                Maiden:<br>
+                An over in which no runs are scored.<br>
+                <br>
+                Pitch:<br>
+                The strip of ground between the two sets of stumps.<br>
+                <br>
+                Power-play:<br>
+                The set of overs with special fielding rules during a limited-overs cricket match<br>
+                <br>
+                No-ball:<br>
+                An unlawfully delivered ball, counting one as an extra to the batting side if not otherwise scored
+                from.<br>
+                <br>
+                Yorker: <br>
+                A ball bowled that hits the cricket pitch around the batsman's feet.<br>
+                <br>
+                <br>
+                <br>
+                <br>
+                C. Pronunciation <br>
+                <br>
+                Divide the following words into two groups in accordance with their pronunciation /a&#618;/ and
+                /e&#618;/. <br>
+                <br>
+                /a&#618;/<br>
+                Fine, shine, why, height, bright, might, five, sight, white, by<br>
+                <br>
+                /e&#618;/<br>
+                Rein, rail, sleigh, snail, break, fake, eight, game, claim, friend, gait, hail, frame<br>
+                <br>
+                <br>
+                <br>
+                <br>
+                Comprehension <br>
+                <br>
+                A. State whether the following sentences are True or False or Not Given. <br>
+                <br>
+                a. England was the champion of 1996 World Cup Football. - True<br>
+                <br>
+                b. Italy bagged its first Euro Cup trophy in the Euro Cup 2020. - True<br>
+                <br>
+                c. The English team has won more trophies in International Football than Italy. - False<br>
+                <br>
+                d. According to the captain of the English team, the pain of losing a match has lasting effects. &ndash;
+                Not Given<br>
+                <br>
+                e. The Italian team was playing in their home ground. - False<br>
+                <br>
+                f. The goalkeeper of the Italian team had performed the best than any other players in the match. -
+                True<br>
+                <br>
+                <br>
+                <br>
+                <br>
+                B. Answer the following questions. <br>
+                <br>
+                a. Why does the reporter say that England is waiting to heal its half-century long pain? <br>
+                Ans: The reporter said that England is waiting to heal its half-century pain because England had not won
+                any title after 1966 A.D.<br>
+                <br><br>
+                b. How did the Italian players react as soon as they became the champions?<br>
+                Ans: The Italian players reacted by shouting into a TV camera amid the celebrations, mocking the famous
+                lyric &ldquo;it&rsquo;s coming home&rdquo; from the England team&rsquo;s anthem as soon as they became
+                the champions.<br>
+                <br><br>
+                c. Why did Saka and Sancho cry? <br>
+                Ans: Saka and Sancho cried because of their third straight penalty failure.<br>
+                <br><br>
+                d. Penalty shoot-out has long been a bitter experience for the English team. Why?<br>
+                Ans: Penalty shoot-out has long been a bitter experience for the English team because they missed three
+                penalty shoot-outs consequently.<br>
+                <br><br>
+                e. State the contribution of Roberto Mancini to the Italian football. <br>
+                Ans: It was less than four years ago that Italy plunged to the lowest moment of its soccer history by
+                failing to qualify for the World Cup for the first time in six decades. Now, they are the best team in
+                Europe and on a national-record 34-match unbeaten run under Roberto Mancini. Mancini bring great
+                confident in Italian football team and make great effort to win Euro Cup 2020.<br>
+                <br><br>
+                f. How does the Euro Cup final 2020 remind the audiences of the 2018 World Cup semifinals? How?<br>
+                Ans: The Euro Cup Final 2020 remind the audiences of the 2018 World Cup semifinals because England also
+                scored early against Croatia then spent most of the game chasing its opponent&rsquo;s midfield before
+                losing in extra time.<br>
+                <br>
+                <br><br>
+                <br>
+                Critical thinking <br>
+                <br>
+                a. &quot;Every match is a new opportunity. Put its failure behind and start over again.&quot; Does this
+                apply to the Italian football team when we analyse their performance from their failure to qualify for
+                the World Cup Football to their victory in the European Championship in these four years? <br>
+                <br>
+                Ans: <br>
+                <br>
+                <br>
+                <br>
+                b. When a team plays in a home ground, it gets a huge support from the audience in the stadium. Does
+                this support them to win the match or the players may feel pressure to win and thus lose? What do you
+                think?<br>
+                <br>
+                Ans: I think a team playing in the home ground gets huge support and confidence from their home fans but
+                the teams from other places get huge disadvantages; according to their zone, climate, and fan follower.
+                Many teams have been won Match on home ground. More than 100 teams won the match on the home ground.<br>
+                <br>
+                In team sports, the term home ground &ndash; also called home field describes the benefit that the home
+                team is said to gain over the visiting team. This benefit has been attributed to psychological effects
+                by the supporting fans on the competitors or referees. Also, the players are used to, playing on their
+                home ground due to which they can easily play there, despite of the weather, pitch or ground condition.
+                But the visiting teams suffer from changing time zones or climates, or from the rigors of travel; and in
+                some sports, to specific rules that favor the home team directly or indirectly.<br>
+                <br>
+                According to my views, in Euro Cup 2020 England lost the final match against Italy due to their fear and
+                lack of faith. They had not won any match after 1966 A.D so that they had less hope and got more
+                pressure from the home ground fans. Therefore, getting a huge support from the audience in the stadium
+                does both i.e., supports the team to win the match as well as the players may feel pressure to win and
+                thus lose.<br>
+                <br>
+                <br>
+                <br>
+                <br>
+                Grammar<br>
+                <br>
+                B. Complete the following sentences with much, many, few or little. <br>
+                <br>
+                a. He is an introvert. He has got very&#8230;&#8230;&#8230;&#8230;.friends.<br>
+                Ans: few<br>
+                <br>
+                b. I am busy in preparing my examinations. I have very&#8230;&#8230;&#8230;..time to give to you. <br>
+                Ans: little<br>
+                <br>
+                c. The entire winter season was dry this year. We had &#8230;&#8230;&#8230;&#8230;.rain. <br>
+                Ans: little<br>
+                <br>
+                d. Our town has almost been modernized. There are&#8230;&#8230; old buildings left.<br>
+                Ans: few<br>
+                <br>
+                e. You can come today. I haven&rsquo;t got &#8230;&#8230;&#8230;&#8230;&#8230;to do. <br>
+                Ans: much<br>
+                <br>
+                f. The party was crowded. There were too &#8230;&#8230;..people. <br>
+                Ans: many<br>
+                <br>
+                g. How &#8230;&#8230;&#8230;.photographs did you take while you were in Switzerland? <br>
+                Ans: many<br>
+                <br>
+                h. There was&#8230;&#8230;&#8230;&#8230;&#8230;.traffic so I came in time. <br>
+                Ans: little<br>
+                <br>
+                i. Can I borrow &#8230;&#8230;&#8230;&#8230;..books from you? <br>
+                Ans: few<br>
+                <br>
+                j. Mohan can&rsquo;t be a good teacher. He has&#8230;&#8230;&#8230;&#8230;patience.<br>
+                Ans: little<br>
+                <br>
+                <br>
+                <br>
+                C. Put each or every in the following sentences.<br>
+                <br>
+                a. The party split into three factions, &#8230;&#8230;&#8230;&#8230;&#8230;.faction headed by a former
+                prime minister. <br>
+                Ans: each<br>
+                <br>
+                b. Leap years occur&#8230;&#8230;&#8230;&#8230;..four years. <br>
+                Ans: every<br>
+                <br>
+                c. &#8230;&#8230;&#8230;.parent worries about their children. <br>
+                Ans: Every<br>
+                <br>
+                d. We had a great time in Singapore. We enjoyed &#8230;&#8230;.minute of our time.<br>
+                Ans: every<br>
+                <br>
+                e. I could catch the main idea of his speech but I didn&rsquo;t understand &#8230;&#8230;.of his
+                words.<br>
+                Ans: each<br>
+                <br>
+                f. In Nepal, &#8230;&#8230;&#8230;&#8230;.motorcycle rider should wear a helmet.<br>
+                Ans: every<br>
+                <br>
+                g. You must read &#8230;&#8230;..of these books for the exam.<br>
+                Ans: each<br>
+                <br>
+                <br>
+                <br>
+                D. Rewrite the following sentences using all of, most of, none of, both of or some of. <br>
+                <br>
+                a. Your garden is superb. &#8230;&#8230;&#8230;&#8230;&#8230;..the flowers are beautiful.<br>
+                Ans. Most of<br>
+                <br>
+                b. Do you know Bharat and Kamal? Of course, I do&#8230;..them are my friends.<br>
+                Ans: Both of<br>
+                <br>
+                c. I bought a box of apples thinking it would be cheaper but I was mistaken.
+                &#8230;&#8230;&#8230;&#8230;&#8230;them were rotten.<br>
+                Ans: All of<br>
+                <br>
+                d. When I was in the town, I asked some people for direction but
+                &#8230;&#8230;&#8230;&#8230;&#8230;&#8230;. them were able to help me. I had to call my friend. <br>
+                Ans: none of<br>
+                <br>
+                e. We all were soaked in the rain because&#8230;&#8230;&#8230;..us had carried an umbrella. <br>
+                Ans: none of<br>
+                <br>
+                f. My father is healthy in his seventies but he feels isolated because
+                &#8230;&#8230;&#8230;&#8230;&#8230;..his friends are dead now. <br>
+                Ans: all of<br>
+                <br>
+                g. All of the tourists are not Chinese&#8230;&#8230;&#8230;&#8230;&#8230;..them are Korean too. <br>
+                Ans: Some of<br>
+                <br>
+                <br>
+                <br>
+                E. Choose the best word from the brackets to complete the sentences. <br>
+                <br>
+                a. Give me &#8230;&#8230;.. money I owe you. (which/the/a/an) <br>
+                Ans: the<br>
+                <br>
+                b. I want &#8230;&#8230;&#8230; boat which would take me to the island. (the/an/those/a) <br>
+                Ans: the<br>
+                <br>
+                c. Could you pour me &#8230;&#8230;&#8230; water, please? (many/few/these/some) <br>
+                Ans: some<br>
+                <br>
+                d. Only &#8230;&#8230;.. employees know how important the project was. (a few/a little/little/few) <br>
+                Ans: a few<br>
+                <br>
+                e. He was looking for &#8230;&#8230;.. umbrella. (an/a/those/these) f. &#8230;&#8230;&#8230;. water was
+                evaporated due to excessive heat. (A large number of/ A lot of/ A large amount of/Many)<br>
+                Ans: A large amount of<br>
+
+
+
+                <br><br><br><br>
+                Notes by: Subarna Poudel
+                <br><br>
+                If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com
+                <br><br>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

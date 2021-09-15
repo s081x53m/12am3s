@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        body {
+            background-color: rgba(0, 0, 0, 0.1);
+            zoom: 0.8;
+            /* Other non-webkit browsers */
+            zoom: 80%;
+            /* Webkit browsers */
+        }
+
+
+        /* styling paper */
+        #paper {
+            position: relative;
+            margin: 0 auto;
+            padding-top: 40px;
+            background-color: #ededed;
+            box-shadow: 0px 0px 5px 0px #888;
+        }
+
+        /* styling red vertical line */
+        #paper::before {
+            content: '';
+            width: 2px;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 40px;
+            background-color: rgba(255, 0, 0, 0.6);
+        }
+
+        /* styling blue horizontal lines */
+        #pattern {
+            height: 100%;
+            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
+            background-size: 100% 25px;
+        }
+
+        /* styling text content */
+        #content {
+            padding-top: 4px;
+            padding-left: 50px;
+            padding-right: 15px;
+            line-height: 25px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            color: rgb(0, 0, 104);
+            letter-spacing: 1px;
+            word-spacing: 4.8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="paper">
+        <div id="pattern">
+            <div id="content">
+                <br>
+
+                <center>Unit 2 - A Respectable Woman</center>
+                <p align='right'> - Kate Chopin</p>
+                <br>
+                Notes by: Subarna Poudel
+                <br><br>
+                Understanding the text<br>
+                Answer the following questions.<br><br>
+                a. Why was Mrs. Baroda unhappy with the information about Gouvernail&rsquo;s visit to their
+                farm?<br><br>
+                Ans. Mrs. Baroda was unhappy with the information about Gouvernail&rsquo;s visit to their farm because
+                he was a man, she'd heard a lot about but had never met. Also, she had planned a period of rest and
+                conversation with her husband, Gaston Baroda from their busy life throughout all winter which was
+                canceled by the Gouvernail&rsquo;s visit to their farm.<br><br>
+                <br>
+                b. How was Gouvernail different from Mrs. Baroda&rsquo;s expectation?<br><br>
+                Ans. Mrs. Baroda had never met Gouvernail in her life. Before meeting him, she pictured him
+                unconsciously as slim, tall, cynical with eyeglasses and hands into his pockets. She didn't like him
+                while picturing him. But, when she met him, she found him different from her expectation. She found him
+                slim, neither tall nor cynical. At the very first sight, she found herself attracted to him. Also, one
+                night when she had a conversation with him on her estate, her detestation for him turned into a desire
+                to establish a relationship with him. Thus, Gouvernail was found to be totally different from Mrs.
+                Baroda&rsquo;s expectation.<br><br>
+                <br>
+                c. How does Mrs. Baroda compare Gouvernail with her husband?<br><br>
+                Ans. Mrs. Baroda finds Gouvernail less sociable compared to her husband. Although. she finds Gouvernail
+                attractive, but she does not perceive the same traits in him as her husband. She couldn't find any of
+                the brilliant and promising qualities that Gaston, her husband, had often informed her he possessed in
+                him. Despite his courtesy, Mrs. Baroda considers him unsociable in comparison to her husband because he
+                does not appear to be paying attention to her.<br><br>
+                <br>
+                d. Why and how did Mrs. Baroda try to change Gouvernail&rsquo;s solitary habits?<br><br>
+                Ans. Mrs. Baroda tried to change Gouvernail's solitary habits because she didn't expect a commotion over
+                his presence and he was no more interested in facts. Mrs. Baroda became quite tried to find her guest
+                uninterested. She didn't even find any reaction within him when she showed her rude manner of leaving
+                him alone with her husband at first. She tried to change Gouvernail's solitary habits because she wanted
+                him to be more demanding and interesting. For that, she started accompanying him in his idle walks up to
+                the mills and assured him to be more talkative and adaptable to the situation.<br><br>
+                <br>
+                e. How does Gaston disagree with his wife on Gouvernail&rsquo;s character?<br><br>
+                Ans. Gaston disagrees with his wife on Gouvernail's character saying that Gouvernail doesn't expect
+                commotion over his presence. According to him, Gouvernail needs a break from his busy life which is full
+                of works. Against his wife's opinions, he supports Gouvernail's character saying that he has all the
+                positive traits like friendliness, frankness, talkativeness and social nature.<br><br>
+                <br>
+                f. Why is Gaston surprised with his wife&rsquo;s expression towards the end of the story?<br><br>
+                Ans. Gaston is surprised by his wife's expression towards the end of the story because his wife's
+                expression was quite puzzling enough for him to understand. She states that she has overcome everything
+                and she will be nice to him on his next visit. Her strange statement in delighting tone makes Gaston
+                feel surprised.<br><br>
+                <br><br>
+                <br>
+                Reference to the context<br><br>
+                a. What is the cause of conflict in Mrs. Baroda&rsquo;s mind? What role does Mrs. Baroda &lsquo;being a
+                respectable woman&rsquo; play in the story?<br><br>
+                Ans. The cause of conflict in Mrs. Baroda's mind is her attraction towards her husband's friend
+                Gouvernail. She finds herself attracted to him at very first sight. She is puzzled in her act of liking
+                a person like Gouvernail. Mrs. Baroda 'being a respectable woman' plays a very vital role to control her
+                desires and prevent her from doing immoral acts. Her self-dignity of being a respectable woman and wife
+                makes her aware of her social reputation and the limitations of social norms and values.<br><br>
+                <br>
+                b. Sketch the character of Gouvernail and contrast it with Gaston.<br><br>
+                Ans. Gouvernail is one of the major characters of this short story &quot;A Respectable Woman&quot; by
+                Kate Chopin. He has played the role of a visitor who has come to spend his one or two weeks in Mr.
+                Gatson Baroda's sugar plantation in Louisiana. He has visited Baroda&rsquo;s' plantation to spend his
+                time and take a rest from his tiresome busy life. He presents himself quite simply and in a courteous
+                manner in response to Baroda's welcome and hospitality. He likes to live a peaceful life without any
+                disturbance. He is not interested in fishing and hunting. Gouvernail is seen breaking his silence at the
+                end of the story while sitting on a bench just beside her. He remains in Baroda's house as a simple
+                guest and his reserved nature creates a bit of tension between Mr. Gaston and Mrs. Baroda.<br><br>
+                On the other hand, Mr. Gatson Baroda seems quite sociable, frank and friendly. He is a quite caring
+                husband. He loves and trusts his wife so much. He is a wealthy sugar planter and often has positive
+                thinking. He doesn't feel good to hear his wife disliking opinions about Gouvernail. He tries his best
+                to persuade his wife about Gouvernail. He is a brilliant man with a hobby of fishing and hunting. He
+                nicely treats his guests and provides them good hospitality. Thus, both Mr. Gaston and Gouvernail are
+                seen quite different in the story.<br><br>
+                <br><br>
+                c. Why does Mrs. Baroda not disclose her feelings towards Gouvernail to her husband?<br><br>
+                Ans. Mrs. Baroda doesn't disclose her feelings towards Gouvernail to her husband because she wants to
+                handle the situation herself by being sensible. She feels much disturbed and puzzled due to Gouvernail's
+                reserved nature. She is troubled by her inner conflict. She wants to reveal her great folly of last
+                night to her husband at first. But later on, she desires to tackle her problem herself. As a respectable
+                woman or a wife, she thinks that being human, some battles of life should be handled alone.<br><br>
+                <br><br>
+                d. The last three sentences of the story bring a kind of twist. After reading these three sentences, how
+                do you analyze Mrs. Baroda&rsquo;s attitude towards Gouvernail?<br><br>
+                Ans. Kate Chopin's writings always direct her readers towards brilliant and ambiguous closings. She
+                often created twists in her creations at last. The last three sentences of Mrs. Baroda create a kind of
+                confusion for all the readers. After reading her statements, I think she will treat Gouvernail more
+                nicely the next time but being a respectable woman or a wife. She will surely overcome the folly of her
+                first experience. She will present herself as a perfect host without expecting such desires as
+                before.<br><br>
+                <br><br>
+                <br>
+                Reference beyond the text<br><br>
+                a. The entry of an outsider into a family has been a recurring subject in both literature and films.
+                Narrate a story real or imaginative where an outsider&rsquo;s arrival destroys the intimate relationship
+                between the husband and the wife and causes break up in marital relationship without direct fault of
+                anyone. Anton&rsquo;s Chekhov&rsquo;s story &lsquo;About Love&rsquo; is a story on this subject.<br><br>
+                Ans. The story of &quot;About Love&quot; has been written by a Russian writer Anton Chekhov. &quot;About
+                Love&quot; is a story about love affairs. Here in this story, the third love story somewhat reflects the
+                same ideas as seen in the story of Kate Chopin's &quot;A Respectable Woman&quot;.<br><br>
+                The third story has presented the love story of the major character Alyohin and Anna, the wife of
+                Dimitry Luganovich.<br><br>
+                When Alyohin is elected for honorary justice of the peace, he has to go to town for work. There he meets
+                another judge whose name is Dimitry Luganovich. Once he goes to the house of Luganovich to have dinner.
+                There he meets Anna Luganovich, the wife of Dimitry Luganovich. The beauty, youth and intelligence of
+                Anna attract him. Alyohin&rsquo;s mind is disturbed by Anna&rsquo;s memory. He starts meeting with her.
+                They pass time together for hours. They share gifts. They go to the theatre and also share their joys
+                and sorrows. Alyohin falls in love with her, but his morals and thoughts stop him to express his love
+                openly. As a result, Anna suffers from mental tiredness. Both of them suffer a lot due to middle-class
+                moralities. But later on, Alyohin sees the illusion that Anna enjoys her life and doesn&rsquo;t pay
+                attention to him. Due to their relationship, Anna suffers from mental tiredness. Finally, the Luganovich
+                family has to move. Alyohin goes to say goodbye to Anna inside the train. When their eyes meet for the
+                last time, both cry and hug each other. Alyohin kisses Anna and expresses his deep love. Finally, both
+                separate from each other because Anna is leaving for Creamea for her treatment.<br><br>
+                <br><br>
+                b. Mrs. Baroda makes an expectation about Gouvernail even before meeting him. Suppose you are a mature
+                girl/boy and your family members are giving you pressure for getting married. Write in about 200 words
+                describing what qualities you would like to get in your future husband/wife. <br><br>
+                Ans. Marriage is a sacred relationship between two people. It is a union of two or more people that
+                creates a family tie and carries legal, social or religious rights and responsibilities. Before
+                marriage, we need to think as well as know about the person with whom we are going to get married. It is
+                a lifelong relationship that's why we have to choose a perfect life partner.<br><br>
+                If I get pressure from my family members for getting married, I would like to have the following
+                qualities in my future wife.<br><br>
+                1. Lovable and caring: My future wife must be lovable and caring. She must be lovable and caring for all
+                my family members. <br><br>
+                2. Well mannered: She must be well mannered. She should be polite and well-mannered to all. <br><br>
+                3. Beautiful: She must be beautiful not only from her physical appearance but also from her heart. She
+                should be outstanding in performing the role in the family.<br><br>
+                4. Responsible and respectable: She must be a responsible and respectable wife. She must know her
+                responsibilities towards family and spend her life being a respectable wife.<br><br>
+                5. Educated: She must be highly qualified and know the way of educating others. She must have the
+                quality of making others realize the importance of education in life.
+                <br><br><br><br>
+                Notes by: Subarna Poudel
+                <br><br>
+                If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com
+                <br><br>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

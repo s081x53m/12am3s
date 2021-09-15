@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        body {
+            background-color: rgba(0, 0, 0, 0.1);
+            zoom: 0.8;
+            /* Other non-webkit browsers */
+            zoom: 80%;
+            /* Webkit browsers */
+        }
+
+
+        /* styling paper */
+        #paper {
+            position: relative;
+            margin: 0 auto;
+            padding-top: 40px;
+            background-color: #ededed;
+            box-shadow: 0px 0px 5px 0px #888;
+        }
+
+        /* styling red vertical line */
+        #paper::before {
+            content: '';
+            width: 2px;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 40px;
+            background-color: rgba(255, 0, 0, 0.6);
+        }
+
+        /* styling blue horizontal lines */
+        #pattern {
+            height: 100%;
+            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
+            background-size: 100% 25px;
+        }
+
+        /* styling text content */
+        #content {
+            padding-top: 4px;
+            padding-left: 50px;
+            padding-right: 15px;
+            line-height: 25px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            color: rgb(0, 0, 104);
+            letter-spacing: 1px;
+            word-spacing: 4.8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="paper">
+        <div id="pattern">
+            <div id="content">
+                <br>
+
+                <center>Unit 2 - Family</center>
+                <br>
+                Notes by: Subarna Poudel
+                <br>
+                <br>
+
+                Working with words<br><br>
+                A. Find the words from the text and solve the puzzle. Clues are given below.<br>
+                ACROSS<br>
+                1. the custom of having more than one wife at the same time &ndash; Polygamy<br><br>
+                5. to find an acceptable way of dealing with opposing ideas, needs etc. &ndash; Conflict<br><br>
+                6. the process in which towns, streets, etc. are built where there was once countryside &ndash;
+                Urbanization<br><br>
+                7. the process by which somebody learns to behave in an acceptable way in their society &ndash;
+                Socialization<br><br>
+                <br>
+                DOWN<br>
+                1. ruled or controlled by men &ndash; Patriarchy<br><br>
+                2. the act of taking over a position &ndash; takeover<br><br>
+                3. done in a way without caring if people are shocked &ndash; surprise<br><br>
+                4. single&ndash;parent &ndash; lone&ndash;parent<br><br>
+                <br><br>
+                B. Find the meanings of the following family&ndash;related words and use them in your own
+                sentences.<br><br>
+                Nuclear family<br>
+                Meaning: A family of a couple and their dependent children<br>
+                Sentence: I live in a nuclear family and my parents are modern enough.<br>
+                <br>
+                Monogamy<br>
+                Meaning: The practice of marrying or state of being married to one person at a time<br>
+                Sentence: When my husband and I got married, we took a vow of monogamy.<br>
+                <br>
+                Sibling&ndash;in&ndash;law<br>
+                Meaning: Brother&ndash;in&ndash;law or sister&ndash;in&ndash;law<br>
+                Sentence: I had a sibling&ndash;in&ndash;law, who came last Monday to see me.<br>
+                <br>
+                Milk kinship<br>
+                Meaning: A form of fostering allegiance with fellow community members<br>
+                Sentence: Milk kinship, formed during nursing by a non&ndash;biological mother<br>
+                <br>
+                Matrilineal<br>
+                Meaning: Based on kinship with the mother or the female line<br>
+                Sentence: The fact that all livestock are inherited along the matrilineal line is exceptional.<br>
+                <br>
+                Nepotism<br>
+                Meaning: The practice among those with power or influence of favoring relatives or friends, especially
+                by giving them jobs.<br>
+                Sentence: The nepotism in which the pope indulged is especially inexcusable.<br>
+                <br>
+                Maternity:<br>
+                Meaning: The period during pregnancy and shortly after childbirth, motherhood<br>
+                Sentence: Many expectant mothers were crowded out of the maternity hospitals.<br>
+                <br><br><br>
+                C. The following words are from the above text. Each word has two parts.<br><br>
+                poly, un, non, dis and in are prefixes. They make new words when they are added to the beginning of
+                other root words.<br><br>
+                Make at least five words using the prefixes given. Consult a dictionary to learn how they change the
+                meaning of root words.<br>
+                <br>
+                Pre &ndash; preposition, precaution, previews, prefer, prepare<br>
+                Semi &ndash; semi abandoned, semiabstract, semiarid, semi casual, semi-conductor <br>
+                Sub &ndash; subconscious, subjugate, submissive, subordinate, subsidiary<br>
+                Mis &ndash; misunderstand, mistake, misbehave, mistrust, misspell<br>
+                Mono &ndash; monochrome, monocot, monocular, monoplane, monopoly<br>
+                Un &ndash; unhappy, unhealthy, untouchable, undo, unemployment<br>
+                In &ndash; internal, inflated, inject, informal, infant<br>
+                Inter &ndash; Intermission, interactive, intercept, interchange, interlock<br>
+                <br>
+                <br>
+                <br>
+                <br>
+                Comprehension<br><br>
+                A. The headings of the first five paragraphs of the above text are given below. Write paragraph number
+                next to them.<br><br>
+                a. Patriarchal family - 3<br>
+                b. Functions of the family - 2<br>
+                c. Modern model of family - 5<br>
+                d. Effects of industrialization on family structure - 4<br>
+                e. Defining family - 1<br>
+                <br><br>
+                B. Answer the following questions.<br>
+                a. What type of family is thought to be the oldest form of the family?<br>
+                Ans. Nuclear family is thought to be the oldest form of the family.<br>
+                <br><br>
+                b. How does a family provide security to its members?<br>
+                Ans. Family provides for emotional and psychological security particular through the warmth, love, and
+                companionship that living together generates between spouses and in turn between them and their
+                children.<br>
+                <br><br>
+                c. What were the features of medieval European family? The features of medieval European family were
+                male-dominated and extended.<br>
+                <br><br>
+                d. What caused the dissolution of extended families in the West?<br>
+                Ans. Many people, particularly unmarried youths, left farms and went to urban centers to become
+                industrial workers. This process led to the dissolution of extended families in the West.<br>
+                <br><br>
+                e. What change occurred in gender role in the modern family that emerged after the Industrial
+                Revolution?<br>
+                Ans. Following change occurred in gender role in the modern family that emerged after the Industrial
+                Revolution:<br>
+                (i) Patriarchal rule began to give way to greater equality between the sexes.<br>
+                (ii) Family roles once considered exclusively male or female broke down.<br>
+                (iii) Some couples choose not to marry legally and instead elect to have their children out of
+                wedlock.<br>
+                (iv) The rising levels of divorce led to increase in the number of one-parent households.<br>
+                <br><br>
+                f. What is family law?<br>
+                Ans. Family law defines the legal relationships among family members as well as the relationships
+                between families and society at large. In nearly every case, family law represents a delicate balance
+                between the interests of society and the protection of individual rights.<br>
+                <br><br>
+                g. How is modern marriage defined?<br>
+                Ans. modern marriage is defined as a voluntary union, usually between a man and a woman.<br>
+                <br><br>
+                h. What do special family courts try to do?<br>
+                Ans. Special family court tries to attempt deal more fairly with sensitive issues such as custody of
+                children.<br>
+                <br><br>
+                i. What does the legislation on child labor and child abuse declare?<br>
+                Ans. The legislation on child labor and child abuse declares that there is responsibility of society for
+                a child&rsquo;s best interests and to provide compulsory education to the children.<br>
+                <br><br>
+                j. What is common among most legal systems regarding property?<br>
+                Ans. Most legal regarding property systems means of dealing with division of property left by a deceased
+                family member.<br>
+                <br>
+                <br>
+                <br>
+                <br>
+                Critical Thinking<br>
+                a. What changes have started to occur in Nepali families in recent days? What impacts will they bring on
+                the society? Discuss.<br><br>
+                Ans. Since the world is now in 21st century, everything is gradually developing through traditional
+                culture to modern culture. Nowadays, people want to satisfy their feeling. They change their behaviour
+                to family lifestyle in modern societies. They want to live in nuclear family with the full of happiness
+                with child, husband and wife but other side in there is rapid increase of divorce in Nepal due to
+                misunderstand in nuclear family. In Nepali families both male and female can rule household, country.
+                Everybody male and female is getting equal right in family. Every family member understanding each other
+                felling, happy and they can share their idea, concept in family member. In Nepalese families young age
+                at marriage in Nepal is closely linked to the widespread practice of arranged marriages, where
+                relationships and agreements between families prevail over individual choices. Thus, a decline in very
+                early marriage, accompanied by a decrease in the interval between marriage and cohabitation, may
+                indicate a change in the marital decision-making process and an increase in the level of involvement on
+                the part of spouses in the formation of their own marital unions. Thus, they will bring both positive
+                and negative changes on the society.
+                <br><br><br><br>
+                b. We see many elderly people in the elderly homes these days in Nepal. Some of them are abandoned while
+                others live there willingly. Do you think Nepali people are deviating from their traditional culture?
+                Give reasons.<br><br>
+                Ans.
+                <br><br><br><br>
+                Writing<br>
+                a. Write an essay on The Importance of Family. In your essay, you can use these guided questions.<br>
+                &bull; Why family is important to you.<br>
+                &bull; Why family is or is not important for society<br>
+                &bull; How you think families will change in the future.<br><br>
+                Ans.<br>
+                <center>The Importance of Family</center><br>
+                In today’s world when everything is losing its meaning, we need to realize the importance of family more
+                than ever. While the world is becoming more modern and advanced, the meaning of family and what stands
+                for remains the same. It does not matter what kind of family one belongs to. It is all equal as long as
+                there are caring and acceptance. You may be from a joint family, same-sex partner family, nuclear
+                family, it is all the same. The relationships we have with our members make our family strong. We all
+                have unique relations with each family member. In addition to other things, a family is the strongest
+                unit in one’s life.
+                <br><br>
+                One cannot emphasize enough on the importance of family. They play a great role in our lives and make us
+                better human beings. The one lucky enough to have a family often do not realize the value of a family.
+                However, those who do not have families know their worth. A family is our source of strength. It teaches
+                us what relationships mean. They help us create meaningful relationships in the outside world. The love
+                we inherit from our families, we pass on to our independent relationships. Moreover, families teach us
+                better communication. When we spend time with our families and love each other and communicate openly,
+                we create a better future for us. When we stay connected with our families, we learn to connect better
+                with the world. Similarly, families teach us patience. It gets tough sometimes to be patient with our
+                family members. Yet we remain so out of love and respect. Thus, it teaches us patience to deal better
+                with the world. Families boost our confidence and make us feel loved. They are the pillars of our
+                strength who never fall instead keep us strong so we become better people.
+                <br><br>
+                As we know that society is important for family. Society is the combination of one or more family member
+                so, without family society cannot create. A family makes us responsible for our duty toward society.
+                Family provides social security in the society. Family introduces you in the society. In the social
+                world without a family an individual's identity is never complete.
+                And I think that family will change in future due to upgrading of modern technology, 5-10 year there is
+                big
+                family where very family member were residing but now day most of the family is living in nuclear family
+                format.
+                <br>
+                <br>
+                <br>
+                <br>
+                b. Some people think it is better to live in a nuclear family. Other people think that living in
+                extended family is more advantageous. What do you think? Write an essay discussing the advantages and
+                disadvantages of both.<br><br>
+                Ans. <br>
+                In my views both the Extended family and Nuclear family are better at their own place as both of them have some advantages and some disadvantages.
+                <br><br>
+                Extended family is a combination of all generation
+                of member. In these families, all member of the family including the children also grow with the belief
+                that they also have certain duties and function to perform. They should learn to control their demand
+                and expectation. In Nepal, more people prefer to stay in extended family and I'm also one of them in
+                comparison to nuclear family. The advantage of extended family are, in extended family there is a good
+                social and emotional relationship among the family members. There is a proper economic and social
+                security. In extended family there is a proper care and supervision for the children also proper
+                education and control over the problem of adolescence. The important advantage of extended family is a
+                sense of protection of culture, tradition and values. There is not only advantage of Extended family but
+                also some disadvantages occur in extended family. In extended it can push back in personality
+                development. There is less privacy. There may be probability of low living standards. There may be
+                difficult to meet needs and demand of each member in the family. Less of self confidence and dependency
+                may increase in the extended family
+                <br><br>
+                Now talking about the nuclear family, Nuclear family is composed of husband, wife and their children, otherwise Extend family composed of grandfather, grandmother, parents, brother and their wives, daughter in-law, grandson etc., who share same kitchen and shelter up to four generation. Some of the advantages of nuclear family is that there is high understand and cooperation among each other, less possibility of quarrel among family member due the fewer members. It is easy to meet need and demand of each family.There is freedom of making decisions of their own.
+                Also there are some disadvantages of having nuclear family as there is lack of security and confidence, there is lack of proper care of children and old age people.There is generation gap in respecting the norms and value of people. There is lack of love and care for the children if the couple engaged in professions.
+                <br><br>
+                Thus in short we can say that both the nuclear and extended family are better at their own place.
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                Grammar<br>
+                <br>
+                Modal verbs<br>
+                B. Choose the best answer to complete the sentences.<br>
+                <br>
+                a. 'How much was your parking ticket?' 'Fifty rupees.' 'Oh well, it &#8230;&#8230;&#8230;&#8230; been
+                worse.'<br>
+                Ans. could have<br>
+                <br>
+                b. It &#8230;&#8230;&#8230;&#8230;. got lost in the post. These things happen sometimes.<br>
+                Ans. must have<br>
+                <br>
+                c. 'Sorry I'm late. I got delayed at work.' 'You &#8230;&#8230;&#8230;..called. I was really worried
+                about you.'<br>
+                Ans. must have<br>
+                <br>
+                d. 'I don't think he meant to be rude.' 'He &#8230;&#8230;&#8230; said sorry.'<br>
+                Ans. must have<br>
+                <br>
+                e. 'Whose signature is this?' 'I don't know. It &#8230;&#8230;&#8230;.. be Manoj's. That looks a bit
+                like an M.'<br>
+                Ans. could<br>
+                <br>
+                f. I had it when I left the office so I &#8230;&#8230;&#8230;. lost it on the way to home.<br>
+                Ans. mustn't have<br>
+                <br>
+                g. You &#8230;&#8230;&#8230;.. think it's funny, but I think it's pathetic.<br>
+                Ans. must have<br>
+                <br>
+                <br>
+                <br>
+                C. Complete the following sentences with appropriate endings. Use correct modal verbs.<br>
+                <br>
+                a. At the end of the course, we must be prepared for the individual presentation.
+                <br>
+                <br>
+                b. If you want to earn a lot of money, I would suggest some tips.
+                <br>
+                <br>
+                c. You were not in your house yesterday. You could have your belongings stolen.
+                <br>
+                <br>
+                d. I'm quite busy tomorrow. I must visit my dentist.
+                <br>
+                <br>
+                e. When you were a small kid, you could ask for money from your relatives.
+                <br>
+                <br>
+                f. My car is broken. I should take it to the service centre.
+                <br>
+                <br>
+                g. I've got a fast speed internet at home. I can watch movies in high quality.
+                <br>
+                <br>
+                h. Even though she didn't study well, she could solve all the problems.
+                <br>
+                <br>
+                i. There are plenty of newspapers in the library. You can read any of them if you want.
+                <br>
+                <br>
+                j. What do you think you were doing, playing in the road? You could have been hit by the car.
+                <br>
+                <br>
+                k. I have no time. I can't meet you.
+                <br>
+                <br>
+                l. You don't look well. You should take a rest.
+
+
+
+
+                <br><br><br><br>
+                Notes by: Subarna Poudel
+                <br><br>
+                If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com
+                <br><br>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

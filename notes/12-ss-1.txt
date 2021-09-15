@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        body {
+            background-color: rgba(0, 0, 0, 0.1);
+            zoom: 0.8;
+            /* Other non-webkit browsers */
+            zoom: 80%;
+            /* Webkit browsers */
+        }
+
+
+        /* styling paper */
+        #paper {
+            position: relative;
+            margin: 0 auto;
+            padding-top: 40px;
+            background-color: #ededed;
+            box-shadow: 0px 0px 5px 0px #888;
+        }
+
+        /* styling red vertical line */
+        #paper::before {
+            content: '';
+            width: 2px;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 40px;
+            background-color: rgba(255, 0, 0, 0.6);
+        }
+
+        /* styling blue horizontal lines */
+        #pattern {
+            height: 100%;
+            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
+            background-size: 100% 25px;
+        }
+
+        /* styling text content */
+        #content {
+            padding-top: 4px;
+            padding-left: 50px;
+            padding-right: 15px;
+            line-height: 25px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            color: rgb(0, 0, 104);
+            letter-spacing: 1px;
+            word-spacing: 4.8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="paper">
+        <div id="pattern">
+            <div id="content">
+                <br>
+
+                <center>Unit 1 - Neighbours</center>
+                <p align='right'> - Tim Winton</p>
+                <br>
+                Notes by: Subarna Poudel
+                <br>
+                <br>
+                Understanding the text<br>
+                Answer the following questions.<br>
+                a. Describe how the young couple&rsquo;s house looked like.<br><br>
+                Ans. The young couple's house was small, but it had the feel of an elegant cottage thanks to its high
+                ceilings and paned windows. The young man could see out over the rooftops from his study window and used
+                car yards the Moreton Bay figs in the park where they walked their dog.<br>
+                <br><br>
+                b. How did the young couple identify their neighbours in the beginning of their arrival?<br><br>
+                Ans. When the young couple arrived for the first time, they had a negative impression of their
+                neighbours. Many things irritated them. The cries and shouts of their neighbours came first, followed by
+                the toddler urinating in the street and peering at the fence. In addition, the young man despised the
+                neighbours' involvement with their gardening efforts. Their neighbours were also concerned about their
+                dog, raised eyebrows when they awoke late, and disapproved of the young man being at home while his wife
+                worked outside.<br><br>
+                <br>
+                c. How did the neighbours help the young couple in the kitchen garden?<br><br>
+                Ans. The neighbours helped the young couple to remove the trash from their backyard and ploughed and
+                manured the soil in the autumn. They planted leeks, onions, cabbage, brussels sprouts, and broad beans,
+                prompting neighbours to approach the fence and provide suggestions for spacing, hilling, and mulching.
+                The young man was annoyed by the interruption, but he listened carefully to what was said. Also, the big
+                woman with the butcher's arms handed her a bag of garlic cloves to plant. In this way, the neighbours
+                helped the young couple in the kitchen garden.<br>
+                <br><br>
+                d. Why were the people in the neighborhood surprised at the role of the young man and his wife in their
+                family?<br><br>
+                Ans. The people in the neighborhood were surprised at the role of the young man and his wife in their
+                family because the young man stayed at home to write his thesis and his wife worked out which was new
+                for the neighbours.<br>
+                <br><br>
+                e. How did the neighbours respond to the woman&rsquo;s pregnancy? <br><br>
+                Ans. The neighbours responded to the woman&rsquo;s pregnancy by smiling tirelessly. The man in the deli
+                gave her small presents of chocolates and him packets of cigarettes. In the summer, Italian women began
+                to offer names. Greek women stopped the young woman in the street, pulled her skirt up and felt her
+                belly, telling her it was bound to be a boy. By late summer the woman next door had knitted the baby a
+                suit, complete with booties and beanie and the Polish widower next door had almost finished his two-car
+                garage.<br><br>
+                <br>
+                f. Why did the young man begin to weep at the end of the story?<br><br>
+                Ans. The young man began to weep at the end of the story because his neighbours were looking them with
+                bleary faces and cheering the couples while his wife was giving birth. Thus, their love and care for his
+                family made him weep.<br>
+                <br><br>
+                g. Why do you think the author did not characterize the persons in the story with proper names?<br><br>
+                Ans. In village areas, the people are known by their appearance, work etc. rather than name. So, I think
+                the author did not characterize the persons by proper names to make the story more realistic.<br><br>
+                <br>
+                <br>
+                <br>
+                Reference to the context<br><br>
+                a. The story shows that linguistic and cultural barriers do not create any obstacle in human
+                relationship. Cite some examples from the story where the neighbours have transcended such
+                barriers.<br><br>
+                Ans. The story shows that linguistic and cultural barriers do not create any obstacle in human
+                relationship. Some examples where the neighbours have transcended such barriers are as follows:<br><br>
+                1. In spite of the different languages and cultures, the neighbours gave advice to the young couple
+                about spacing, hilling and mulching the vegetables in the kitchen garden.<br><br>
+                2. The polish widower rebuilt the falling henhouse of the young couple although they didn&rsquo;t
+                understand his words.<br><br>
+                3. The young couple offered heads of cabbage and took gifts of grapes and firewood from
+                neighbours.<br><br>
+                4. The neighbours gifted chocolates, knitted the baby a suit when the couples were going to be
+                paren7s.<br>
+                <br>
+                <br>
+                <br>
+                b. The last sentence of the story reads &ldquo;The twentieth-century novel had not prepared him for
+                this.&rdquo; In your view, what differences did the young man find between twentieth-century novels and
+                human relations?<br><br>
+                Ans. In my view, the major differences the young man found between the twentieth-century novels and
+                human relations are that, unlike characters in novels, humans have to deal with and overcome a variety
+                of unpredictable and startling situations throughout their lives. Everything does not go as well in real
+                life as it does in the novel. To overcome these situations, one must prepare himself in ways that novels
+                cannot teach.<br>
+                <br>
+                <br>
+                c. A Nepali proverb says &ldquo;Neighbors are companions for wedding procession as well as for funeral
+                procession.&rdquo; Does this proverb apply in the story? Justify.<br><br>
+                Ans. Yes, the proverb &ldquo;Neighbors are companions for wedding procession as well as for funeral
+                procession&rdquo; applies in the story. In the story the neighbours helped the young couple a lot
+                although their language, culture was totally different. Initially their relationship was not good but
+                slowly they started sharing love, compassion and helping one another in needs. The excitement of the
+                young woman's pregnancy was shared by everyone in the neighbourhood. Thus, this story shows that
+                neighbours are companions for wedding procession as well as for funeral procession.<br><br>
+                <br>
+                d. The author has dealt with an issue of multiculturalism in the story. Why do you think
+                multiculturalism has become a major issue in the present world?<br><br>
+                Ans. Multiculturalism refers to the presence of diverse cultures in a community. It is mainly applied to
+                the demographic make-up of a certain place, sometimes at the organizational level, such as schools,
+                businesses, neighbourhoods, cities, or nations, as a descriptive phrase.<br><br>
+                I think multiculturalism has become a major issue in the present world because along with making people
+                of different ethnic and cultural backgrounds together, it invites various social problems such as
+                failure to assimilate, ethnic segregation, and adaptation issues such as school dropout, unemployment,
+                and high crime rates etc. Also, migration is another reason for multiculturalism. People travel across
+                different places of different countries and they settle in any place where they get proper facilities
+                and job due to which multicultural peoples are found in same city or region. Due to this many peoples in
+                neighbourhood don&rsquo;t know each other and the relation, love, compassion between the neighbours
+                found in the past days are not found in the present days. In this way, multiculturalism has become a
+                major issue in the present world.<br>
+                <br>
+                <br>
+                <br>
+                <br>
+                Reference beyond the text<br><br>
+                a. Write an essay on Celebration of Childbirth in my Community.<br><br>
+                Ans. Childbirth celebration is the ceremony or ritual to celebrate the birth of a child with joy and
+                happiness. Various communities have various rituals and traditions to celebrate childbirth. However, in
+                my community, people use to gather at the home of the childbirth and congratulate their parents and
+                family members. They also celebrate this auspicious occasion by singing, dancing and eating delicious
+                foods.<br><br>
+                Every year, the birth of a child is celebrated with all pomp and show by the community and friends. To
+                make the birth of a child a memorable and happy occasion, they would cook different food delicacies and
+                offer them to the elders who are considered as the custodian of our tradition. They also arrange small
+                gifts and give them to the babies mother and families.<br><br>
+                Mothers are treated with a lot of respect and love during their childbirth. They are given the best care
+                during this period. When a mother is ready to give birth to the child, she would light up
+                &lsquo;diyo&rsquo; and let it flow on the river to ward off evil spirits. They would even do
+                &quot;antihuman sacrifices&quot; to make sure that the child is protected. This is a tradition to ensure
+                the wellbeing of the child.<br>
+                <br>
+                <br>
+                b. Do the people in your community respond with similar reactions upon the pregnancy and childbirth as
+                depicted in the story? Give a couple of examples.<br><br>
+                Ans. Yes, the people in my community also respond with similar reactions upon the pregnancy and
+                childbirth as depicted in the story. After knowing about a woman's pregnancy in the community, community
+                members (especially women) will visit her at her home and spend time discussing the mother's condition.
+                They also give the woman advice on how to look after her own health as well as the health of her child
+                during this time.<br>
+                People in my neighbourhood also shower gifts, chocolates, and clothing on the families of pregnant
+                women. They also come up with a lot of names for the unborn child, both male and female.<br>
+
+                <br><br><br><br>
+                Notes by: Subarna Poudel
+                <br><br>
+                If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com
+                <br><br>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
