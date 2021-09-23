@@ -6,21 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doc</title>
-
     <script>
         document.addEventListener("contextmenu", function (evt) {
             evt.preventDefault();
         }, false);
-
         document.addEventListener("copy", function (evt) {
             // Change the copied text if you want
             evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
-
             // Prevent the default copy action
             evt.preventDefault();
         }, false);
     </script>
-
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
@@ -39,279 +35,255 @@
             background: none;
         }
 
-        body {
-            background-color: rgba(0, 0, 0, 0.1);
-            zoom: 0.8;
-            /* Other non-webkit browsers */
-            zoom: 80%;
-            /* Webkit browsers */
-        }
-
-
-        /* styling paper */
-        #paper {
-            position: relative;
-            margin: 0 auto;
-            padding-top: 40px;
-            background-color: #ededed;
-            box-shadow: 0px 0px 5px 0px #888;
-        }
-
-        /* styling red vertical line */
-        #paper::before {
-            content: '';
-            width: 2px;
-            height: 100%;
-            position: absolute;
-            top: 0;
-            left: 40px;
-            background-color: rgba(255, 0, 0, 0.6);
-        }
-
-        /* styling blue horizontal lines */
-        #pattern {
-            height: 100%;
-            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
-            background-size: 100% 25px;
-        }
-
         /* styling text content */
-        #content {
+        body {
             padding-top: 4px;
-            padding-left: 50px;
+            padding-left: 15px;
             padding-right: 15px;
-            line-height: 25px;
-            font-family: 'Open Sans', sans-serif;
+            line-height: 23px;
+            text-align: justify;
+            font-family: sans-serif;
             font-size: 16px;
-            color: rgb(0, 0, 104);
-            letter-spacing: 1px;
-            word-spacing: 4.8px;
+            word-spacing: 2px;
+        }
+
+        center {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        h3 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        span {
+            font-weight: bold;
+            font-size: 16px;
         }
     </style>
 </head>
 
 <body>
-    <div id="paper">
-        <div id="pattern">
-            <div id="content">
-                <br>
 
-                <center>Unit 3- A Devoted Son</center>
-                <p align='right'> - Anita Desai</p>
-                <br>
-                Notes by: Subarna Poudel
-                <br>
-                <br>
+    <br>
+    <center>A Devoted Son</center>
+    <br>
+    <h3>Understanding the text <br></h3>
+    <br>
+    <span>Answer the following questions.<br></span>
+    <br>
+    <span>a. How did the morning papers bring an ambience of celebration to the Varma family? <br></span>
+    &#10140; The morning papers showed the Medical Examination result of Varma's son, Rakesh who scored the
+    highest rank in the country. This news brought an ambience of celebration in the Varma family as it was
+    the matter of pride for the family.<br>
+    <br>
+    <br>
+    <span>b. How did the community celebrate Rakesh&rsquo;s success?<br></span>
+    &#10140; The community people celebrated Rakesh&rsquo;s success by visiting his little yellow house at
+    the end of the road. There they congratulate Rakesh's parents on their son's remarkable success and
+    congratulate Rakesh himself. The whole house and garden are quickly filled with the sights and sounds of
+    a festival, with beautiful garlands, party clothes, and gifts everywhere to be seen.<br>
+    <br>
+    <br>
+    <span>c. Why was Rakesh&rsquo;s success a special matter of discussion in the neighbourhood?<br></span>
+    &#10140; Rakesh&rsquo;s success was a special matter of discussion in the neighbourhood because he had
+    just finished top of the list in the country's medical school examinations. It's fair to say that no
+    one's ever seen anything quite like it in his neighborhood and community. Indeed, Rakesh is the first in
+    his family to receive an education. There seems little doubt that this level of education is quite an
+    uncommon scenario among the neighboring families, too.<br>
+    <br>
+    <br>
+    <span>d. How does the author make fun with the words &lsquo;America&rsquo; and &lsquo;the USA&rsquo;?<br></span>
+    &#10140; The author makes fun with the words &quot;America&quot; and &quot;The USA&quot; by associating
+    them with Varma&rsquo;s nature of dealing with the words as he considered &quot;the USA&quot; as more
+    prestigious than &quot;America&quot;. He said that America is the term to be called by his ignorant
+    neighbours.<br>
+    <br>
+    <br>
+    <span>e. How does the author characterize Rakesh&rsquo;s wife?<br></span>
+    &#10140; The author characterizes Rakesh&rsquo;s wife as an old fashioned, plump and uneducated girl.
+    She was so placid, complaisant and lazy but too good-natured and pretty fat one.<br>
+    <br>
+    <br>
+    <span>f. Describe how Rakesh rises in his career.<br></span>
+    &#10140; Rakesh started his career as a doctor in the city hospital and quickly reached the top of
+    administrative: organization and was made a director. Then, he opened his own private clinic, bought a
+    car and became known not only as of the best but also the richest doctor in town.<br>
+    <br>
+    <br>
+    <span>g. How does the author describe Rakesh&rsquo;s family background?<br></span>
+    &#10140; According to the author, Rakesh&rsquo;s family was from a poor background and they were
+    illiterate as well. His father worked for a kerosene vendor and his mother spent her life in the
+    kitchen. Even his grandparents worked as vegetable vendors. His parents worked hard and sacrificed their
+    life, time, money and everything they have for the higher education and medical college of his child,
+    Rakesh.<br>
+    <br>
+    <br>
+    <span>h. What is the impact of Rakesh&rsquo;s mother&rsquo;s death on his father?<br></span>
+    &#10140; Rakesh's father was stricken with grief by the death of his wife as well as his retirement. The
+    old father very quickly went to pieces and fell so frequently with such mysterious disease named a
+    peevish whim (sudden irritation in mind) that even his son could no longer make it out.<br>
+    <br>
+    <br>
+    <span>i. What did Rakesh do to make his father&rsquo;s old age more comfortable?<br></span>
+    &#10140; Rakesh brought his father his morning tea in the old man&rsquo;s favorite brass tumbler, and
+    sat at the edge of his bed, comfortable and relaxed his father&rsquo;s night-shirt, and read out the
+    morning news to him to make even more comfortable in his old age.<br>
+    <br>
+    <br>
+    <span>j. Why did the old man try to bribe his grandchildren?<br></span>
+    &#10140; The old man tried to bribe his grandchildren so that he could get a chance to eat Jalebis
+    because his oily fried food and sweets were prohibited by his son.<br>
+    <br>
+    <br>
+    <span>k. Are Mr. Varma&rsquo;s complaints about his diets reasonable? How?<br></span>
+    &#10140; From the point of view of an old father, Mr. Varma's complaints about his diets may be
+    reasonable to some extent. But in fact, Rakesh as a devoted and obedient son and by profession, a doctor
+    is right in his performances and activities because he conducts such activities for the healthy and
+    better life of his sick father.<br>
+    <br>
+    <br>
+    <br>
+    <h3>Reference to the Context <br></h3>
+    <br>
+    <span>a. How did the Varma couple make sacrifices for their son&rsquo;s higher education?<br></span>
+    &#10140; Varma couple were from a poor background and they were illiterate as well. His father worked
+    for a kerosene dealer and his mother in the kitchen. Even his grandparents worked as vegetable vendors.
+    His parents worked hard and sacrificed their life, time, money and everything they have for the higher
+    education and medical college of his child, Rakesh.<br>
+    <br>
+    <br>
+    <span>
+        b. Mr. Varma suffers from diseases one after another after his wife&rsquo;s death. Would he have enjoyed
+        better health if she had not died before him? Give reasons.<br>
+    </span>
+    &#10140; Mr. Varma suffered from diseases one after another his wife&rsquo;s death. I think all this
+    happen to him due to his wife&rsquo;s death as it made him alone and scattered. He thought most of the
+    time about his life partner which leads him stricken with grief. The old father very quickly went to
+    pieces and felt ill. Thus, if she had not died before him, he would have enjoyed better health.<br>
+    <br>
+    <br>
+    <span>c. Dr Rakesh is divided between a doctor and a son. As a son, he loves his father and worries about his
+        weakening health but as a doctor, he is strict on his father&rsquo;s diet and medicine. In your view,
+        what else could Rakesh have done to make his father&rsquo;s final years more comfortable?<br></span>
+    &#10140; Dr Rakesh is divided between a doctor and a son. As a son, he loves his father and worries
+    about his weakening health but as a doctor, he is strict on his father's diet and medicine. In my view,
+    Rakesh could have been more polite and respectful in his behaviour with his father in the final years.
+    He shouldn&rsquo;t have been so strict and miserable while regulating his father's diet and food. His
+    loud-speaking made his father very troublesome and miserable. So, if he had spoke to his father politely
+    and in respectful way, he could have made his father&rsquo;s final years more comfortable.<br>
+    <br>
+    <br>
+    <span>d. What does the story say about the relationship between grandfather and grandchildren?<br></span>
+    &#10140; Desai&rsquo;s story &ldquo;A Devoted Son&rdquo; shows loving companionship between grandfather
+    and grandchildren. They have good bonding. But in the story, grandfather is attracted towards his
+    grandchildren to get some sweets like &lsquo;Jalebis&rsquo; from them as his oily fried food, and sweets
+    were prohibited by his son, Rakesh. For that reason, the relationship between grandfather and
+    grandchildren was found to be innocent, tricky, trusty and bonding in the story.<br>
+    <br>
+    <br>
+    <span>e. Do you call Rakesh a devoted son? Give reasons.<br></span>
+    &#10140; Yes, I call Rakesh a devoted son. He is devoted to his parents. He does everything that is
+    asked of him. He does well in school, achieves and succeeds in a profession that brings his parents
+    pride and joy, marries a woman of their choosing, comes back to India when they ask, and tends to his
+    father when he is a weakened state. He is devoted in the sense that he is able to put his own wishes
+    aside for their betterment. The bond that he carries being their son does not dissipate as he gets
+    older. In other words, he remains their son, even taking priority over as a husband or a father.<br>
+    <br>
+    <br>
+    <br>
+    <h3>Reference beyond the text <br></h3>
+    <span>
+        a. Write an essay on The Parents&rsquo; Ambition for their Children in Nepali Society. You must give at
+        least five examples.<br>
+    </span>
+    <br>
+    <p style="text-align: center; font-weight: bold;">
+        The Parents&rsquo; Ambition for their Children in Nepali Society
+    </p>
+    <br>
+    Family refers to a wide network of extended relationships. Parents have great ambition for their
+    children in Nepali Society. Most of the parents of the children are predetermined and preoccupied with
+    the prejudices that their children to be the best person in the society such as the best doctor, the
+    best engineer, the best teacher, and many more. Due to parents&rsquo; ambition for their children, some
+    children work hard to achieve their destination and get succeed at the end.<br>
+    <br>
+    Parents are the facilitator and guides who can lead their children to the right path of success and help
+    them to obtain achievement in life. Every parent wishes their child to become the brightest star in the
+    group. In some cases, their pushing to their kids leads them to succeed and help them to be better in
+    life. Sometimes, parent&rsquo;s determining the future of their children do not prove how good their
+    parents are and it leads destruction of life as well. Thus, parents should listen to the voice and aim
+    of their children as well for their better in future.<br>
+    <br>
+    Anyway, the duty of parents is to stay close to their children, spend time together, playing and
+    relaxing which will provide them with a sense of security and build a positive bond for their
+    future.<br>
+    <br>
+    <br>
+    <br>
+    <span>
+        b. Medicines replace our diets in old age. What can be done to make old ageless less dependent on
+        medicine?<br>
+    </span>
+    &#10140;
+    It is true that Medicines replace our diets in old age. With age, the number of calories you
+    need begins to decline. As we get older, the body becomes less efficient at absorbing some key
+    nutrients. In addition, the ability to taste food declines, blunting appetite. Some foods become
+    difficult to chew or digest. <br>
+    <br>
+    Thus, medicines become the best option in old age unless and until the person gets proper diet. To
+    make old ageless less dependent on medicine, they should do the following things:
+    <br><br>
+    - Eat plenty of fruits and vegetables such as fruits like pineapples, oranges and vegetables such as
+    carrots, pumpkin, and sweet potatoes.<br>
+    <br>
+    - Eat cereals, bread, crackers, rice or pasta every day mostly high fiber varieties.<br>
+    <br>
+    - Have low-fat or fat-free dairy (milk, or cheese) that are fortified with vitamin D to help keep your
+    bones healthy.<br>
+    <br>
+    - Drink about 10-15 glasses of water a day to prevent dehydration especially in summer.<br>
+    <br>
+    - Exercise regularly, stretch and do yoga to ensure absorption of nutrients well.<br>
+    <br>
+    <br>
+    <br>
+    <span>c. Write an essay on &ldquo;Care of Elderly Citizens&rdquo; in about 300 words.<br></span>
+    <br>
+    <p style="text-align: center; font-weight: bold;">
+        Care of Elderly Citizens
+    </p>
+    <br>
+    Elderly citizens refer to old people who have crossed middle age. Old age is the final period of human
+    life. During this time a person needs love and affection and proper elderly care. An old man doesn't
+    have many requirements. He/she only need a little affection, care, and a homely environment to spend
+    his/her final stage of life.<br>
+    <br>
+    Elderly people spend a major part of their lives in the building and shaping of our life and carrier,
+    and thus it is our responsibility to repay them in their old age. Unfortunately, in today's world, some
+    youth ignore their responsibility towards their parents. They are seen forgetting their moral duties
+    towards elders. They aren&rsquo;t ready to understand the importance of elderly care and instead of
+    caring for their parents during their old age, they prefer to send them to old age homes. They prefer to
+    live an independent life rather than living with their parents. This is not a good sign for our society.
+    Being social animals, we need to know how to take care of old people. They should know how to take care
+    of their elderly parents.<br>
+    <br>
+    In fact, getting old is a natural process. During old age, people need utmost love and care. Caring for
+    the elderly is not only a responsibility but also a moral duty. Old people are the backbone of a family.
+    They are well experienced with the hardships of life. It is said that life teaches us lessons. Old
+    people teach us how to grow, how to survive in this world and how to shape our carrier as well. They
+    establish us in this world with their immense effort. It is our responsibility to pay them back during
+    their old age.<br>
 
-                Understanding the text <br>
-                <br>
-                Answer the following questions.<br>
-                <br>
-                a. How did the morning papers bring an ambience of celebration to the Varma family? <br>
-                &#10140; The morning papers showed the Medical Examination result of Varma's son, Rakesh who scored the
-                highest rank in the country. This news brought an ambience of celebration in the Varma family as it was
-                the matter of pride for the family.<br>
-                <br>
-                <br>
-                b. How did the community celebrate Rakesh&rsquo;s success?<br>
-                &#10140; The community people celebrated Rakesh&rsquo;s success by visiting his little yellow house at
-                the end of the road. There they congratulate Rakesh's parents on their son's remarkable success and
-                congratulate Rakesh himself. The whole house and garden are quickly filled with the sights and sounds of
-                a festival, with beautiful garlands, party clothes, and gifts everywhere to be seen.<br>
-                <br>
-                <br>
-                c. Why was Rakesh&rsquo;s success a special matter of discussion in the neighbourhood?<br>
-                &#10140; Rakesh&rsquo;s success was a special matter of discussion in the neighbourhood because he had
-                just finished top of the list in the country's medical school examinations. It's fair to say that no
-                one's ever seen anything quite like it in his neighborhood and community. Indeed, Rakesh is the first in
-                his family to receive an education. There seems little doubt that this level of education is quite an
-                uncommon scenario among the neighboring families, too.<br>
-                <br>
-                <br>
-                d. How does the author make fun with the words &lsquo;America&rsquo; and &lsquo;the USA&rsquo;?<br>
-                &#10140; The author makes fun with the words &quot;America&quot; and &quot;The USA&quot; by associating
-                them with Varma&rsquo;s nature of dealing with the words as he considered &quot;the USA&quot; as more
-                prestigious than &quot;America&quot;. He said that America is the term to be called by his ignorant
-                neighbours.<br>
-                <br>
-                <br>
-                e. How does the author characterize Rakesh&rsquo;s wife?<br>
-                &#10140; The author characterizes Rakesh&rsquo;s wife as an old fashioned, plump and uneducated girl.
-                She was so placid, complaisant and lazy but too good-natured and pretty fat one.<br>
-                <br>
-                <br>
-                f. Describe how Rakesh rises in his career.<br>
-                &#10140; Rakesh started his career as a doctor in the city hospital and quickly reached the top of
-                administrative: organization and was made a director. Then, he opened his own private clinic, bought a
-                car and became known not only as of the best but also the richest doctor in town.<br>
-                <br>
-                <br>
-                g. How does the author describe Rakesh&rsquo;s family background?<br>
-                &#10140; According to the author, Rakesh&rsquo;s family was from a poor background and they were
-                illiterate as well. His father worked for a kerosene vendor and his mother spent her life in the
-                kitchen. Even his grandparents worked as vegetable vendors. His parents worked hard and sacrificed their
-                life, time, money and everything they have for the higher education and medical college of his child,
-                Rakesh.<br>
-                <br>
-                <br>
-                h. What is the impact of Rakesh&rsquo;s mother&rsquo;s death on his father?<br>
-                &#10140; Rakesh's father was stricken with grief by the death of his wife as well as his retirement. The
-                old father very quickly went to pieces and fell so frequently with such mysterious disease named a
-                peevish whim (sudden irritation in mind) that even his son could no longer make it out.<br>
-                <br>
-                <br>
-                i. What did Rakesh do to make his father&rsquo;s old age more comfortable?<br>
-                &#10140; Rakesh brought his father his morning tea in the old man&rsquo;s favorite brass tumbler, and
-                sat at the edge of his bed, comfortable and relaxed his father&rsquo;s night-shirt, and read out the
-                morning news to him to make even more comfortable in his old age.<br>
-                <br>
-                <br>
-                j. Why did the old man try to bribe his grandchildren?<br>
-                &#10140; The old man tried to bribe his grandchildren so that he could get a chance to eat Jalebis
-                because his oily fried food and sweets were prohibited by his son.<br>
-                <br>
-                <br>
-                k. Are Mr. Varma&rsquo;s complaints about his diets reasonable? How?<br>
-                &#10140; From the point of view of an old father, Mr. Varma's complaints about his diets may be
-                reasonable to some extent. But in fact, Rakesh as a devoted and obedient son and by profession, a doctor
-                is right in his performances and activities because he conducts such activities for the healthy and
-                better life of his sick father.<br>
-                <br>
-                <br>
-                <br>
-                Reference to the Context <br>
-                <br>
-                a. How did the Varma couple make sacrifices for their son&rsquo;s higher education?<br>
-                &#10140; Varma couple were from a poor background and they were illiterate as well. His father worked
-                for a kerosene dealer and his mother in the kitchen. Even his grandparents worked as vegetable vendors.
-                His parents worked hard and sacrificed their life, time, money and everything they have for the higher
-                education and medical college of his child, Rakesh.<br>
-                <br>
-                <br>
-                b. Mr. Varma suffers from diseases one after another after his wife&rsquo;s death. Would he have enjoyed
-                better health if she had not died before him? Give reasons.<br>
-                &#10140; Mr. Varma suffered from diseases one after another his wife&rsquo;s death. I think all this
-                happen to him due to his wife&rsquo;s death as it made him alone and scattered. He thought most of the
-                time about his life partner which leads him stricken with grief. The old father very quickly went to
-                pieces and felt ill. Thus, if she had not died before him, he would have enjoyed better health.<br>
-                <br>
-                <br>
-                c. Dr Rakesh is divided between a doctor and a son. As a son, he loves his father and worries about his
-                weakening health but as a doctor, he is strict on his father&rsquo;s diet and medicine. In your view,
-                what else could Rakesh have done to make his father&rsquo;s final years more comfortable?<br>
-                &#10140; Dr Rakesh is divided between a doctor and a son. As a son, he loves his father and worries
-                about his weakening health but as a doctor, he is strict on his father's diet and medicine. In my view,
-                Rakesh could have been more polite and respectful in his behaviour with his father in the final years.
-                He shouldn&rsquo;t have been so strict and miserable while regulating his father's diet and food. His
-                loud-speaking made his father very troublesome and miserable. So, if he had spoke to his father politely
-                and in respectful way, he could have made his father&rsquo;s final years more comfortable.<br>
-                <br>
-                <br>
-                d. What does the story say about the relationship between grandfather and grandchildren?<br>
-                &#10140; Desai&rsquo;s story &ldquo;A Devoted Son&rdquo; shows loving companionship between grandfather
-                and grandchildren. They have good bonding. But in the story, grandfather is attracted towards his
-                grandchildren to get some sweets like &lsquo;Jalebis&rsquo; from them as his oily fried food, and sweets
-                were prohibited by his son, Rakesh. For that reason, the relationship between grandfather and
-                grandchildren was found to be innocent, tricky, trusty and bonding in the story.<br>
-                <br>
-                <br>
-                e. Do you call Rakesh a devoted son? Give reasons.<br>
-                &#10140; Yes, I call Rakesh a devoted son. He is devoted to his parents. He does everything that is
-                asked of him. He does well in school, achieves and succeeds in a profession that brings his parents
-                pride and joy, marries a woman of their choosing, comes back to India when they ask, and tends to his
-                father when he is a weakened state. He is devoted in the sense that he is able to put his own wishes
-                aside for their betterment. The bond that he carries being their son does not dissipate as he gets
-                older. In other words, he remains their son, even taking priority over as a husband or a father.<br>
-                <br>
-                <br>
-                <br>
-                Reference beyond the text <br>
-                a. Write an essay on The Parents&rsquo; Ambition for their Children in Nepali Society. You must give at
-                least five examples.<br>
-                &#10140; <br>
-                <center>
-                    The Parents&rsquo; Ambition for their Children in Nepali Society
-                </center>
-                <br>
-                Family refers to a wide network of extended relationships. Parents have great ambition for their
-                children in Nepali Society. Most of the parents of the children are predetermined and preoccupied with
-                the prejudices that their children to be the best person in the society such as the best doctor, the
-                best engineer, the best teacher, and many more. Due to parents&rsquo; ambition for their children, some
-                children work hard to achieve their destination and get succeed at the end.<br>
-                <br>
-                Parents are the facilitator and guides who can lead their children to the right path of success and help
-                them to obtain achievement in life. Every parent wishes their child to become the brightest star in the
-                group. In some cases, their pushing to their kids leads them to succeed and help them to be better in
-                life. Sometimes, parent&rsquo;s determining the future of their children do not prove how good their
-                parents are and it leads destruction of life as well. Thus, parents should listen to the voice and aim
-                of their children as well for their better in future.<br>
-                <br>
-                Anyway, the duty of parents is to stay close to their children, spend time together, playing and
-                relaxing which will provide them with a sense of security and build a positive bond for their
-                future.<br>
-                <br>
-                <br>
-                <br>
-                b. Medicines replace our diets in old age. What can be done to make old ageless less dependent on
-                medicine?<br>
-                &#10140;
-                It is true that Medicines replace our diets in old age. With age, the number of calories you
-                need begins to decline. As we get older, the body becomes less efficient at absorbing some key
-                nutrients. In addition, the ability to taste food declines, blunting appetite. Some foods become
-                difficult to chew or digest. <br>
-                <br>
-                Thus, medicines become the best option in old age unless and until the person gets proper diet. To
-                make old ageless less dependent on medicine, they should do the following things:<br><br>
-                - Eat plenty of fruits and vegetables such as fruits like pineapples, oranges and vegetables such as
-                carrots, pumpkin, and sweet potatoes.<br>
-                <br>
-                - Eat cereals, bread, crackers, rice or pasta every day mostly high fiber varieties.<br>
-                <br>
-                - Have low-fat or fat-free dairy (milk, or cheese) that are fortified with vitamin D to help keep your
-                bones healthy.<br>
-                <br>
-                - Drink about 10-15 glasses of water a day to prevent dehydration especially in summer.<br>
-                <br>
-                - Exercise regularly, stretch and do yoga to ensure absorption of nutrients well.<br>
-                <br>
-                <br>
-                <br>
-                c. Write an essay on &ldquo;Care of Elderly Citizens&rdquo; in about 300 words.<br>
-                &#10140;<br>
-                <center>
-                    Care of Elderly Citizens
-                </center>
-                <br>
-                Elderly citizens refer to old people who have crossed middle age. Old age is the final period of human
-                life. During this time a person needs love and affection and proper elderly care. An old man doesn't
-                have many requirements. He/she only need a little affection, care, and a homely environment to spend
-                his/her final stage of life.<br>
-                <br>
-                Elderly people spend a major part of their lives in the building and shaping of our life and carrier,
-                and thus it is our responsibility to repay them in their old age. Unfortunately, in today's world, some
-                youth ignore their responsibility towards their parents. They are seen forgetting their moral duties
-                towards elders. They aren&rsquo;t ready to understand the importance of elderly care and instead of
-                caring for their parents during their old age, they prefer to send them to old age homes. They prefer to
-                live an independent life rather than living with their parents. This is not a good sign for our society.
-                Being social animals, we need to know how to take care of old people. They should know how to take care
-                of their elderly parents.<br>
-                <br>
-                In fact, getting old is a natural process. During old age, people need utmost love and care. Caring for
-                the elderly is not only a responsibility but also a moral duty. Old people are the backbone of a family.
-                They are well experienced with the hardships of life. It is said that life teaches us lessons. Old
-                people teach us how to grow, how to survive in this world and how to shape our carrier as well. They
-                establish us in this world with their immense effort. It is our responsibility to pay them back during
-                their old age.<br>
 
 
-                <br><br><br><br>
-                Notes by: Subarna Poudel
-                <br><br>
-                If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com
-                <br><br>
-            </div>
-        </div>
-    </div>
+    <br><br>
+    <br><br>
+    <span>If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com</span>
+
+    <br><br>
 </body>
 
 </html>
