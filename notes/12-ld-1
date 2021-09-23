@@ -39,246 +39,375 @@
             background: none;
         }
 
-        body {
-            background-color: rgba(0, 0, 0, 0.1);
-            zoom: 0.8;
-            /* Other non-webkit browsers */
-            zoom: 80%;
-            /* Webkit browsers */
-        }
-
-
-        /* styling paper */
-        #paper {
-            position: relative;
-            margin: 0 auto;
-            padding-top: 40px;
-            background-color: #ededed;
-            box-shadow: 0px 0px 5px 0px #888;
-        }
-
-        /* styling red vertical line */
-        #paper::before {
-            content: '';
-            width: 2px;
-            height: 100%;
-            position: absolute;
-            top: 0;
-            left: 40px;
-            background-color: rgba(255, 0, 0, 0.6);
-        }
-
-        /* styling blue horizontal lines */
-        #pattern {
-            height: 100%;
-            background: linear-gradient(to bottom, #ededed 24.5px, rgba(0, 128, 128, 0.5) 0.5px);
-            background-size: 100% 25px;
-        }
 
         /* styling text content */
-        #content {
+        body {
             padding-top: 4px;
-            padding-left: 50px;
+            padding-left: 15px;
             padding-right: 15px;
-            line-height: 25px;
-            font-family: 'Open Sans', sans-serif;
+            line-height: 23px;
+            text-align: justify;
+            font-family: sans-serif;
             font-size: 16px;
-            color: rgb(0, 0, 104);
-            letter-spacing: 1px;
-            word-spacing: 4.8px;
+            word-spacing: 2px;
+        }
+
+        center {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        h3 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        span {
+            font-weight: bold;
+            font-size: 16px;
         }
     </style>
 </head>
 
 <body>
 
-    <div id="paper">
-        <div id="pattern">
-            <div id="content">
-                <br>
 
-                <center>Unit 1 - Critical Thinking</center>
-                <br>
-                Notes by: Subarna Poudel
-                <br>
-                <br>
-                Working with words<br><br>
-                A. Find the words from the text that match with the following meanings.<br>
-                a. Shuffle &ndash; walking by dragging one's feet along or without lifting them fully from the
-                ground<br>
-                b. Doodle &ndash; drawing pictures or patterns while thinking about something else<br>
-                c. Plaque &ndash; a piece of flat metal with writing on it<br>
-                d. Precepts &ndash; a general rule intended to regulate behavior or thought<br>
-                e. Sneaky &ndash; move or go in a furtive or stealthy way<br>
-                <br><br>
-                B. Consult your teacher and define the following thinking skills.<br>
-                a. Convergent thinking<br>
-                Convergent thinking is the type of thinking that focuses on coming up with the single, well-established
-                answer to a problem. It is oriented toward deriving the single best, or most often correct answer to a
-                question.<br>
-                <br>
-                b. Divergent thinking<br>
-                Divergent thinking is a thought process or method used to generate creative ideas by exploring many
-                possible solutions. Many possible solutions are explored in a short amount of time, and unexpected
-                connections are drawn.<br>
-                <br>
-                c. Critical thinking<br>
-                Critical thinking is the analysis of facts to form a judgment. The subject is complex, and several
-                different definitions exist, which generally include the rational, skeptical, unbiased analysis, or
-                evaluation of factual evidence.<br>
-                <br>
-                d. Creative thinking<br>
-                Creativity is the ability to generate a thought or an idea that is completely new, appealing, and
-                useful. Creative thinking is a skill that enables you to come up with original and unconventional
-                ideas.<br>
-                <br><br><br>
-                Comprehension<br><br>
-                Answer the following questions.<br>
-                a. Who was Jack? How did he make children laugh?<br>
-                Ans. Jack was a kind of kid other kids like and had a lot of friends. He made children laugh by saying
-                jokes.<br>
-                <br><br>
-                b. Why are &ldquo;Sharks&rdquo; important to Reid?<br>
-                Ans. Sharks are important to Reid because they keep ocean clean by eating dead organisms.<br>
-                <br><br>
-                c. What does Mr. Browne think about the most important thing?<br>
-                Ans. Mr. Browne thinks that the most important thing is to know oneself, or own character's and evaluate
-                them to bring the best version of someone.<br>
-                <br><br>
-                d. What is that has not been noticed by the student? <br>
-                Ans. The thing that has not been noticed by the student is the message in the notice board of the school
-                entrance gate that writes &ndash; &ldquo;Know Thyself&rdquo;.<br>
-                <br><br>
-                e. How did Jack make fun of the English class?<br>
-                Ans. Jack made fun of the English class by saying that they were there to attend English class to the
-                teacher's question &ldquo;Why are you here?&rdquo;.<br>
-                <br><br>
-                f. What were the students going to do at the end of the month?<br>
-                Ans. The students were going to write an essay on the basis of the Brownie&rsquo;s percept at the end of
-                the month.<br>
-                <br><br>
-                g. What particular act of students surprised a girl student?<br>
-                Ans. Students used to come up with their very own personal precept, write it on a postcard, and mail it
-                to Mr. Brownie after their graduation, this thing surprised the girl student.<br>
-                <br><br><br>
-                Critical Thinking<br><br>
-                a. Have you made your own precept after you read this lesson? What is it? Share it with your
-                friends.<br><br>
-                Ans. Precept is a rule or principle that we make to conduct our behavior on the accordance of that. I
-                also had many precepts even before reading this lesson. The major precepts of my life are: <br>
-                &quot;Anything that happens, happens for good&quot;, <br>
-                &quot;Always stay Positive&quot;, <br>
-                &quot;Believe in Karma rather than fate&quot; <br>
-                &quot;What we are today is the result the choices we made yesterday, so we have to make choices
-                wisely&quot;<br><br>
-                These are some of the precepts which I don't only think are ideal but also try to implement in my daily
-                behavior.<br>
-                <br><br><br>
-                b. According to Josh Lanyon, &ldquo;If there was one life skill everyone on the planet needed, it was
-                the ability to think with critical objectivity.&rdquo; Justify this statement with your logic.<br><br>
-                Ans. Josh Lanyon has said this very finest quote which I personally liked very much. Creativity enables
-                us to more freely and innovatively examine and resolve issues. It is self-directed, self-disciplined,
-                self-monitored and self-corrective thinking. It includes the rational, skeptical, unbiased analysis,
-                clarity, accuracy, consistency, factual evidence, good reason etc. Creative thinking involves thinking
-                about an unusual topic. It helps to consider things from a fresh perspective and different angles. It is
-                an inventive thought process that results in surprising conclusions. Creative thinking can be aided by
-                brainstorming or lateral thinking to generate ideas. Creative thinking skills include problem-solving,
-                writing, visual art, communication skills and open-mindedness A creative thinker tries to address an
-                issue from a perspective that has not been used before. Thus, creative thinking is the thing that
-                matters most of the time in human life.<br>
-                <br><br><br>
-                Writing<br><br>
-                Write an email to your friend explaining an interesting class you had.<br><br>
-                Ans.<br>
-                From: binodkumar12@gmail.com <br>
-                To: shristi2011@gmail.com<br>
-                Subject: Interesting class that I had<br>
-                <br>
-                Dear Shristi,<br>
-                I hope this letter finds you in good health and high spirits. I am doing pretty fine here. I am writing
-                to you in order to share my experience of my English classes.<br><br>
-                Compared to any other classes I have taken during my school history, I feel that no other class could
-                give me so many joys, knowledge and pleasures than the English class could do. I learned it quite good
-                and, in every test, I got the best mark in the class. I learned not only a lot of Basic English
-                knowledge in my middle school but also the personal characteristics which lead my interests along
-                through my later education life.<br><br>
-                When I was in my middle school, it used to be a great thing when I know that there would be an English
-                class tomorrow morning because I could enjoy another interesting 45 minutes during the class. Rather
-                than other classes, like Science, Nepali or Mathematics, I established my English-relative
-                interests&rsquo; group in social media, which give me a great benefit in my study in the university. I
-                believe no other class can inspire me so far to pursue a scientific result.<br><br>
-                Another important thing I achieved through the English class is to collaborate with other students. I
-                think it certainly formed my teamwork sprite when I entered the career position as an engineer. I can
-                still clearly remember my English teachers of primary school and high school. They are all the people of
-                great patient and instructive characteristic. They told me not to quit when I failed again and again.
-                They give me a lot of confidence and disciplines of the mind toward success. Saying that English class
-                is the only class that I used to enjoy most, I would like to end this mail.<br>
-                <br>
-                Regards,<br>
-                Binod Kumar<br>
-                <br><br><br>
-                Grammar<br><br>
-                Question tag<br>
-                Rewrite the following sentences adding appropriate question tag.<br><br>
-                a. Gill does not know Ann, does he?<br>
-                b. I&rsquo;m very patient, aren't I?<br>
-                c. They&rsquo;d never met me before, had they?<br>
-                d. Listen carefully, will you?<br>
-                e. Let&rsquo;s have a break, shall we?<br>
-                f. Let us invite them, shall you?<br>
-                g. Hari used to live in France as a boy, didn't he?<br>
-                h. You&rsquo;d better not take a hard drink, had you?<br>
-                i. Sheep eat grass, don't they?<br>
-                j. Mr. Pande can speak nine languages, can't he?<br>
-                k. She&rsquo;s finished her classes, hasn't she?<br>
-                l. She barely managed to reach the goal, did she?<br>
-                m. Don&rsquo;t let him swim in that pond, Will you?<br>
-                n. There are lots of people here, aren't there?<br>
-                <br><br>
-                Read the following situations. What do you say in these situations? Use question tags.<br>
-                a. The sky is full of cloud. You can see lightning and hear thunder. <br>
-                It&rsquo;s going to rain soon, isn't it?<br>
-                <br>
-                b. You want to pay the taxi fare but you are short by 100 rupees. <br>
-                Shyam, you have to lend me Rs. 100, haven't you?<br>
-                <br>
-                c. You have met a stranger at a party and you want to have a chat with him/ her. <br>
-                We will talk later, won't we?<br>
-                <br>
-                d. You came out of the film hall with your friend. You enjoyed the film. <br>
-                The film was very enjoyable, wasn't it?<br>
-                <br>
-                e. You and your friend listened to a comedian on the stage and felt spellbound by his/her
-                performance.<br>
-                He gave an excellent presentation, didn't he?<br>
-                <br>
-                f. You think your friend&rsquo;s father has arrived from the US but you are not sure. <br>
-                Your father has not arrived from US, has he?<br>
-                <br>
-                g. You think Susan will join the new job tomorrow but you are not sure. <br>
-                Susan will go to her new job tomorrow, won't she?<br>
-                <br>
-                h. Your friend&rsquo;s hair looks too short.<br>
-                You have got too short hair, haven't you?<br>
-                <br>
-                i. You want to go for a picnic with your friends in class. <br>
-                Let&rsquo;s go to picnic, shall we?<br>
-                <br>
-                j. You want permission from your father to go for a walk. <br>
-                Let me go for a evening walk, will you?
-                <br>
-                <br>
-                <br>
-                <br>
-                Notes by: Subarna Poudel
-                <br><br>
-                If you have any suggestions or feedbacks, please write to us at
-                plus2help@gmail.com
-                <br>
-                <br>
-            </div>
-        </div>
-    </div>
+    <br>
+    <center>Unit 1
+        <br> Critical Thinking</center>
+
+    <br>
+    <h3>Working with words</h3>
+    <br>
+    <br>
+    <span>A. Find the words from the text that match with the following meanings.</span>
+    <br>
+    <b>a. Shuffle</b> &ndash; walking by dragging one's feet along or without lifting them fully from the
+    ground
+    <br>
+    <b>b. Doodle</b> &ndash; drawing pictures or patterns while thinking about something else
+    <br>
+    <b>c. Plaque</b> &ndash; a piece of flat metal with writing on it
+    <br>
+    <b>d. Precepts</b> &ndash; a general rule intended to regulate behavior or thought
+    <br>
+    <b>e. Sneaky</b> &ndash; move or go in a furtive or stealthy way
+    <br>
+
+    <br>
+    <br>
+    <span>B. Consult your teacher and define the following thinking skills.</span>
+    <br>
+    <span>a. Convergent thinking</span>
+    <br>
+    Convergent thinking is the type of thinking that focuses on coming up with the single, well-established
+    answer to a problem. It is oriented toward deriving the single best, or most often correct answer to a
+    question.
+    <br>
+
+    <br>
+    <span>b. Divergent thinking</span>
+    <br>
+    Divergent thinking is a thought process or method used to generate creative ideas by exploring many
+    possible solutions. Many possible solutions are explored in a short amount of time, and unexpected
+    connections are drawn.
+    <br>
+
+    <br>
+    <span>c. Critical thinking</span>
+    <br>
+    Critical thinking is the analysis of facts to form a judgment. The subject is complex, and several
+    different definitions exist, which generally include the rational, skeptical, unbiased analysis, or
+    evaluation of factual evidence.
+    <br>
+
+    <br>
+    <span>d. Creative thinking</span>
+    <br>
+    Creativity is the ability to generate a thought or an idea that is completely new, appealing, and
+    useful. Creative thinking is a skill that enables you to come up with original and unconventional
+    ideas.
+    <br>
+
+    <br>
+    <br>
+    <br>
+    <h3>Comprehension</h3>
+    <br>
+    <br>
+    <span>Answer the following questions.</span>
+    <br>
+    <span>a. Who was Jack? How did he make children laugh?</span>
+    <br>
+    Jack was a kind of kid other kids like and had a lot of friends. He made children laugh by saying
+    jokes.
+    <br>
+
+    <br>
+    <br>
+    <span>b. Why are &ldquo;Sharks&rdquo; important to Reid?</span>
+    <br>
+    Sharks are important to Reid because they keep ocean clean by eating dead organisms.
+    <br>
+
+    <br>
+    <br>
+    <span>c. What does Mr. Browne think about the most important thing?</span>
+    <br>
+    Mr. Browne thinks that the most important thing is to know oneself, or own character's and evaluate
+    them to bring the best version of someone.
+    <br>
+
+    <br>
+    <br>
+    <span>d. What is that has not been noticed by the student? </span>
+    <br>
+    The thing that has not been noticed by the student is the message in the notice board of the school
+    entrance gate that writes &ndash; &ldquo;Know Thyself&rdquo;.
+    <br>
+
+    <br>
+    <br>
+    <span>e. How did Jack make fun of the English class?</span>
+    <br>
+    Jack made fun of the English class by saying that they were there to attend English class to the
+    teacher's question &ldquo;Why are you here?&rdquo;.
+    <br>
+
+    <br>
+    <br>
+    <span>f. What were the students going to do at the end of the month?</span>
+    <br>
+    The students were going to write an essay on the basis of the Brownie&rsquo;s percept at the end of
+    the month.
+    <br>
+
+    <br>
+    <br>
+    <span>g. What particular act of students surprised a girl student?</span>
+    <br>
+    Students used to come up with their very own personal precept, write it on a postcard, and mail it
+    to Mr. Brownie after their graduation, this thing surprised the girl student.
+    <br>
+
+    <br>
+    <br>
+    <br>
+    <h3>Critical Thinking</h3>
+    <br>
+    <br>
+    <span>
+        a. Have you made your own precept after you read this lesson? What is it? Share it with your
+        friends.
+    </span>
+    <br>
+    <br>
+    Precept is a rule or principle that we make to conduct our behavior on the accordance of that. I
+    also had many precepts even before reading this lesson. The major precepts of my life are:
+    <br>
+    &quot;Anything that happens, happens for good&quot;,
+    <br>
+    &quot;Always stay Positive&quot;,
+    <br>
+    &quot;Believe in Karma rather than fate&quot;
+    <br>
+    &quot;What we are today is the result the choices we made yesterday, so we have to make choices
+    wisely&quot;
+    <br>
+    <br>
+    These are some of the precepts which I don't only think are ideal but also try to implement in my daily
+    behavior.
+    <br>
+
+    <br>
+    <br>
+    <br>
+    <span>
+        b. According to Josh Lanyon, &ldquo;If there was one life skill everyone on the planet needed, it was
+        the ability to think with critical objectivity.&rdquo; Justify this statement with your logic.
+    </span>
+    <br>
+    <br>
+    Josh Lanyon has said this very finest quote which I personally liked very much. Creativity enables
+    us to more freely and innovatively examine and resolve issues. It is self-directed, self-disciplined,
+    self-monitored and self-corrective thinking. It includes the rational, skeptical, unbiased analysis,
+    clarity, accuracy, consistency, factual evidence, good reason etc. Creative thinking involves thinking
+    about an unusual topic. It helps to consider things from a fresh perspective and different angles. It is
+    an inventive thought process that results in surprising conclusions. Creative thinking can be aided by
+    brainstorming or lateral thinking to generate ideas. Creative thinking skills include problem-solving,
+    writing, visual art, communication skills and open-mindedness A creative thinker tries to address an
+    issue from a perspective that has not been used before. Thus, creative thinking is the thing that
+    matters most of the time in human life.
+    <br>
+
+    <br>
+    <br>
+    <br>
+    <h3>Writing</h3>
+    <br>
+    <br>
+    <span>Write an email to your friend explaining an interesting class you had.</span>
+    <br>
+    <br>
+
+    <br>
+    From: binodkumar12@gmail.com
+    <br>
+    To: shristi2011@gmail.com
+    <br>
+    Subject: Interesting class that I had
+    <br>
+
+    <br>
+    Dear Shristi,
+    <br>
+    I hope this letter finds you in good health and high spirits. I am doing pretty fine here. I am writing
+    to you in order to share my experience of my English classes.
+    <br>
+    <br>
+    Compared to any other classes I have taken during my school history, I feel that no other class could
+    give me so many joys, knowledge and pleasures than the English class could do. I learned it quite good
+    and, in every test, I got the best mark in the class. I learned not only a lot of Basic English
+    knowledge in my middle school but also the personal characteristics which lead my interests along
+    through my later education life.
+    <br>
+    <br>
+    When I was in my middle school, it used to be a great thing when I know that there would be an English
+    class tomorrow morning because I could enjoy another interesting 45 minutes during the class. Rather
+    than other classes, like Science, Nepali or Mathematics, I established my English-relative
+    interests&rsquo; group in social media, which give me a great benefit in my study in the university. I
+    believe no other class can inspire me so far to pursue a scientific result.
+    <br>
+    <br>
+    Another important thing I achieved through the English class is to collaborate with other students. I
+    think it certainly formed my teamwork sprite when I entered the career position as an engineer. I can
+    still clearly remember my English teachers of primary school and high school. They are all the people of
+    great patient and instructive characteristic. They told me not to quit when I failed again and again.
+    They give me a lot of confidence and disciplines of the mind toward success. Saying that English class
+    is the only class that I used to enjoy most, I would like to end this mail.
+    <br>
+
+    <br>
+    Regards,
+    <br>
+    Binod Kumar
+    <br>
+
+    <br>
+    <br>
+    <br>
+    <h3>Grammar</h3>
+    <br>
+    <span>Rewrite the following sentences adding appropriate question tag.</span>
+    <br>
+    <br>
+    a. Gill does not know Ann, <b>does he</b>?
+    <br>
+    b. I&rsquo;m very patient, <b>aren't I</b>?
+    <br>
+    c. They&rsquo;d never met me before, <b>had they</b>?
+    <br>
+    d. Listen carefully, <b>will you</b>?
+    <br>
+    e. Let&rsquo;s have a break, <b>shall we</b>?
+    <br>
+    f. Let us invite them, <b>will you</b>?
+    <br>
+    g. Hari used to live in France as a boy, <b>didn't he</b>?
+    <br>
+    h. You&rsquo;d better not take a hard drink, <b>had you</b>?
+    <br>
+    i. Sheep eat grass, <b>don't they</b>?
+    <br>
+    j. Mr. Pande can speak nine languages, <b>can't he</b>?
+    <br>
+    k. She&rsquo;s finished her classes, <b>hasn't she</b>?
+    <br>
+    l. She barely managed to reach the goal, <b>did she</b>?
+    <br>
+    m. Don&rsquo;t let him swim in that pond, <b>will you</b>?
+    <br>
+    n. There are lots of people here, <b>aren't there</b>?
+    <br>
+
+    <br>
+    <br>
+    <span>Read the following situations. What do you say in these situations? Use question tags.</span>
+    <br>
+    <span>a. The sky is full of cloud. You can see lightning and hear thunder. </span>
+    <br>
+    It&rsquo;s going to rain soon, isn't it?
+    <br>
+
+    <br>
+    <span>b. You want to pay the taxi fare but you are short by 100 rupees. </span>
+    <br>
+    Shyam, you have to lend me Rs. 100, haven't you?
+    <br>
+
+    <br>
+    <span>c. You have met a stranger at a party and you want to have a chat with him/ her. </span>
+    <br>
+    We will talk later, won't we?
+    <br>
+
+    <br>
+    <span>d. You came out of the film hall with your friend. You enjoyed the film. </span>
+    <br>
+    The film was very enjoyable, wasn't it?
+    <br>
+
+    <br>
+    <span>
+        e. You and your friend listened to a comedian on the stage and felt spellbound by his/her
+        performance.
+    </span>
+    <br>
+    He gave an excellent presentation, didn't he?
+    <br>
+
+    <br>
+    <span>f. You think your friend&rsquo;s father has arrived from the US but you are not sure. </span>
+    <br>
+    Your father has not arrived from US, has he?
+    <br>
+
+    <br>
+    <span>g. You think Susan will join the new job tomorrow but you are not sure. </span>
+    <br>
+    Susan will go to her new job tomorrow, won't she?
+    <br>
+
+    <br>
+    <span>h. Your friend&rsquo;s hair looks too short.</span>
+    <br>
+    You have got too short hair, haven't you?
+    <br>
+
+    <br>
+    <span>i. You want to go for a picnic with your friends in class. </span>
+    <br>
+    Let&rsquo;s go to picnic, shall we?
+    <br>
+
+    <br>
+    <span>j. You want permission from your father to go for a walk. </span>
+    <br>
+    Let me go for a evening walk, will you?
+
+    <br>
+
+    <br>
+
+    <br>
+
+    <br>
+
+    <span>
+        If you have any suggestions or feedbacks, please write to us at
+        plus2help@gmail.com
+    </span>
 </body>
 
 </html>
