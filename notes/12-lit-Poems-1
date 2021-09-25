@@ -5,16 +5,322 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        /* styling text content */
+        body {
+            padding-top: 4px;
+            padding-left: 15px;
+            padding-right: 15px;
+            line-height: 23px;
+            text-align: justify;
+            font-family: sans-serif;
+            font-size: 16px;
+            word-spacing: 2px;
+        }
+
+        center {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        h3 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        span {
+            font-weight: bold;
+            font-size: 16px;
+        }
+    </style>
 </head>
 
 <body>
     <br>
-    <center>
-        <h3 style="color:red">Notes will be available soon</h3>
-    </center>
+    <center>A Day</center>
     <br>
-    If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com
+    <h3>Summary</h3>
+    <br>
+    The poem begins with the speaker narrating to us readers how the sun rises. The persona refers to the sun&rsquo;s
+    rays as &ldquo;ribbons&rdquo;. The layering of these &ldquo;ribbons&rdquo; is a gradual process. But the
+    significance of the eventual sunrise isn&rsquo;t lost on the world. &ldquo;The news&#8230;&rdquo; of this phenomenon
+    travels fast.
+    <br>
+
+    <br>
+    The eagerness of the child speaker to talk about sunrise portrays his/her innocent view of the world. This persona
+    cares for the seemingly insignificant things, thus telling readers it&rsquo;s okay to pause and appreciate the
+    &ldquo;normal&rdquo; changes in nature. Like the sunrise. In a metaphorical sense, this stanza also hints at the
+    excitement stemming from the beginning of life (childbirth).
+    <br>
+
+    <br>
+    The second stanza describes the events which occur due to sunrise. The sun illuminates the top of
+    &ldquo;Hills&rdquo; and &ldquo;Bobolinks&rdquo; (a species of blackbirds) begins to sing. This stanza highlights
+    similarly natural occurrences that seem to respond to the sun rising. It once again focuses on the beauty of nature
+    around us, thus encouraging readers to be more appreciative of them.
+    <br>
+
+    <br>
+    In the third stanza, the subject matter drifts from sunrise to sunset, and the speaker&rsquo;s tone from excited to
+    reserved. The child&rsquo;s confidence wanes since he/she doesn&rsquo;t know much about sunset. Yet, the persona
+    describes the little they can, more sober than excited.
+    <br>
+
+    <br>
+    In the final stanza of &lsquo;A Day&lsquo;, Emily Dickinson&rsquo;s faith comes to light. This dominantly symbolic
+    stanza uses Christian references like &ldquo;flock&rdquo; and &ldquo;Dominie in gray&rdquo; to show the poet&rsquo;s
+    own view about death. Where a &ldquo;Dominie in gray&rdquo; means &ldquo;God&rdquo;, and &ldquo;flock&rdquo; means
+    human beings, Dickinson believes God leads human beings wherever after they die.
+    <br>
+
+    <br>
+
+    <br>
+
+    <br>
+    <h3>Understanding the text</h3>
+    <br>
+    <span>Answer the following questions.</span>
+    <br>
+
+    <br>
+    <span>a. How does the poet describe the morning sun in the first stanza?</span>
+    <br>
+    &#10140; In the first stanza the poet describe the morning sun as a sign of happiness. For her, it seemed like the
+    church steeples are &quot;swimming in Amethyst&quot; as the multicoloured rays of sun drift over the water. She also
+    says that that the gloomy darkness begins to change colour as soon as the sun's brilliant fire emerges. As a result,
+    the appearance of the sun spreads rapidly, like the pace of squirrels and makes everything bright and visible.
+    <br>
+
+    <br>
+
+    <br>
+    <span>b. What does the line &lsquo;The news like squirrels ran&rsquo; mean?</span>
+    <br>
+    &#10140; The news to which Emily Dickinson refers as &lsquo;The news like squirrels ran&rsquo; is the dawning of a
+    new day. News travels fast, as they say, and it's no different here. In fact, the news of the sun rising travels
+    even faster than most kinds of news for the simple reason that everyone can see the dawn with their own eyes. The
+    speed at which everyone receives this news is likened to the running of a squirrel. The comparison is particularly
+    apt given that the squirrel, like the sun, is part of the natural world.
+    <br>
+
+    <br>
+
+    <br>
+    <span>c. What do you understand by the line &lsquo;The hills untied their bonnets&rsquo;?</span>
+    <br>
+    &#10140; Bonnets refers to a special type of hat which can be tied under the chin. Before sunrise, the hills seem
+    darker and gloomier as they were wearing a bonnet. But as soon as the sun emerges and the sun rays fall on hills,
+    all hills appear lovely in excellent green colour. Hence, the above phrase means that the hills seem to be unveiling
+    their greenery and beauty by removing their bonnets, after the sunrise.
+    <br>
+
+    <br>
+
+    <br>
+    <span>d. Is the speaker watching the morning sun? Why? Why not?</span>
+    <br>
+    &#10140; Yes, the speaker is watching the rising sun. The speaker is observing the change in colour of the steeple
+    into amethyst, untied bonnets of the hills. He is also listening to the singing of the beautiful bobolinks and all
+    these events confirm that the speaker is watching the morning sun.
+    <br>
+
+    <br>
+
+    <br>
+    <span>e. How does the sun set?</span>
+    <br>
+    &#10140; Actually, the speaker is really unknown to the sunset. All he knows is that the sun goes away taking all
+    the happiness, joy and leaves the unhappy and gloomy dark when it sets. The slowly turning purple and yellow hues
+    signal the sun's setting. As he is unclear about the setting sun, he doesn't know how exactly the sun set.
+    <br>
+
+    <br>
+
+    <br>
+
+    <br>
+    <h3>Reference to the context</h3>
+    <br>
+
+    <br>
+    <span>a. What, according to the speaker, is a day?</span>
+    <br>
+    &#10140; According to the speaker a day is just like human life where sun rise is the birth, and setting of the sun
+    is compared with death. Here the poet depicts the beauty of life and the uncertainty of death in a philosophical
+    sense.
+    <br>
+
+    <br>
+
+    <br>
+    <span>b. What purpose does the hyphen in the first line serve in the poem?</span>
+    <br>
+    &#10140; A hyphen (-) is a punctual mark used in writings to join works or parts of words. In poetry, a hyphen is
+    used to show pause. Emily Dickenson uses punctuation marks in her poem in an innovative way. She uses hyphens if she
+    doesn't find the suitable words to express deep emotions, to granting readers to imagine and complete the missing
+    words and to show the power of silence in front of certain situations. It is also used to give a sudden emphasis.
+    <br>
+
+    <br>
+
+    <br>
+    <span>c. What makes this poem lyrical and sonorous? Discuss.</span>
+    <br>
+    &#10140; The poem &quot;A Day&quot; by Emily Dickenson is both a lyrical and sonorous poem. The poem is lyrical in
+    the sense that it expresses personal feelings or emotions in the first-person narration. The first pronoun
+    &quot;I&quot; used in lyrical poems indicates the poetic persona. This poem is very short and the poetess is
+    expressing her personal experience of observing sunrise. The word &quot;Sonorous&quot; means full of sound and rich
+    in verse or language. Several things make a poem musical and melodious. Sound devices alliteration, assonance, rhyme
+    and rhythm make a poem musical.
+    <br>
+
+    <br>
+
+    <br>
+    <span>d. Who are the target audience of the speaker? Why?</span>
+    <br>
+    &#10140; In the poem, the world is seen through the eyes of an innocent child. Speaker is telling her friends,
+    &quot;I will tell you how the sun rose&quot;. So, we may argue that the intended audience consists of kids who have
+    lost the opportunity to see the sun rising when they wake up late at night. When we look at the poem from a
+    philosophical point of view, the whole human race is also the intended audience. Sunrise is the beginning of life,
+    daytime activities are a trip through life, and sundown is the end of life. However, the final result is a little
+    mysterious.
+    <br>
+
+    <br>
+
+    <br>
+    <span>
+        e. The poem seems to describe a day for children. How would the adult people respond to this poem? Discuss this
+        poem
+        with your parents/guardians and write the answer based on their responses.
+    </span>
+    <br>
+    &#10140; The poem &quot;A Day&quot; is a literal description of the dawn, as well as the events that occur between
+    sunrise and sundown. To be more precise, the poem speaks about the passage from life to death in a philosophical
+    sense. There is enthusiasm at the beginning of life, a squirrel racing like a life and a strange conclusion to a
+    life in this poem.
+    <br>
+
+    <br>
+
+    <br>
+
+    <br>
+    <h3>Reference beyond the text</h3>
+    <br>
+
+    <br>
+    <span>a. Observe your surroundings of one fine morning and write a poem based on your own experience.</span>
+    <br>
+    &#10140;
+    <br>
+    <p style="text-align: center; font-weight: bold;">My Surroundings</p>
+    <br>
+    I look at my surroundings,
+    <br>
+    The paintings and pictures,
+    <br>
+    Some are good some are bad,
+    <br>
+    Some are happy and some are sad,
+    <br>
+    They are doing sports or dancing,
+    <br>
+    Others are kissing or singing,
+    <br>
+    I wish I could be one of those happy people again,
+    <br>
+    Singing and dancing every day,
+    <br>
+    But I find myself depressed and deceived,
+    <br>
+    I long to have a perfect life.
+    <br>
+
+    <br>
+
+    <br>
+    <span>b. Write a personal essay on A Day in the School.</span>
+    <br>
+    &#10140;
+    <br>
+    <p style="text-align: center; font-weight: bold;">A Day in the School</p>
+    <br>
+    Everyone loves school life and mostly the beautiful events which one experiences in a school. People develop a sense
+    of emotional and social connection with the school. The school teaches us so many life lessons and values.
+    <br>
+
+    <br>
+    But, there comes a day when we all need to part away from our school and our friends. It is difficult for anyone to
+    leave the school one day and forever. When I recall my last day at school, I become very emotional. It was a moment
+    of painful separation.
+    <br>
+
+    <br>
+    That day it felt like we had a really short journey together that it passed so fast. Some of my friends became too
+    emotional that tears started rolling down their cheeks. There was a small gathering arranged in our school hall.
+    <br>
+
+    <br>
+    Our juniors welcomed us to the hall which was decorated for us. Everyone gathered to bid us goodbye and to wish us
+    for a better future. Our juniors gave speeches. Some of them sang and danced for us. They also asked us to give
+    speeches. Some of my friends and I went to the stage and performed a group song. I also gave a speech on how we
+    spent our school days there.
+    <br>
+
+    <br>
+    Our teachers came to us and started consoling us. They tried to inspire us with motivational words. Our headmaster
+    praised us for being disciplined and honest in school. She also advised us to maintain the same wherever we go. All
+    other teachers encouraged us and told us to do hard work in life because it would help us to be successful in life.
+    <br>
+
+    <br>
+    The day was a mixture of sadness and happiness. I felt happy I was going to a new school. I was sad because I was
+    leaving my teachers and was parting from our dearest friends. It was a hard day for every one of us. This is how I
+    experienced my last day at school.
+
+
+    <br>
+    <br>
+
+    <br>
+    <br>
+    <span>If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com</span>
+    <br>
+    <br>
 </body>
 
 </html>
