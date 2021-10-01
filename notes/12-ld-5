@@ -5,16 +5,457 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        /* styling text content */
+        body {
+            padding-top: 4px;
+            padding-left: 15px;
+            padding-right: 15px;
+            line-height: 23px;
+            text-align: justify;
+            font-family: sans-serif;
+            font-size: 16px;
+            word-spacing: 2px;
+        }
+
+        center {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        h3 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        span {
+            font-weight: bold;
+            font-size: 16px;
+        }
+    </style>
 </head>
 
 <body>
     <br>
-    <center>
-        <h3 style="color:red">Notes will be available soon</h3>
-    </center>
+    <center>Unit 4
+
+        <br>Education</center>
+
     <br>
-    If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com
+    <br>
+    <h3>Working with words </h3>
+    <br>
+    
+    <span>A. Match the words in column &lsquo;A&rsquo; with their meanings in column &lsquo;B&rsquo;.</span>
+    <br>
+    <br>
+    <span>a. expectantly</span>
+    <br>
+    in a way that shows you are hoping for something, especially something good or exciting
+    <br>
+    <br>
+    <span>b. beckon</span>
+    <br>
+    to give signal to somebody to move nearer or to follow you
+    <br>
+    <br>
+    <span>c. grapple</span>
+    <br>
+    to try hard to find a solution to a problem
+    <br>
+    <br>
+    <span>d. texture</span>
+    <br>
+    the way food or drink tastes or feels in your mouth
+    <br>
+    <br>
+    <span>e. cobbled</span>
+    <br>
+    having a surface that is made of small round stones
+    <br>
+    <br>
+    <span>f. flimsy</span>
+    <br>
+    thin and easily torn
+    <br>
+    <br>
+    <span>g. attire</span>
+    <br>
+    clothes, especially fine or formal ones
+    <br>
+    <br>
+    <span>h. marvelous</span>
+    <br>
+    extremely good; wonderful
+    <br>
+    <br>
+    <span>i. dynamics</span>
+    <br>
+    the science of the forces involved in movement
+    <br>
+    <br>
+    <br>
+    <span>B. An autobiography is a story of a person&rsquo;s life, written by himself/herself. Use a dictionary and find the meanings of the following words related to people&rsquo;s life stories.</span>
+    <br>
+    <br>
+    <span>Hagiography</span>
+    <br>
+    the writing of the lives of saints.
+    <br>
+    <br>
+    <span>Psychobiography</span>
+    <br>
+    a biographical study focusing on psychological factors, as childhood traumas and unconscious motives.
+    <br>
+    <br>
+    <span>Pathography</span>
+    <br>
+    the study of the life of an individual or the history of a community with regard to the influence of a particular
+    disease or psychological disorder.
+    <br>
+    <br>
+    <span>Chronicle</span>
+    <br>
+    a factual written account of important or historical events in the order of their occurrence.
+    <br>
+    <br>
+    <span>Obituary</span>
+    <br>
+    a notice of a death, especially in a newspaper, typically including a brief biography of the deceased person.
+    <br>
+    <br>
+    <span>Character sketch</span>
+    <br>
+    a brief written description of a person's qualities.
+    <br>
+    <br>
+    <span>Profile</span>
+    <br>
+    a short article giving a description of a person or organization.
+    <br>
+    <br>
+    <span>Memoir</span>
+    <br>
+    a historical account or biography written from personal knowledge.
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Comprehension</h3>
+    <br>
+    <span>A. Put the following events in the life of Abdul Kalam in a chronological order.</span>
+    <br>
+    <br>
+    c. Abdul Kalam attended an elementary school at Rameswaram.
+    <br>
+    <br>
+    f. One day Abdul Kalam&rsquo;s teacher visited them to share his pride and pleasure about his performance.
+    <br>
+    <br>
+    a. They celebrated happiness with poli.
+    <br>
+    <br>
+    g. A new teacher in the school forbade Abdul Kalam to sit together with his Bramhin friend.
+    <br>
+    <br>
+    e. Many students did not understand well of Sivasubramania Iyer&rsquo;s lecture.
+    <br>
+    <br>
+    d. He then took the students to the seashore for a practical class.
+    <br>
+    <br>
+    b. Abdul Kalam was determined that he would make a future study about flight and flight systems.
+    <br>
+    <br>
+    <br>
+    <span>B. Answer the following questions.</span>
+    <br>
+    <br>
+    <span>a. What were the causes of Abdul Kalam&rsquo;s happiness?</span>
+    <br>
+    The causes of Abdul Kalam&rsquo;s happiness were his supportive father, loving mother, inspirational and
+    motivational teachers at schools, his keen interest in mathematics and his labour and dedication to his study.
+    <br>
+    <br>
+    <span>b. Which two places did Abdul Kalam visit before going to school?</span>
+    <br>
+    Abdul Kalam visited to his Arabic tutoring class and his mathematics teacher's home before heading to school.
+    <br>
+    <br>
+    <span>c. What did he like about mathematics?</span>
+    <br>
+    He liked to learn rules and principles of mathematics and solving complex number problems for hours.
+    <br>
+    <br>
+    <span>d. Why was the new teacher unhappy?</span>
+    <br>
+    The new teacher was unhappy because he saw that a Brahmin boy Ramanadhan Sastry and a Muslim boy Abdul Kalam sitting
+    together in a same bench in the classroom.
+    <br>
+    <br>
+    <span>e. Why did Abdul Kalam have to split with his intimate friend?</span>
+    <br>
+    Abdul Kalam had to split with his intimate friend because of the discriminating behaviour of his new teacher in
+    terms of religion in Rameswaram Elementary School.
+    <br>
+    <br>
+    <span>f. What was the topic of Sivasubramania Iyer&rsquo;s class?</span>
+    <br>
+    The topic of Sivasubramania Iyer&rsquo;s class was how the birds could fly in the sky.
+    <br>
+    <br>
+    <span>g. How was the teacher&rsquo;s reaction when the students told him that they did not understand his lecture?</span>
+    <br>
+    Teacher didn&rsquo;t become upset when the students told him that they didn't understand his lecture.
+    <br>
+    <br>
+    <span>h. Why did Sivasubramania Iyer take his students to the seashore?</span>
+    <br>
+    Sivasubramania Iyer took his students to the seashore because he wanted to demonstrate the mechanism of bird flight
+    to the students.
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Critical Thinking</h3>
+    <br>
+    <br>
+    <span>a. APJ Abdul Kalam became a renowned aerospace scientist in his later life. Do you find any association of his childhood days in shaping his career? Explain with specific instances from the text.</span>
+    <br>
+    <br>
+    APJ (Avul Pakir Jainulabdeeni) Abdul Kalam is a well-known aerospace scientist of India. He became a famous
+    aerospace scientist because he was inspired and motivated by the explanation of the flight dynamics of birds
+    practically given by his teacher Sivasubramania lyer in his school. There is the great associations of his childhood
+    days in shaping his career. He was a keen student of mathematics and always scored full marks in it. He also scored
+    full marks in Science in his study time. Beside this he would take extra classes of mathematics at his
+    teacher&rsquo;s home. He kept himself always busy in solving complex number problems. The most impressing thing to
+    him was the practical lecture of his teacher Sivasubramania lyer. He, along with his friends, was taken to the
+    seashore of Rameswaram to have a practical demonstration on flight dynamics of the birds. The real teaching of his
+    teacher had left him an influential remarks. He learnt how birds could fly using their wings and tails in a proper
+    balance. When he learnt flight systems of the birds he was determined to study flight dynamics and following every
+    steps suggested by his teacher, and hence he became an aerospace scientist.
+    <br>
+    <br>
+    <br>
+    <span>b. Kalam mentions an instance of discrimination against him in his school life. What picture of society does he want to depict by mentioning the incident? Discuss.</span>
+    <br>
+    <br>
+    In his memoir, he mentions a sad event of religious discrimination in his school. His new teacher showed his
+    discriminating behaviour when he saw a Muslim boy (Abdul) and a Hindu boy (Rameswaram) sitting together in a same
+    bench in the classroom. Rameswaram Sastry was an intimate friend of him belonging to Hindu community. Abdul was
+    ignorant about the religious discrimination between Hindu and Muslim. During the time, there was extreme religious
+    discrimination between Hindu and Muslim. The behaviour of the new teacher was a true picture of the then society. He
+    could not digest the friendship between a Hindu boy and a Muslim boy, so he forbaded Abdul to sit close to his
+    Brahmin friend. Abdul was totally upset by this behaviour. By this incident, Abdul wants to show the picture of the
+    society that was parted between two sects - Hindu and Muslim. Few people denied such divisions, but most of the
+    people, including educated people believed in partition.
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Writing</h3>
+    <br>
+    <span>Write a short autobiography featuring your childhood life using the following guidelines.</span>
+    <br>
+    <br>
+    I was born in a small village of north - eastern part of Nepalgunj District. I&rsquo;m from a middle class family.
+    There are five members in my family including me. First of my respected Father who is tailor, then my lovely mother
+    she is House wife. Other my family members are a eldest brother and a younger sister and both of them are studying
+    too.
+    <br>
+    <br>
+    Since I&rsquo;m a student, my daily routine focuses on studying and classes. I usually wake up at 6:00 am and do my
+    daily routines like brushing my teeth, taking a shower and getting ready for class. After which I check my notes and
+    revise for the day. My classes usually used to start by 8:00 am and ends by 1:00 pm. I used to attend classes
+    regularly. After classes, I hang out with my friends for a while and go back home. I reach home and then usually
+    take a nap till 4:30 pm. After taking a nap, I go out and play. I usually come back by 6 and have a bath. After
+    which I get ready to study and by 9:00, I go to the bed.
+    <br>
+    <br>
+    I used to play a lot with my siblings. I remember very fondly the games we use to play. Especially, in the evenings,
+    we used to go out in the park with our sports equipment. Each day we played different games, for example, football
+    on one day and cricket on the other. These memories of playing in the park are very dear to me. Most importantly, I
+    remember this instance very clearly when we went out for a picnic with my family. We paid a visit to the zoo and had
+    an incredible day. My mother packed delectable dishes which we ate in the zoo. My father clicked so many pictures
+    that day. When I look at these pictures, the memory is so clear, it seems like it happened just yesterday. Thus, my
+    childhood memories are very dear to me and make me smile when I feel low.
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Grammar</h3>
+    <br>
+    <span>A. Study the following sentences and underline the connectives.</span>
+    <br>
+    <br>
+    a. <b>Although</b> she spoke very fast, I understood what she meant to say.
+    <br>
+    <br>
+    b. <b>In spite of</b> her hard labour, she failed her exam.
+    <br>
+    <br>
+    c. <b>Though</b> he had all the required qualifications, he did not get the job.
+    <br>
+    <br>
+    d. <b>Despite</b> having all the qualifications, he did not get the job.
+    <br>
+    <br>
+    <br>
+    <span>B. Join the following pairs of sentences twice, using although/though/even though and despite/in spite of as in the example.</span>
+    <br>
+    <br>
+    <span>a. He is a millionaire. He lives in a simple house.</span>
+    <br>
+    &ndash; Although he is a millionaire, he lives in a simple house.
+    <br>
+    &ndash; Despite of being a millionaire, he lives in a simple house.
+    <br>
+    <br>
+    <br>
+    <span>b. The weather was extremely bad. The pilot landed the plane safely.</span>
+    <br>
+    &ndash; In spite of extremely bad weather, the pilot landed the plane safely.
+    <br>
+    &ndash; Although the weather was extremely bad, the pilot landed the plane safely.
+    <br>
+    <br>
+    <br>
+    <span>c. We study in the same college. We hardly see each other.</span>
+    <br>
+    &ndash; Despite studying in the same college, we hardly see each other.
+    <br>
+    &ndash; Although we study in the same college, we hardly see each other.
+    <br>
+    <br>
+    <br>
+    <span>d. It rained heavily. We enjoyed our holiday.</span>
+    <br>
+    &ndash; Although it rained heavily, we enjoyed our holiday.
+    <br>
+    &ndash; In spite of the heavy rain, we enjoyed our holiday.
+    <br>
+    <br>
+    <br>
+    <span>e. I had an umbrella. I got wet in the rain.</span>
+    <br>
+    &ndash; Despite having an umbrella, I got wet in the rain.
+    <br>
+    &ndash; Although I had an umbrella, I got wet in the rain.
+    <br>
+    <br>
+    <br>
+    <span>f. I was really tired. I could not sleep for a moment.</span>
+    <br>
+    &ndash; Although I was really tired, I could not sleep for a moment.
+    <br>
+    &ndash; I couldn&rsquo;t sleep despite being very tired.
+    <br>
+    <br>
+    <br>
+    <span>g. She has a very good accent in English. She failed the interview of a newsreader.</span>
+    <br>
+    &ndash; Despite having a very good accent in English, she failed the interview of a newsreader.
+    <br>
+    &ndash; Although she has a very good accent in English, she failed the interview of a newsreader.
+    <br>
+    <br>
+    <br>
+    <span>h. Lhasa has extremely cold weather in winter. Millions of tourists go there in January.</span>
+    <br>
+    &ndash; Millions of tourists go to Lhasa in January, even though it has extremely cold weather in winter.
+    <br>
+    &ndash; Despite having extremely cold weather in winter, millions of tourists go to Lhasa in January.
+    <br>
+    <br>
+    <br>
+    <span>i. He was badly injured in the first round of the boxing match. He was victorious in the third round.</span>
+    <br>
+    &ndash; In spite of being badly injured in the first round of the boxing match, he was victorious in the third round.
+    <br>
+    &ndash; Although he was badly injured in the first round of the boxing match, he was victorious in the third round.
+    <br>
+    <br>
+    <br>
+    <br>
+    <span>C. Complete each sentence in an appropriate way.</span>
+    <br>
+    <br>
+    a. He passed the exam <b><u>although he hadn't prepared well.</u></b>
+    <br>
+    <br>
+    b. She climbed the mountain in spite of her <b><u>leg injury.</u></b>
+    <br>
+    <br>
+    c. He did not give any alms to the beggars even though <b><u>he earned a lot.</u></b>
+    <br>
+    <br>
+    d. In spite of his poor eyesight, <b><u>he is conducting online courses.</u></b>
+    <br>
+    <br>
+    e <b><u>She does not go to parties</u></b>, though she is very sociable.
+    <br>
+    <br>
+    f. <b><u>He could not pass the test</u></b>, in spite of his ten attempts.
+    <br>
+    <br>
+    g. He refused to eat anything despite <b><u>having an appetite.</u></b>
+    <br>
+    <br>
+    h. He could not score goods grades in the SEE exams in spite of <b><u>his hard with private coaching.</u></b>
+    <br>
+    <br>
+    i. She accepted the job although <b><u>she couldn't meet her salary expectation.</u></b>
+    <br>
+    <br>
+    j. Even though we had planned everything carefully, <b><u>we could not complete our mission.</u></b>
+    <br>
+
+    <br>
+    <br>
+
+    <br>
+
+    <br>
+
+    <br>
+    <span>If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com</span>
+    <br>
+
+    <br>
 </body>
 
 </html>
