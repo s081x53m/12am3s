@@ -5,16 +5,368 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        /* styling text content */
+        body {
+            padding-top: 4px;
+            padding-left: 15px;
+            padding-right: 15px;
+            line-height: 23px;
+            text-align: justify;
+            font-family: sans-serif;
+            font-size: 16px;
+            word-spacing: 2px;
+        }
+
+        center {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        h3 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        span {
+            font-weight: bold;
+            font-size: 16px;
+        }
+    </style>
 </head>
 
 <body>
+
     <br>
-    <center>
-        <h3 style="color:red">Notes will be available soon</h3>
-    </center>
+    <center>Unit 6
+
+        <br>
+        Humour</center>
+
     <br>
-    If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com
+    <br>
+    <h3>Working with words </h3>
+
+    <br>
+
+    <span>
+        A. The following words are synonyms and antonyms of the verb &lsquo;laugh&rsquo;. Group them into synonyms and
+        antonyms.
+    </span>
+    <br>
+    <br>
+    <b>Synonyms</b>
+    <br>
+    chuckle, giggle, chortle, crackle, snicker, groan, smirk, whoop
+    <br>
+    <br>
+    <b>Antonyms</b>
+    <br>
+    grin, sob, grimace, frown, pout, scowl, cry, moan
+    <br>
+    <br>
+    <br>
+    <span>B. Match the following emotions with their definitons.</span>
+    <br>
+    <br>
+    <b>a. fear</b>
+    <br>
+    an unpleasant emotion caused by the threat of danger, pain or harm
+    <br>
+    <br>
+    <b>b. anger</b>
+    <br>
+    a strong feeling of displeasure
+    <br>
+    <br>
+    <b>c. surprise</b>
+    <br>
+    an unexpected event, fact, etc.
+    <br>
+    <br>
+    <b>d. disgust</b>
+    <br>
+    a feeling of strong disapproval aroused by something unpleasant
+    <br>
+    <br>
+    <b>e. sadness</b>
+    <br>
+    affected with grief or unhappiness
+    <br>
+    <br>
+    <b>f. happiness</b>
+    <br>
+    a pleasurable or satisfying experience
+    <br>
+    <br>
+    <b>g. relief</b>
+    <br>
+    removal or lightening of something oppressive, painful, or distressing
+    <br>
+    <br>
+    <b>h. triumph</b>
+    <br>
+    a great victory or achievement
+    <br>
+    <br>
+    <b>i. contentment</b>
+    <br>
+    the quality or state of being satisfied&#8195;
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Comprehension</h3>
+    <br>
+    <span>A. Complete the following sentences with words/ phrases from the text.</span>
+    <br>
+    <br>
+    a. According to Sophie Scott, laughter is one of the important and misunderstood <b>behaviours.</b>
+    <br>
+    <br>
+    b. After her study in Namibia, Scott came to the realization that <b>laughter is one of our richest</b> vocal tics.
+    <br>
+    <br>
+    c. Studies have shown that there are <b>six universal emotions across cultures</b> based on facial expressions.
+    <br>
+    <br>
+    d. Scott found out that most of the laughs have nothing <b>to do with humour.</b>
+    <br>
+    <br>
+    e. The couples who laugh at each other are likely to <b>stay together for longer.</b>
+    <br>
+    <br>
+    f. The primary way of communication of grown up people is <b>laughing.</b>
+    <br>
+    <br>
+    g. Comedians usually find it easier to work in larger places due to <b>the contagious nature of laughter.</b>
+    <br>
+    <br>
+    <br>
+    <span>B. Answer the following questions.</span>
+    <br>
+    <br>
+    <span>a. Why do people giggle at someone&rsquo;s pain or suffering?</span>
+    <br>
+    People giggle at someone&rsquo;s pain or suffering because giggling through someone&rsquo;s pain or suffering is a
+    way of convincing yourself (and therefore others) that you're alright, or at least on our way to being alright.
+    <br>
+    <br>
+    <span>b. What did Scott&rsquo;s study in Namibia come up with?</span>
+    <br>
+    Scott&rsquo;s study in Namibia came up with the realization that laughter is one of our richest vocal ties.
+    <br>
+    <br>
+    <span>c. How is laughter a social bonding?</span>
+    <br>
+    Laughter is a social bonding because it is an emotion that brings us together and helps us to bond, whether or not
+    something is actually funny.
+    <br>
+    <br>
+    <span>d. According to the author, what role does laughter play in husband-wife relationship?</span>
+    <br>
+    According to the author, laughter makes the husband-wife relationship stronger and long-lasting by making it easier
+    to dissipate tension after a stressful event.
+    <br>
+    <br>
+    <span>e. How does laughter work as a painkiller?</span>
+    <br>
+    Laughter correlates with increased pain threshold, and by encouraging the release of endorphins, it works as a
+    painkiller.
+    <br>
+    <br>
+    <span>f. What did the study find about the relation between laughter and brain?</span>
+    <br>
+    The study about the relation between laughter and brain found that the brain responds to each kind of laughter and
+    both seem to tickle the brain&rsquo;s mirror regions &ndash; the areas that tend to mimic other&rsquo;s actions.
+    <br>
+    <br>
+    <span>g. What are two emotions that the author associates with infants and adults?</span>
+    <br>
+    Crying and laughter are two emotions that the author associates with infants and adults.
+    <br>
+    <br>
+    <span>h. How does a stand-up comedian take the audience&rsquo;s laughter?</span>
+    <br>
+    A stand-up comedian takes the audience&rsquo;s laughter by interacting with them, taking the advantage of contagious
+    nature of laughter and reducing the audience to fits of hysterics.
+    <br>
+    <br>
+    <span>i. Show the relation between laughter and crowd.</span>
+    <br>
+    The relation between laughter and crowd is that laughter is contagious in crowd means that it can easily catch a
+    wave when there are more people in crowd.
+    <br>
+    <br>
+    <span>j. What does the author mean when he says &ldquo;there is always a meaning to it?&rdquo;</span>
+    <br>
+    When author says &ldquo;there is always a meaning to it&rdquo; he means that laughter is never neutral and always
+    have a meaning although it seems to be trivial, ephemeral and pointless.
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Critical thinking</h3>
+    <br>
+    <span>
+        a. Do you agree that &lsquo;the couples, who laugh together, stay together?&rsquo; Is it important for married
+        couples to have the same sense of humour? Why?
+    </span>
+    <br>
+    Yes, I agree with the statement that &ldquo;the couples, who laugh together, stay together.&rdquo; A sense of humour
+    is an attractive trait. There is abundant cross cultural evidence that shows that being funny makes you more
+    desirable as a mate. Simply having a funny bond doesn't mean you two are the perfect match - apparently being able
+    to laugh at the same things makes your partnership even stronger. A good sense of humour makes a person more
+    attractive. Laughter is called the best medicine not without a reason, and this holds true for couples who might be
+    going through stressful times. Studies have proved time and again how laughter helps release feel-good hormones that
+    help to relieve stress. So, it&rsquo;s important for married couples to share good laughter and have the same sense
+    of humour whenever they find themselves bogged down by trouble.
+    <br>
+    <br>
+    <span>b. Some people believe that sometimes crying is good for health. Do you believe it? Give your reasons.</span>
+    <br>
+    Crying is a natural response humans have to a range of emotions, including sadness, grief, joy, and frustration. Yes
+    I believe that crying is good for health. Medical benefits of crying have been known as far back as the Classical
+    era. Thinkers and physicians of ancient Greece and Rome posited that tears work like a purgative, draining off and
+    purifying us. Today&rsquo;s psychological thought largely concurs, emphasizing the role of crying as a mechanism
+    that allows us to release stress and emotional pain. When we cry, we let out tons of emotions that allow our body
+    and mind to reboot after you release all those emotions. Crying is particularly important during periods of
+    grieving. It may even help to process and accept the loss of a loved one. People often report feeling better after
+    they cry. That could be because crying forces us to pay attention to what triggered us and work through our emotions
+    and thoughts. Crying might also help in understanding what's important to us, especially if we cry over something
+    that upset us unexpectedly. By this we can say that crying is an essential form of relief and hence it is good for
+    health too.
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Writing</h3>
+    <br>
+    <span>
+        B. Write a description of your favourite comedian explaining his/her personality, acting, performance and
+        uniqueness.
+    </span>
+    <br>
+    <br>
+    <p style="text-align: center; font-weight: bold;">Charlie Chaplin</p>
+    <br>
+    Charlie Chaplin was an English comic actor, filmmaker, and composer who rose to fame in the silent era. He is mostly
+    famous for his screen persona &quot;the tramp&quot;. Born on April 16, 1889 in London, Chaplin is considered one of
+    the most important figures in the history of the film industry. He had been a productive and creative film maker for
+    about 75 years before he died in 1977.
+    <br>
+    <br>
+    Chaplin suffered from poverty and hardship in his childhood. He was sent to a workhouse twice before the age of
+    nine. His mother struggled financially when his father was absent. When he was 14, his mother was sent to a mental
+    asylum.
+    <br>
+    <br>
+    Chaplin's first performances were at music halls as a stage actor and comedian at the age of 19. He went to the USA
+    where he was scouted for the film industry, and began appearing in 1914 for Keystone Studios. He soon developed the
+    Tramp persona and formed a large fan base. Chaplin directed his own films from an early stage, and continued to hone
+    his craft. By 1918, he was one of the best known figures in the film industry.
+    <br>
+    <br>
+    Chaplin wrote, directed, produced, edited, starred in, and composed the music for most of his films. He was a
+    perfectionist, and his financial independence enabled him to spend years on the development and production of a
+    picture.&#8195;
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Grammar</h3>
+    <br>
+    <span>B. Put the frequency adverbs in appropriate place and rewrite the following sentences.</span>
+    <br>
+    <br>
+    <span>a. I forget to do my homework. (sometimes)</span>
+    <br>
+    Sometimes I forget to do my homework.
+    <br>
+    <br>
+    <span>b. My father has touched an alcoholic drink in his life. (never)</span>
+    <br>
+    My father has never touched an alcoholic drink in his life.
+    <br>
+    <br>
+    <span>c. My father goes for a walk on Saturdays. (often)</span>
+    <br>
+    My father often goes for a walk on Saturdays.
+    <br>
+    <br>
+    <span>d. We go to the movie theatre. (occasionally)</span>
+    <br>
+    We occasionally go to the movie theatre.
+    <br>
+    <br>
+    <span>e. My brother is in America. He telephones us. (from time to time)</span>
+    <br>
+    My brother is in America. He telephones us from time to time.
+    <br>
+    <br>
+    <span>f. My mother gets up at five o&rsquo;clock. (always)</span>
+    <br>
+    My mother always gets up at five o&rsquo;clock.
+    <br>
+    <br>
+    <span>g. He does not like alcoholic drinks but takes some wine. (now and then)</span>
+    <br>
+    He does not like alcoholic drinks but now and then takes some wine.
+    <br>
+    <br>
+    <span>h. I drink my tea with milk. (generally)</span>
+    <br>
+    Generally, I drink my tea with milk.
+    <br>
+    <br>
+    <span>i. Have you been to Agra? (ever)</span>
+    <br>
+    Have you ever been to Agra?
+    <br>
+    <br>
+    <span>j. The restaurant hours vary as it is booked for special events. (frequently)</span>
+    <br>
+    The restaurant hours vary frequently as it is booked for special events.
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <span>If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com</span>
+
+    <br>
+    <br>
 </body>
 
 </html>
