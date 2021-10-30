@@ -5,16 +5,322 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        /* styling text content */
+        body {
+            padding-top: 4px;
+            padding-left: 15px;
+            padding-right: 15px;
+            line-height: 23px;
+            text-align: justify;
+            font-family: sans-serif;
+            font-size: 16px;
+            word-spacing: 2px;
+        }
+
+        center {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        h3 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        span {
+            font-weight: bold;
+            font-size: 16px;
+        }
+    </style>
 </head>
 
 <body>
+
     <br>
-    <center>
-        <h3 style="color:red">Notes will be available soon</h3>
-    </center>
+    <center>On Libraries</center>
     <br>
-    If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com
+    <br>
+    <h3>Understanding the text</h3>
+    <br>
+    <span>Answer the following questions.</span>
+    <br>
+    <br>
+    <span>a. Where could the author be found when he was late for lunch or dinner?</span>
+    <br>
+    The author is none other than the greatest neurologist and literary figure Oliver sacks. There was Oliver&rsquo;s
+    favorite room, which was very quiet and beautiful in the house and it was the room of the oak-paneled library. His
+    parents had libraries in the house. So whenever he was late for lunch or dinner he could be found absorbed in a book
+    in the library.
+    <br>
+
+    <br>
+
+    <br>
+    <span>b. What are his first memories?</span>
+    <br>
+    Oliver was so inquisitive that he was absorbed in a book in his favourite room of library. He even used to get late
+    for his lunch and dinner as he was found to be too absorbed in the books. He learnt to read early in the morning at
+    4 or 5 o'clock. The beautiful oak panel library and books are his first memories.
+    <br>
+
+    <br>
+
+    <br>
+    <span>c. Why did he dislike school?</span>
+    <br>
+    He disliked school because he didn't like to obey the instructions from the teachers. He gained better information
+    and knowledge exploring books in the libraries than that from the school. He used to get excellent lessons from the
+    libraries before the teachers taught in the class. He was not a good student but was a better learner. Thus, he
+    disliked school because he liked to learn himself in libraries being free to choose books of his own choice.
+    <br>
+
+    <br>
+
+    <br>
+    <span>d. What did he feel about at the library?</span>
+    <br>
+    He felt free when he is at the library. It is because he is free to choose any books of his interest out of
+    thousands of books. The atmosphere of the library was so comfortable and quiet that he roamed through the shelves
+    and wondered by the books kept in them. He also used to enjoy the quiet companionship of other readers all like him
+    in the same quest.
+    <br>
+
+    <br>
+
+    <br>
+    <span>e. Why was he so biased about sciences especially astronomy and chemistry?</span>
+    <br>
+    He was biased about science especially astronomy and chemistry because of the two reasons - The first reason was
+    that all the children used to dream of being astronauts and explore the space at that time. So he must have wished
+    to know about it. The second reason was that he got older and he only needed those books which would support his
+    studies.
+    <br>
+
+    <br>
+
+    <br>
+    <span>f. Why did he become so fascinated by Hook?</span>
+    <br>
+    He became so fascinated by Theodore Hook because he found the books written by him in the Bodleian library.
+    Actually, Hook was greatly admired for his wit and his genius theatrical and musical improvisation. He was the
+    greatest star in the nineteenth Century for what he had done. He had composed more than five hundred operas on the
+    spot.
+    <br>
+
+    <br>
+
+    <br>
+    <span>g. Describe library at the Queen&rsquo;s College.</span>
+    <br>
+    The Queen's College is a constituent college of the University of Oxford, England. It has the magnificent building
+    designed in a form of palace by Christopher Wren, who was a great architect. Beneath the college, there were
+    underground large rooms which was the library. There were number of book shelves. There were heating pipes attached
+    to the walls and corners. The design of the library was classical. The books of original prints and editions from
+    Gesner to Darwin were available.
+    <br>
+
+    <br>
+
+    <br>
+    <span>h. Why did the students ignore the bookshelves in the 1990s?</span>
+    <br>
+    The students ignored the bookshelves in the 1990s because they had access to the digitalized books. The access of
+    books from their computers made them rarely go to the shelves. The books were no longer of their consideration. They
+    felt more comfortable with the new form of reading books in their electronic devices than going to the shelves in
+    the library.
+    <br>
+
+    <br>
+
+    <br>
+    <span>i. Why was he horrified when he visited the library a couple of months ago?</span>
+    <br>
+    He was horrified when he visited the library a couple of months ago because the books from almost all public
+    libraries were thrown out of the shelves and were digitized. Unfortunately he didn't know how to use the computers.
+    The books, the shelves and libraries were gone one by one and he was deeply saddened in the loss of the centuries of
+    knowledge. Therefore, he was horrified.
+    <br>
+
+    <br>
+
+    <br>
+
+    <br>
+    <h3>Reference to the context</h3>
+    <br>
+    <span>
+        a. The author says, &ldquo;I was not a good pupil, but I was a good listener.&rdquo; Justify it with the textual
+        evidences.
+    </span>
+    <br>
+    <br>
+    &lsquo;On libraries&rsquo; is an autobiographical essay by one of the 20th century&rsquo;s greatest neurologist and
+    author, Oliver Sacks. In this essay, he describes about his experiences of going to libraries and how successful
+    stories shaped his personality and made his life better. He describes how he developed his deep interest in visiting
+    the libraries till he became a successful figure and how he was deeply affected by the loss of books in the
+    libraries in 1990s.
+    <br>
+    <br>
+    Oliver Sacks says, &quot;I was not a good pupil, but I was a good listener.&quot; That's true. He was always
+    absorbed in the books in the library and he got real education from there. When he was in school, he sat in the
+    classrooms, merely listened to teachers but he couldn't be convinced on what he wanted in depth from the teachers.
+    He listened to them through one ear and blew away their sayings from another ear. However, it doesn't mean he wasn't
+    active in the class. He was not passive either. In terms of doing exercises, submitting assignment he himself
+    considered that he was not a good student (pupil) but he listened to them. Besides going to school, he preferably
+    spent most of his time in the library, where he enhanced his skill of gaining knowledge from the additional books.
+    He used to search the things that he listened from the teachers, compared the lectures with findings, noted down the
+    conclusion in the copies and into his mind. This kind of keen interest of reading in the library made him a good
+    reader, learner even though he consider himself as a poor student in the classroom.
+    <br>
+
+    <br>
+
+    <br>
+    <span>
+        b. A proverb says, &quot;Nothing is pleasanter than exploring a library.&quot; Does this proverb apply in the
+        essay?
+        Explain.
+    </span>
+    <br>
+    <br>
+    The given proverb, &quot;Nothing is pleasanter than exploring a library&quot; is quite appropriate for the essay
+    &ldquo;On Libraries&rdquo;. Nothing is more satisfying than reading a book in library with a literal companion.
+    Oliver Sacks was a bookworm who used to spend a lot of time in different libraries in different places. He disliked
+    school, sitting in class, receiving instruction; information seemed to go in one ear and out by the other. He had to
+    be active, learn for himself, learn what he wanted, and in the way which suited him best. So he roamed the shelves
+    and stacks of the libraries, had the freedom to select whatever he wanted. His book reading started from his own
+    library at home. All of his family members loved reading books and he was grown up in that environment. The
+    oak-paneled library at his own home was his favourite room. Instead of going to formal school, he preferred to read
+    freely in the library. He especially enjoyed the library environment and the quiet companions of other readers. Best
+    of all, he wants to sit at the library table with a pile of books in front of him. Therefore, he said that he was
+    not a good pupil, but was a good listener who explored different libraries to gain knowledge for his own academic
+    excellence. Hence the above proverb fits for this essay.
+    <br>
+
+    <br>
+    <br>
+    <span>c. Are there any other services that you would like to see added to the library?</span>
+    <br>
+    <br>
+    Yes, there are some other services that I would like to see added to the library. I would prefer different rooms for
+    different age groups such as child, adults and aged people because they prefer books most likely of their interest
+    with their age. The elders may like to read environment, nature, culture etc., the aged people may like to read
+    books related to politics, ethics, philosophy etc. and the kids would like to read stories, comics etc. The other
+    thing I would to see added in the library is surveillance camera. Many people tear the books or even take with them
+    due to which other readers are affected. Hence to prevent these bad activities on library, surveillance camera
+    should be fitted. Good furniture to read books on is also an essential thing to be added to the library. Readers may
+    feel bored reading on the tables. So, a small garden in the backyard of the library may be useful to remove the
+    reader&rsquo;s tiredness. I would also like to see a cafe added to the library because peoples who love reading long
+    hours in the library may get hungry, then they can enjoy reading by eating something, which can quench their hunger.
+    These are the certain services that I would like to see added to the library.
+    <br>
+
+    <br>
+
+    <br>
+
+    <br>
+    <h3>Reference beyond the text</h3>
+    <br>
+    <span>a. Write an essay on Libraries and its uses for students.</span>
+    <br>
+
+    <br>
+    <p style="text-align: center; font-weight: bold;">Libraries and its Uses for Students</p>
+    <br>
+    A library is a place where books and sources of information are stored. They make it easier for people to get access
+    to them for various purposes. Libraries are very helpful and economical too. They include books, magazines,
+    newspapers, DVDs, manuscripts and more. In other words, they are an all-encompassing source of information.
+    <br>
+
+    <br>
+    Libraries play a vital role in providing students with reliable content. They encourage and promote the process of
+    learning and grasping knowledge. The book worms can get loads of books to read from and enhance their knowledge.
+    Moreover, the variety is so wide-ranging that one mostly gets what they are looking for. Most importantly, libraries
+    are a great platform for making progress. When we get homework in class, the libraries help us with the reference
+    material. This, in turn, progresses our learning capabilities and knowledge. It is also helpful in our overall
+    development. It helps us in learning and expanding our knowledge. We develop our reading habits from a library and
+    satisfy our thirst and curiosity for knowledge. This helps in the personal growth of a person and development.
+    Libraries are very economical. The students who cannot afford to buy new books and can simply borrow books from a
+    library. This helps them in saving a lot of money and getting information for free.
+    <br>
+
+    <br>
+    In short, libraries are a great place to gain knowledge. They serve each students differently. They are a great
+    source of learning and promoting the progress of knowledge. One can enjoy their free time in libraries by reading
+    and researching. As the world has become digitized, it is now easier to browse through a library and get what you
+    are looking for. Thus, libraries are found to be very useful for the students. We must not give up on libraries due
+    to the digital age. Nothing can ever replace the authenticity and reliability one gets from a library.
+    <br>
+
+    <br>
+
+    <br>
+    <span>
+        b. Do you have any public library in your locality? If so, do the people in your community use it? Give a couple
+        of
+        examples.
+    </span>
+    <br>
+    <br>
+    Yes, we have a public library in our locality. The name of the library is &lsquo;Bhanubhakta Memorial
+    Library&rsquo;. It is named after a Nepali writer, poet and translator Bhanubhakta Acharya known by the title
+    Adikavi. Of course, the people in our community use it.
+    <br>
+    <br>
+    This public library is the biggest treasure present in our society. It has all the resources one can take great
+    benefits from. One can easily find a lot of resources here that are not available anywhere on the World Wide Web.
+    Books are free for everyone and we shouldn&rsquo;t spend a single penny for any book that we borrow. Books from
+    different genre such as science fiction, fiction and a lot more are kept here for people to borrow. One can use the
+    books in the library for many different purpose. This library helped me to study along with other reference books to
+    help me with my research. The availability of different kinds of books made mine and community people&rsquo;s life
+    easier as we don&rsquo;t have to go looking for books all over the city and can get everything under one roof. Also
+    there is free access to internet due to which its been easier for us to access online books for free. For me this
+    library has become a great place to socialize with my community members, as I can get to know people that have the
+    same interests as I do. This helps me to build relationships with people of similar interests.
+    <br>
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <span>If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com</span>
+
+    <br>
+    <br>
 </body>
 
 </html>
