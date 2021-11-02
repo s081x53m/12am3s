@@ -5,16 +5,560 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        /* styling text content */
+        body {
+            padding-top: 4px;
+            padding-left: 15px;
+            padding-right: 15px;
+            line-height: 23px;
+            text-align: justify;
+            font-family: sans-serif;
+            font-size: 16px;
+            word-spacing: 2px;
+        }
+
+        center {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        h3 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        span {
+            font-weight: bold;
+            font-size: 16px;
+        }
+    </style>
 </head>
 
 <body>
+
     <br>
-    <center>
-        <h3 style="color:red">Notes will be available soon</h3>
-    </center>
+    <center>Unit 10
+        <br>
+        Career Opportunities</center>
+
     <br>
+    <br>
+    <h3>Working with words </h3>
+
+    <br>
+
+    <span>A. Complete the sentences with the correct words from the box below.</span>
+    <br>
+    <br>
+    a. You must learn about 2000 Kanji to develop <b>competence</b> in the spoken Japanese language.
+    <br>
+    <br>
+    b. I can type both English and Nepali but not as fast as <b>professional</b> typists.
+    <br>
+    <br>
+    c. When she was in class eight, she got the <b>opportunity</b> to participate in a national painting competition.
+    <br>
+    <br>
+    d. The Prime Minister gave a long list of his <b>achievement</b>.
+    <br>
+    <br>
+    e. He spent many years in jail before reaching the <b>position</b> of a minister.
+    <br>
+    <br>
+    f. About fifty workers were made <b>redundant</b> because of the financial crisis in the factory.
+    <br>
+    <br>
+    g. He is affiliated to the World Bank as a senior <b>consultant</b>.
+    <br>
+    <br>
+    h. They registered my application after making <b>verification</b> of my documents.
+    <br>
+    <br>
+    i. I requested my teacher to be my <b>referee</b> in my CV.
+    <br>
+    <br>
+    j. To make our country self-sustained in food production is an <b>imperative</b> need at present.
+    <br>
+    <br>
+    <br>
+    <span>B. Define the following employment-related terms and use them in the sentences of your own.</span>
+    <br>
+    <br>
+    <b>Volunteering :</b> <i>work for an organization without being paid.</i>
+    <br>
+    Volunteering is an easy way to get involved in practical conservation.
+    <br>
+    <br>
+    <b>On the job training :</b> <i>a practical approach to acquiring new skills.</i>
+    <br>
+    I learned the skills necessary to be a top music producer on the job training.
+    <br>
+    <br>
+    <b>Career opportunity :</b> <i>a particular job that may be a steppingstone to loftier ambitions.</i>
+    <br>
+    Networking opens a lot more career opportunities and at a faster rate.
+    <br>
+    <br>
+    <b>Skill development :</b> <i>the method of detecting skill gaps and improving these skills.</i>
+    <br>
+    The social skill development needs to be going on all the time.
+    <br>
+    <br>
+    <b>Apprenticeship :</b> <i>the position of an apprentice.</i>
+    <br>
+    He served his apprenticeship as a fitter.
+    <br>
+    <br>
+    <b>Career counselling :</b> <i>a type of support provided by career counselors to their clients.</i>
+    <br>
+    They oversee career counseling programs and testing which measures students.
+    <br>
+    <br>
+    <b>Credentials :</b> <i>something that gives a title to credit or confidence</i>
+    <br>
+    His campaign has refused to credential any reporter from that outlet.
+    <br>
+    <br>
+    <b>Human capital :</b> <i>the economic value of a worker's experience and skills.</i>
+    <br>
+    Investment in education is seen as the key to improving human capital.
+    <br>
+    <br>
+    <b>Internship :</b> <i>a period of work experience offered by an organization for a limited period of time.</i>
+    <br>
+    He served his medical internship at Norvic Hospital.
+    <br>
+    <br>
+    <b>Soft skills :</b> <i>character traits skills that characterize a person's relationships with other people.</i>
+    <br>
+    Veterans should be valued for their soft skills more than their hard technical skills.
+    <br>
+    <br>
+    <b>Minimum wage :</b> <i>the lowest wage per hour that a worker may be paid, as mandated by federal law.</i>
+    <br>
+    The country requires a minimum wage because workers paid below the poverty line have an added cost on society.
+    <br>
+    <br>
+    <b>Recruitment :</b> <i>the action of enlisting new people in the armed forces.</i>
+    <br>
+    An excellent career opportunity has now arisen with a leading recruitment agency.
+    <br>
+    <br>
+    <b>Role model :</b> <i>a person looked to by others as an example to be imitated.</i>
+    <br>
+    She was a great role model and indeed a great mentor to me.
+    <br>
+    <br>
+    <b>Aptitude :</b> <i>a natural ability to do something.</i>
+    <br>
+    He has demonstrated a great aptitude for carpentry skills.
+    <br>
+    <br>
+    <b>Assessment :</b> <i>the action of making a judgment about someone or something</i>
+    <br>
+    It's a difficult problem that requires careful assessment.
+    <br>
+    <br>
+    <br>
+    <span>
+        C. Based on their pronunciation, divide the following words into two groups so that the vowel sounds rhyme with
+        here and hare.
+    </span>
+    <br>
+    <br>
+    <b>Here /h&#618;&#601;/</b>
+    <br>
+    Fear, beer, ear, leer, cheer, sheer, shear, tear (n.), mere, deer, dear, clear, sneer, gear
+    <br>
+    <br>
+    <b>Hare /h&#603;&#720;/</b>
+    <br>
+    Fare, fair, bear, bare, care, heir, air, share, lair, chair, share, tear (v.), mare, dare, snare
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Comprehension</h3>
+    <br>
+    <span>Answer the following questions.</span>
+    <br>
+    <br>
+    <span>a. What does a CV mean and why is it important in one&rsquo;s career?</span>
+    <br>
+    Curriculum vitae is a Latin term that literally means &lsquo;course of life&rsquo;. In practice, it is a
+    document that sets out a whole host of your personal details, experience and achievements as they relate to your
+    working life.
+    <br>
+    It is important because it provides with a crucially important opportunity to reflect on and plan further
+    developments in one&rsquo;s career. It is need when applying for jobs, seeking promotion and trying to get
+    research funding.
+    <br>
+    <br>
+    <span>b. Does the same CV work for all job opportunities? Why or why not?</span>
+    <br>
+    Yes, the same CV works for all job opportunities but it&rsquo;s better to make slight tweaks to ensure that the
+    CV highlights your most relevant skills and qualifications on the basis of job description and uses terminology
+    found in the job listing.
+    <br>
+    <br>
+    <span>c. What are the different areas where CV can help you?</span>
+    <br>
+    A good CV is required when applying for jobs, seeking promotion and trying to get research funding. It helps for
+    things such as when you&rsquo;re asked to be an external examiner for a course or a research thesis; for audits
+    of teaching and research activity; if your faculty or department has to be validated by an external professional
+    body &ndash; in short, any circumstances in which somebody needs to judge your individual professional
+    competence or that of you and your colleagues collectively.
+    <br>
+    <br>
+    <span>d. What do you mean by &lsquo;staying CV&rsquo; and &lsquo;leaving CV&rsquo;? Which one would you develop for yourself as a freshman?</span>
+    <br>
+    A &lsquo;staying CV&rsquo; is that of the good university citizen, including plenty of committee work and
+    administration, pastoral care of students, a heavy teaching load as well as a credible research record. A
+    &lsquo;leaving CV&rsquo; is that which reflect the interests of a prospective new employer and will probably
+    highlight research achievements, while still showing that you are generally competent and willing across the
+    range of duties undertaken by academics.
+    <br>
+    I would develop a leaving CV for myself as a freshman.
+    <br>
+    <br>
+    <span>e. How can you draft a good CV?</span>
+    <br>
+    One can draft a good CV with the help of your friends, family, mentors and more experienced colleagues. A basic
+    framework can be used to structure your recollections and thinking. You should show your draft CV to people who
+    know you and/or who know what an academic CV should look like and ask for feedback. In this way, you can draft a
+    good CV.
+    <br>
+    <br>
+    <span>f. What is the difference between academic CV and non-academic CV?</span>
+    <br>
+    There are two key differences between academic and non-academic CVs. One is that academic CVs tend to be quite a
+    bit longer than those of non-academics, and they get longer as a person&rsquo;s career develops. A second, and
+    perhaps more fundamental, difference is that non-academics, especially when they are seeking middle management
+    positions, are frequently encouraged to make largely unverifiable assertions about their qualities and skills
+    rather than to list verifiable achievements.
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Critical thinking</h3>
+    <br>
+    <span>
+        a. CV may not represent a person&rsquo;s skills and abilities accurately because one&rsquo;s confidence cannot
+        be rendered in a paper. What do you think the employers should do to find the best people for the job?
+    </span>
+    <br>
+    <br>
+    It&rsquo;s true that CV may not represent a person&rsquo;s skills and abilities accurately because one&rsquo;s
+    confidence cannot be rendered in a paper. Employers prefer candidates who can communicate effectively. Oral and
+    written communication is a key skill needed in almost every job. In my view, instead of judging the ability of a
+    person by a piece of paper, employers can divide the selection process in three steps. First step is to get
+    acquainted with the willing participants. Employers can introduce their company terms and conditions to the
+    participants and if they think they can work under the conditions, then they can be invited for further process.
+    Next step is cover letter explanation. In this step the employers should judge the person&rsquo;s behaviors,
+    skills, their character and ability whether they could perform well in the company or not. Last but not the
+    least step is calling the selected candidate to participate intelligently to join colleagues at weekly Friday
+    lunch where everyone &ldquo;talked shop&rdquo;. Employees are meant to work in team. So only a person should not
+    take their interview. Every person who is already in the company should get a chance to talk to them and decide
+    whether they can work with him/her or not. These are the things the employers should do to find the best people
+    for the job rather than focusing on CV only.
+    <br>
+    <br>
+    <br>
+    <span>
+        b. If the employers provide job opportunity by assessing one&rsquo;s CV, how can fresh graduates compete with
+        the experienced competitors?
+    </span>
+    <br>
+    <br>
+    In today&rsquo;s competitive job market, having a degree and doing good work unfortunately may not be quite
+    enough to land you the job you. In order to get yourself one step closer than other graduates to your dream job,
+    you have to stand out from the crowd and make a good impression on your potential employers.
+    <br>
+    <br>
+    For some careers you will be required to have achieved a good degree in a specified area, however a lot of the
+    time employers are looking for more than just a great set of exam results in their prospective employees. They
+    want candidates with personality and the right combination of soft skills, in areas such as interpersonal and
+    leadership. Many fresh graduates have no idea on how to write a good CV. Most use the same resume template and
+    end up having CVs with similar format. To make yours stand out, you should break the mould and be creative. If
+    you&rsquo;re applying for a creative industry, you may wish to opt for something a bit out-of-the-box or
+    visually impressive that will really make it stand out from others. By doing this a fresh graduate can compete
+    with the experienced competitors.&#8195;
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Writing</h3>
+    <br>
+    <span>
+        A. Study the following advertisement. Write an application for one of the positions. Prepare your CV too that
+        suits for the job.
+    </span>
+    <br>
+    <br>
+    <u><i><b>Application:</b></i></u>
+    <br>
+    <br>
+    Bharatpur-7, Chitwan.
+    <br>
+    6th June 2021
+    <br>
+    <br>
+    <b>To:</b>
+    <br>
+    The Assistant Director,
+    <br>
+    MM Construction Pvt. Ltd.,
+    <br>
+    Satdobato Marg,
+    <br>
+    Lalitpur.
+    <br>
+    <br>
+    <p style="text-align: center; font-weight: bold;">Subject : Application for The Post of Civil Engineer</p>
+    <br>
+    Dear Sir,
+    <br>
+    With reference to your advertisement in THE PIONEER on 2nd July inviting application for the post of a civil
+    engineer under your authority, I beg to offer myself as a candidate for the same. My qualifications and
+    experience are given below.
+    <br>
+    <br>
+    I passed my civil engineering examination from the IOE, Pulchowk Campus in first division and also got degree in
+    B.Sc. Physics (Hons.) I have an excellent academic career and have won many scholarship and awards during my
+    school and college life.
+    <br>
+    <br>
+    I worked in ArEiCon Engineers Pvt. Ltd. &ndash; Lalitpur for five years and during the period tried advanced
+    techniques which proved to be highly beneficial to the firm. At present I have been working with Global Impex
+    International Pvt. Ltd. for the last four years. The job involves administrative and supervisory duties. In
+    recognition of my services, the company has offered me further incentives in the form of special bonus. But this
+    job does not have much future. So I seek a job under you which will open new avenues for my career. I am ready
+    to work at any of the branches.
+    <br>
+    <br>
+    I have attached my CV to the email for your reference. Please have a look at it.
+    <br>
+    <br>
+    I hope to meet you and discuss this opportunity further. Thank you for considering my application for the role.
+    <br>
+    <br>
+    I may assure you if I am given the job, I shall work diligently.
+    <br>
+    <br>
+    Yours Faithfully,
+    <br>
+    Manoj Poudel
+    <br>
+    <br>
+    <br>
+    <u><i><b>CV:</b></i></u>
+    <br>
+    <br>
+    <b>Manoj Poudel</b>
+    <br>
+    <br>
+    Pashupati Vision Complex, Ring Road, Kathmandu 44600
+    <br>
+    <br>
+    <b>T:</b> 01-4113713
+    <br>
+    <br>
+    <b>M:</b> 981-234-5678
+    <br>
+    <br>
+    <b>E:</b> manojpoudel@gmail,com
+    <br>
+    <br>
+    <br>
+    <b>PERSONAL SUMMARY</b>
+    <br>
+    An ambitious and dedicated civil engineer with strong practical and technical skills and a range of experience
+    within construction engineering and project management. Having a sound knowledge of designing, testing and
+    evaluating a designs overall effectiveness, cost, reliability, and safety. Currently seeking a challenging
+    professional civil or structural engineering position either in the UK or abroad and willing to consider
+    permanent or short term contracts.
+    <br>
+    <br>
+    <br>
+    <b>CAREER HISTORY</b>
+    <br>
+    <br>
+    <b>SENIOR CIVIL ENGINEER</b> &ndash; Global Impex International Pvt. Ltd.
+    <br>
+    <i>January 2018 &ndash; present</i>
+    <br>
+    &bull; Directing tasks to a multi-disciplined team of staff.
+    <br>
+    &bull; Arranging the planning and scheduling of work.
+    <br>
+    &bull; Creating Monthly Quality Audits.
+    <br>
+    &bull; Carrying out spot inspections on welding, pipe cleanliness, compression fitting installation etc.
+    <br>
+    &bull; Liaison with engineers, designers, local authorities, contractors and suppliers.
+    <br>
+    <br>
+    <b>CIVIL ENGINEER</b> &ndash; ArEiCon Engineers Pvt. Ltd.
+    <br>
+    <i>April 2013 &ndash; January 2018</i>
+    <br>
+    &bull; Involved in a project that included the construction, maintenance and repair work on motorways.
+    <br>
+    &bull; Designing and supervising of motorway maintenance works.
+    <br>
+    &bull; Responsible for the design and development of bridge maintenance schemes.
+    <br>
+    &bull; Maintaining non-conformance / non-compliance records and logs.
+    <br>
+    &bull; Responsible for quality control of engineering and construction documents.
+    <br>
+    <br>
+    <br>
+    <b>PROFESSIONAL EXPERIENCE</b>
+    <br>
+    <br>
+    <b>Civil Engineering</b>
+    <br>
+    &bull; Able to understand a client&rsquo;s quality compliance requirements and then make sure they are met.
+    <br>
+    &bull; Have worked for both public and private sector clients.
+    <br>
+    &bull; Excellent communication skills and able to work closely with both clients and other specialists such as
+    architects and building contractors
+    <br>
+    &bull; Ability to carry our detailed feasibility studies for projects to ensure the most effective and efficient
+    utilization of materials, equipment and labour.
+    <br>
+    &bull; Experience of using the latest computer software for modeling and design purposes.
+    <br>
+    <br>
+    <b>Project Management</b>
+    <br>
+    &bull; Arranging and chairing meetings with clients.
+    <br>
+    &bull; Ability to liaise with key project stake holders like the clients, water companies, the Environment
+    Agency, local authorities and also utility companies.
+    <br>
+    &bull; Experience of designing, project managing &amp; liaising with clients.
+    <br>
+    &bull; Directing outside consultants in construction activities.
+    <br>
+    &bull; Assisting in the pricing of tender enquiries and valuations.
+    <br>
+    <br>
+    <br>
+    <b>KEY COMPETENCIES AND SKILLS</b>
+    <br>
+    <br>
+    Structural Design
+    <br>
+    Inspections
+    <br>
+    Quality assurance
+    <br>
+    Certification
+    <br>
+    Surveying
+    <br>
+    Project management
+    <br>
+    Strategic planning
+    <br>
+    Feasibility studies
+    <br>
+    AutoCad
+    <br>
+    Highway design
+    <br>
+    Producing ACAD plans
+    <br>
+    Site supervision
+    <br>
+    <br>
+    <br>
+    <b>TECHNICAL SKILLS AND EXPERTISE</b>
+    <br>
+    <br>
+    AutoCAD
+    <br>
+    Autotrack
+    <br>
+    Autosign
+    <br>
+    Signplot
+    <br>
+    Microstation 2D &amp; 3D
+    <br>
+    Inroads
+    <br>
+    <br>
+    <br>
+    <b>ACADEMIC QUALIFICATIONS</b>
+    <br>
+    <br>
+    BSC Civil Engineering 2009
+    <br>
+    B.Sc. Physics (Hons.), 2011
+    <br>
+    Jan 2012 Introduction to AutoCad 2012
+    <br>
+    Sept 2012 CIWEM Sewerage and Waste Water Treatment Seminar
+    <br>
+    Sept 2012 CDM Regulations 2007 and compliance
+    <br>
+    <br>
+    <br>
+    <b>REFERENCES &ndash;</b> available on request.
+    <br>
+    <br>
+    <b>Driving license:</b> Yes
+    <br>
+    <br>
+    <b>DOB:</b> 1985
+    <br>
+    <br>
+    <b>Languages:</b> English, Nepali, Hindi
+    <br>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    
     If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com
+    <br><br>
 </body>
 
 </html>
