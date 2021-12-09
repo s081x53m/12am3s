@@ -5,16 +5,93 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        /* styling text content */
+        body {
+            padding-top: 4px;
+            padding-left: 15px;
+            padding-right: 15px;
+            line-height: 23px;
+            text-align: justify;
+            font-family: sans-serif;
+            font-size: 16px;
+            word-spacing: 2px;
+        }
+
+        center {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        h3 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        span {
+            font-weight: bold;
+            font-size: 16px;
+        }
+    </style>
 </head>
 
 <body>
+
     <br>
-    <center>
-        <h3 style="color:red">Notes will be available soon</h3>
-    </center>
+    <center>The Treasure in the Forest</center>
     <br>
-    If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com
+    <br>
+    <h3>Summary</h3>
+    <br>
+    Lu Xun's "My Old Home" tells the story of one's memories, from youth to old age, and the confrontation of the delusions created when memories challenge realities. With the protagonist, Lu Xun's persona, being away from home for so many years, images of glamour, beauty, and respectability framed his childhood, diluting his memories. Upon arriving at his long-past home, his memories are forced to come to terms with the truth, thereby shattering his prior conceptions and understandings of the world. 
+    <br>
+    <br>
+    "Ah! Surely this was not the old home I had remembered for the past twenty years?" the narrator declared as he stood in front of an old, broken-down home. Having been worn down by weather and inhabitants, alike, the house's old, perceived, splendor was invisible to the eye, only to be seen in that of the mind. Rationalizing the discrepancy between memory and that standing before him, he tried to convince himself that his "home had always been like this, and although it had not improved, it was not so depressing as imagined; it was only his mood that had changed, because he was coming back to the country without illusions". Despite his rationalization, it was clear that his memories had deceived him; having transformed his past home into a grand building it had never been, only to be torn down for re-evaluation along with his other assumed childhood memories that had been built into the magnificent illusions.
+    <br>
+    <br>
+    After recovering from the shock of seeing his old home, he was informed that his old friend, Jun-Tu, would be returning to town to visit him. Over thirty years had passed since the narrator had last seen his friend, Jun-Tu, and at first, memories were scarce. After pausing for a moment, "a strange picture suddenly flashed into his mind". Stories, ripe from the passing of time, filled the narrator's mind. He was full from the fleshy details he recalled, from the glory of his friend, Jun-Tu's sea-side childhood. Oh, how he wished he could be Jun-Tu. His stories were like candy, appealing to a child and idealized in every way, shape, and form. The narrator could no long wait to reacquaint himself with Jun-Tu; he wanted to hear more of the sea-side glamour. Upon his long-awaited arrival, the narrator was flustered from anticipation. "Jun-Tu stood there, mixed joy and sadness showing on his face. His lips moved, but not a sound did he utter. Finally, assuming a respectful attitude, he said clearly: "Master! . . ." The narrator's memories had deceived him once again. Had Jun-Tu not been his friend? Had they not played together and shared stories with one another? As a child, the narrator was unable to understand class differentiation. He remembered, due to his childhood naivety, that his time with Jun-Tu was that of a mutual friendship. This memory grew until it reached utopian standards. Their friendship had been perfect, he had believed.
+    <br>
+    <br>
+    The narrator's childhood was shattered. His house was not as it had seemed. Jun-Tu had not even been his equal, living a glorified, sea-side life. Memories had deceived the narrator, blurring truth, ignoring class boundaries, forgetting the power money possessed. How such a divide could form between himself and Jun-Tu, memories and truth was unfathomable to the narrator. The true fickleness of one’s mind and one's memories, of one's past, became apparent. One cannot trust one's recollections of the past. The mind changes the past, glorifies it, in order to glorify the individual. By seeing himself as Jun-Tu's equal, the narrator was able to separate himself from the wrongs associated with class differences. His having to face the truth, having to face Jun-Tu, means having to face poverty within China. His memories had provided a means of protection, a way to detach himself from the inequalities Chinese society produced. Only by confronting his memories, by discovering the truth behind the memories, was he able to see the realities of China.
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <span>If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com</span>
+
+    <br>
+    <br>
 </body>
 
 </html>
