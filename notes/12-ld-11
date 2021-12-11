@@ -5,16 +5,440 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        /* styling text content */
+        body {
+            padding-top: 4px;
+            padding-left: 15px;
+            padding-right: 15px;
+            line-height: 23px;
+            text-align: justify;
+            font-family: sans-serif;
+            font-size: 16px;
+            word-spacing: 2px;
+        }
+
+        center {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        h3 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        span {
+            font-weight: bold;
+            font-size: 16px;
+        }
+    </style>
 </head>
 
 <body>
+
     <br>
-    <center>
-        <h3 style="color:red">Notes will be available soon</h3>
-    </center>
+    <center>Unit 11
+        <br>
+        Hobbies</center>
+
     <br>
+    <br>
+    <h3>Working with words </h3>
+
+    <br>
+
+    <span>A. Find the words from the text which have the following meanings.</span>
+    <br>
+    <br>
+    a. a wave-like motion
+    <br>
+    <b>undulation</b>
+    <br>
+    <br>
+    b. to make or do something again exactly in the same way
+    <br>
+    <b>replicate</b>
+    <br>
+    <br>
+    c. decayed, deteriorated, or fallen into partial ruin especially through neglect or misuse
+    <br>
+    <b>dilapidated</b>
+    <br>
+    <br>
+    d. a bright, smooth surface
+    <br>
+    <b>sheen</b>
+    <br>
+    <br>
+    e. the feeling of having no energy and enthusiasm
+    <br>
+    <b>listlessness</b>
+    <br>
+    <br>
+    f. a state of noise, commotion and confusion
+    <br>
+    <b>cacophonous</b>
+    <br>
+    <br>
+    g. being alone, often by choice
+    <br>
+    <b>solitude</b>
+    <br>
+    <br>
+    h. to regard with respect, often tinged with awe
+    <br>
+    <b>revere</b>
+    <br>
+    <br>
+    i. said in a way that is not direct, so that the real meaning is not immediately clear
+    <br>
+    <b>obliquely</b>
+    <br>
+    <br>
+    <br>
+    <span>B. Find the meaning of the following words from a dictionary.</span>
+    <br>
+    <br>
+    <b>Sophisticated :</b> deprived of native or original simplicity, highly complicated
+    <br>
+    <br>
+    <b>Conscious :</b> likely to notice, consider or appraise
+    <br>
+    <br>
+    <b>Blistering :</b> extremely intense or severe
+    <br>
+    <br>
+    <b>Proximity :</b> immediately preceding or following
+    <br>
+    <br>
+    <b>Invisible :</b> inaccessible to view, recognize or identify
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Comprehension</h3>
+    <br>
+    <span>Answer the following questions.</span>
+    <br>
+    <br>
+    <span>a. What is the author&rsquo;s favourite hobby? Why does she like it so much?</span>
+    <br>
+    The author&rsquo;s favourite hobby is walking. She likes it so much because the movement, the rhythm, the
+    undulation of the senses and of the body it initiates is enjoyable.
+    <br>
+    <br>
+    <span>b. What sorts of roads did the writer prefer to walk on when she was very young?</span>
+    <br>
+    The writer preferred to walk on the roads that were unpaved and uneven, like the paths around her mamaghar when
+    she was very young.
+    <br>
+    <br>
+    <span>c. How did walking give the author and her classmates a sense of freedom?</span>
+    <br>
+    Walking gave the author and her classmates a sense of freedom because they could be free-willed masters of their
+    time and could find their own way.
+    <br>
+    <br>
+    <span>d. In what ways were the roads in Kathmandu different from the ones in Sydney?</span>
+    <br>
+    The roads in Sydney were far quieter and organized when compared to the cacophonous streets of Kathmandu.
+    <br>
+    <br>
+    <span>e. How did walking help the author in the new country?</span>
+    <br>
+    Walking was an escape of all kinds of pressures, a search for pace and a rhythm to the author. It helped her to
+    navigate the new country and it renewed the circumstances of her life.
+    <br>
+    <br>
+    <span>f. What were the treasures of Petersham, where the writer lived with her family?</span>
+    <br>
+    The treasures of Petersham, where the writer lived with her family were a tiny park which was a minute down the
+    Parramatta road, another park with a huge rock at one end, a buffer zone suburb etc.
+    <br>
+    <br>
+    <span>g. What things became her permanent friends with whom she could share her feelings?</span>
+    <br>
+    The components of nature such as the earth, the sky, the trees, water, air became her permanent friends with
+    whom she could share her feelings.
+    <br>
+    <br>
+    <span>
+        h. Why did she feel that she had travelled to &lsquo;a desert, to emptiness&rsquo; as she went to the United
+        States?
+    </span>
+    <br>
+    She felt that she had travelled to &lsquo;a desert, to emptiness&rsquo; as she went to the United States because
+    people living there were running after material pursuit and comfort because of which she felt lonely and a
+    barrier of communication with them.
+    <br>
+    <br>
+    <span>i. Why did the author eventually feel that the strange city was known to her?</span>
+    <br>
+    Eventually the author felt that the strange city was known to her because she found the place similar to every
+    other place on the earth. The essence of the nature she felt in the strange city was same to the one she found
+    in her hometown.
+    <br>
+    <br>
+    <span>j. How did walking make her feel at home with different places she visited?</span>
+    <br>
+    Walking made her feel thankfulness to all the streets she walked on because they gave shape to her feet, her
+    body and her being.
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Critical thinking</h3>
+    <br>
+    <span>a. Do you believe that walking helps us understand ourselves? Give reasons in support of your opinion.</span>
+    <br>
+    Yes, I believe that walking helps us to understand ourselves. Walking provides the best of both worlds. It
+    offers the physical benefits of exercise while also boosting your emotional well-being. It can help reduce
+    anxiety, depression, and a negative mood. It can also boost self-esteem and reduce symptoms of social
+    withdrawal. Walking also helps to clear our head and think creatively. It opens up a free flow of ideas and is a
+    simple way to increase creativity and get physical activity at the same time. While walking we interact with our
+    inner self, we evaluate ourselves, our works, our behavior. This makes us realize actually who we are.
+    Understanding ourselves means self-realization which can happen when we are alone and submerged with natural
+    world. Thus it&rsquo;s true that walking helps us to understand ourselves.
+    <br>
+    <br>
+    <br>
+    <span>b. Think of one of your hobbies. How does this hobby relate to your psyche and self?</span>
+    <br>
+    Hobbies are seen as markers of a balanced person who is adept at juggling personal and professional well-being.
+    I have only one hobby. Yet, it consumes all my free time. I enjoy reading and have always been a voracious
+    reader.
+    <br>
+    <br>
+    Although I prefer reading fiction, I make a deliberate effort to read at least one non-fiction book in a couple
+    of months.
+    <br>
+    <br>
+    My first book was &ldquo;Famous Five Go to Kirrin Island&rdquo; at the age of ten. What I truly treasure about
+    my hobby is its power to transport me to different locations whilst I&rsquo;m still on my couch.
+    <br>
+    <br>
+    It is a low budget travel option that I often take! Recently, I started attending book club meetings.
+    <br>
+    <br>
+    It&rsquo;s a group of 15 individuals and we meet on the third Sunday, every month to discuss books that we have
+    read in that month.
+    <br>
+    <br>
+    It&rsquo;s wonderful how a few lines can have so many varied interpretations, and can give rise to a multitude
+    of emotions and opinions.
+    <br>
+    <br>
+    My hobby has made me develop analytical thinking and open-mindedness.
+    <br>
+    <br>
+    Reading has also broadened my imagination across horizons. I wouldn&rsquo;t possibly trade it for anything else,
+    ever!
+    <br>
+    <br>
+    <br>
+    <span>c. Many people turn their hobbies into careers. Is it good to turn one's hobby into a career?</span>
+    <br>
+    Yes, it&rsquo;s true that many people turn their hobbies into careers. But what I think that is; a big decision
+    of whether to turn a hobby into a career is a godsend for some lucky folks, but for other poor souls, it&rsquo;s
+    not all it&rsquo;s cracked up to be. Whether you&rsquo;re looking to go freelance, set up a limited company or
+    become a sole trader, making hobby turn into livelihood can be a messy business. Hobbies are really important
+    for personal growth and enjoyment, and the last thing you want to do is turn a form of escapism from the hustle,
+    bustle, and grind of everyday life into something stressful and pressurized. To sum up, if a person is truly
+    passionate about his/her carry, then he/she can easily turn their hobby into a career else it&rsquo;s going to
+    be a great suffering.
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Writing</h3>
+    <br>
+    <span>
+        a. Highlighting the advantages of walking, Henry David Thoreau says, &ldquo;An early morning walk is a blessing
+        for the whole day.&rdquo; Write an essay on the advantages of morning walk.
+    </span>
+    <br>
+    <br>
+    <p style="text-align: center; font-weight: bold;">Advantages of morning walk</p>
+    <br>
+    The modern-day world is full of psychological disorders, poor health, mental tension, and many more problems.
+    Likewise, the life of some people is like a mad rush from one work to another without any break. Besides, there
+    are very few people in the world that care about their health more than their work or daily tasks. But, there
+    are ways by which we can restore our healthfully and morning walk is one of them. Additionally, it is so
+    effective that it can reduce the amount of health disorder from the world.
+    <br>
+    <br>
+    From childhood, we have heard that &ldquo;early to bed and early to rise makes a man healthy, wealthy and
+    wise.&rdquo; This is not just a saying because morning walks make a man healthy and wise.
+    <br>
+    <br>
+    Moreover, it improves the physical shape and state of the body which protects us from many diseases. Besides,
+    all this morning walks create a sense of equality among the people.
+    <br>
+    <br>
+    Above all, morning walk gives you energy, motivates you to avoid laziness, creates a positive mindset, it is
+    good for your organs especially heart, and it gives you time to plan your schedule. According to research, the
+    best time for a morning walk is in the latter part of the afternoon between 3 pm to 7 pm.
+    <br>
+    <br>
+    To sum it up, we can say that, Morning walk is very important for the body. Also, it helps to keep the body and
+    mind healthy. Besides, everyone whether kids or elders should try to make a morning walk a part of their daily
+    routine. As it is seen that the life span of people who walk daily is more in comparison to those who do not do
+    morning walk.
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Grammar</h3>
+    <br>
+    <span>B. Change the following sentences into passive voice.</span>
+    <br>
+    <br>
+    <span>a. I want someone to love me.</span>
+    <br>
+    I want to be loved.
+    <br>
+    <br>
+    <span>b. Someone broke into our house while we were on holiday.</span>
+    <br>
+    Our house was broken into while we were on holiday.
+    <br>
+    <br>
+    <span>c. I don&rsquo;t like people staring at me.</span>
+    <br>
+    I don&rsquo;t like being stared at.
+    <br>
+    <br>
+    <span>d. Is it true that someone stole your car?</span>
+    <br>
+    Is true that your car was stolen?
+    <br>
+    <br>
+    <span>e. The cat enjoys someone tickling him.</span>
+    <br>
+    The cat enjoys being tickled.
+    <br>
+    <br>
+    <span>f. Would Swostika open the window?</span>
+    <br>
+    Would the window be opened by Swostika?
+    <br>
+    <br>
+    <span>g. Did they confess the crime?</span>
+    <br>
+    Was the crime confessed by them?
+    <br>
+    <br>
+    <span>h. He thinks that someone is teaching Jennie.</span>
+    <br>
+    He thinks that Jennie is being taught.
+    <br>
+    <br>
+    <span>i. Sabina hates people laughing at her.</span>
+    <br>
+    Sabina hates being laughed at.
+    <br>
+    <br>
+    <br>
+    <span>C. Complete the following sentences as in the example.</span>
+    <br>
+    <br>
+    <span>a. English people think that the number thirteen is unlucky.</span>
+    <br>
+    The number thirteen <b><i>is thought to be</i></b> unlucky by English people.
+    <br>
+    <br>
+    <span>b. What are you wearing for the wedding?</span>
+    <br>
+    Actually, I am having a<b><i> suit made</i></b> (a suit make). They will give it tomorrow.
+    <br>
+    <br>
+    <span>c. The carpet in our drawing room is very dirty.</span>
+    <br>
+    It needs <b><i>to be cleaned</i></b> (clean).
+    <br>
+    <br>
+    <span>d. There are rumours that the factory at the corner is manufacturing bombs.</span>
+    <br>
+    The factory at the corner is rumoured <b><i>to be manufacturing</i></b> bombs.
+    <br>
+    <br>
+    <span>e. Some people believe that Silajit from Jumla cures all indigestion problems.</span>
+    <br>
+    Silajit from Jumla <b><i>is believed to cure</i></b> all digestion problems.
+    <br>
+    <br>
+    <span>f. People claim that Changu Narayan temple is the oldest temple in Nepal.</span>
+    <br>
+    Changu Narayan temple <b><i>is claimed to be</i></b> the oldest temple in Nepal.
+    <br>
+    <br>
+    <span>g.</span>
+    <br>
+    A: Your car is making a terrible noise.
+    <br>
+    B: Thank you. I am not a mechanic and I will <b><i>make it be repaired</i></b> soon. (repair).
+    <br>
+    <br>
+    <span>h. The police suspect that the criminal left the country.</span>
+    <br>
+    The criminal <b><i>is suspected to leave</i></b> the country.
+    <br>
+    <br>
+    <span>i.</span>
+    <br>
+    A: Where are you going?
+    <br>
+    B: I am going to the stationery to get <b><i>my document photocopied</i></b>. (my document /photocopy)
+    <br>
+    <br>
+    <span>j. People allege that the corrupt leader has embezzled millions of rupees.</span>
+    <br>
+    The leader <b><i>is alleged to embezzle</i></b> millions of rupees.
+    <br>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+
     If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com
+    <br><br>
 </body>
 
 </html>
