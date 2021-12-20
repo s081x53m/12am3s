@@ -5,16 +5,416 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        /* styling text content */
+        body {
+            padding-top: 4px;
+            padding-left: 15px;
+            padding-right: 15px;
+            line-height: 23px;
+            text-align: justify;
+            font-family: sans-serif;
+            font-size: 16px;
+            word-spacing: 2px;
+        }
+
+        center {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        h3 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        span {
+            font-weight: bold;
+            font-size: 16px;
+        }
+    </style>
 </head>
 
 <body>
+
     <br>
-    <center>
-        <h3 style="color:red">Notes will be available soon</h3>
-    </center>
+    <center>Unit 12
+        <br>
+        Animal World</center>
+
     <br>
+    <br>
+    <h3>Working with words </h3>
+    <br>
+    <span>A. Find the words from the text which have the following meanings.</span>
+    <br>
+    <br>
+    a. Persons who are related to you and who live after you, such as your child or grandchild are called <b>descendants</b>.
+    <br>
+    <br>
+    b. <b>&lsquo;Twirl&rsquo;</b> means to turn or spin around and around quickly
+    <br>
+    <br>
+    c. <b>Glycoproteins</b> are proteins which contain oligosaccharide chains (glycans) attached to amino acid side-chains
+    <br>
+    <br>
+    d. <b>Lectins</b> are carbohydrate-binding proteins that are highly specific for sugar groups that are part of other
+    molecules and so cause agglutination of particular cells.
+    <br>
+    <br>
+    e. <b>Polyps</b> are abnormal tissue growths that most often look like small, flat bumps or tiny mushroom like stalks found
+    in the phylum Cnidaria and the medusa
+    <br>
+    <br>
+    f. <b>Predation</b> is a biological interaction where one organism, the predator, kills and eats another organism, its
+    prey.
+    <br>
+    <br>
+    g. <b>Anemone</b> is a genus of flowering plants in the buttercup family.
+    <br>
+    <br>
+    h. A/An <b>finicky</b> person is extremely or excessively particular, exacting, or meticulous in taste or standards.
+    <br>
+    <br>
+    i. <b>Nudibranch</b> is a group of soft-bodied, marine gastropod molluscs which shed their shells after their larval stage.
+    <br>
+    <br>
+    j. A <b>medusa</b> is a free-swimming sexual form of a coelenterate such as a jellyfish, typically having an
+    umbrella-shaped body with stinging tentacles around the edge.
+    <br>
+    <br>
+    <br>
+
+    <span>B. Look up a dictionary and write the meanings of the following words then use them in your own sentences.</span>
+    <br>
+    <br>
+    <b>Arthropod :</b><i> an invertebrate animal of the large phylum Arthropoda</i>
+    <br>
+    Many arthropod animals undergo physiological changes that smooth their integration.
+    <br>
+    <br>
+    <b>Gastropod :</b><i> a mollusc of the large class Gastropoda</i>
+    <br>
+    The problem of the causes of the torsion of the Gastropod body has been much discussed.
+    <br>
+    <br>
+    <b>Biomass :</b><i> the total quantity or weight of organisms in a given area or volume</i>
+    <br>
+    Energy from biomass is a growing source of renewable energy.
+    <br>
+    <br>
+    <b>Calcification :</b><i> the hardening of tissue or other material by the deposition of insoluble calcium compounds</i>
+    <br>
+    The extremities of the cartilages frequently undergo calcification.
+    <br>
+    <br>
+    <b>Metamorphosis :</b><i> the process of transformation from an immature form to an adult form in two or more distinct stages</i>
+    <br>
+    A butterfly is produced by metamorphosis from a caterpillar.
+    <br>
+    <br>
+    <b>Sturgeon :</b><i> a very large primitive fish with bony plates on the body</i>
+    <br>
+    Caviar is sturgeon roe prepared by a special process.&#8195;
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Comprehension</h3>
+    <br>
+    <span>Answer the following questions.</span>
+    <br>
+    <br>
+    <span>a. What are the indicators of the fact that we are very self-conscious about ourselves these days?</span>
+    <br>
+    The indicators of the fact that we are very self-conscious about ourselves these days are self-realization,
+    self-help, self-development, self-awareness, self-respect and self-enlightenment.
+    <br>
+    <br>
+    <span>b. How have we celebrated the fact that we have our individual identity?</span>
+    <br>
+    We have celebrated the fact that we have our individual identity by providing ourselves with a real name.
+    <br>
+    <br>
+    <span>c. Are we, human beings, really unique? Why/Why not?</span>
+    <br>
+    No, we human beings, aren&rsquo;t really unique. It&rsquo;s because uniqueness is so commonplace a property of
+    living things that there is really nothing at all unique about it. The phenomenon can&rsquo;t be unique and
+    universal at the same time.
+    <br>
+    <br>
+    <span>d. How do fish recognize each other?</span>
+    <br>
+    Fish recognize each other by the smell of each other.
+    <br>
+    <br>
+    <span>e. What is the function of individuality?</span>
+    <br>
+    The function of individuality is self-preservation and maintaining individuality.
+    <br>
+    <br>
+    <span>f. What does the mix-up of two selves tell us about our identity?</span>
+    <br>
+    The mix-up of two selves tells us unity and cooperation to each other is required for survival and existence.
+    <br>
+    <br>
+    <span>g. What does the author illustrate with the tale of the nudibranch and the medusa?</span>
+    <br>
+    The author illustrates the value of co-existence, cooperation, helpfulness, collaboration and togetherness with the
+    tale of the nudibranch and the medusa. It also projects the significance of friendship and dependence on each other
+    for survival and existence.
+    <br>
+    <br>
+    <span>h. Why is the author disturbed by the thought of the creatures like the nudibranch and medusa?</span>
+    <br>
+    The author is disturbed by the thought of the creatures like the nudibranch and medusa because it provides him with
+    an odd feeling and confuses in with vague and bizarre concept like a dream.
+    <br>
+    <br>
+    <span>i. What does the writer mean by &ldquo;they remind me of the whole earth at once?&rdquo;</span>
+    <br>
+    By saying &quot;they remind me of the whole earth at once'&quot;, the writer means to say that it is very
+    complicated and bizarre to justify the relationship between the creatures and non-living things of the world and as
+    more as one tries to understand, the more he/she gets confused.
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Critical thinking</h3>
+    <br>
+    <span>
+        a. How does the author make satire on the modern idea of the &lsquo;self&rsquo; based on individuality, independence
+        and uniqueness?
+    </span>
+    <br>
+    <br>
+    The author in this essay satires on the modern idea of 'self&rsquo; based on individuality, independence and
+    uniqueness. This essay is about the self and what nature can teach us. In the beginning the writer brings an
+    attention to the trend in humans on uplifting the feeling of self-based on individuality, independence and
+    uniqueness.
+    <br>
+    <br>
+    Here the author is presenting the close relationship between the nudibranch and medusa living in the Bay of Naples.
+    A mature jellyfish engulfs a tiny newly-hatched slug only to be devoured bit by bit until the snail dominates and
+    the jellyfish is reduced to a round &quot;successfully edited parasite&quot; affixed to the skin near the snail's
+    mouth. Finally the tentacles, until the jellyfish becomes reduced in substance by being eaten while the snail grows
+    correspondingly in size.
+    <br>
+    <br>
+    This essay projects both creatures cannot live in any other way, they depend for their survival on each other. The
+    author illustrates the value of co-existence, cooperation, helpfulness, collaboration and togetherness with the tale
+    of the nudibranch and the medusa. We all are important and one&rsquo;s life is determined by another like the
+    relation between anemones and crabs as well as medusa and snail. It also shows the significance of friendship and
+    dependence on each other for survival and existence. Through this, the author justifies that the modern people's
+    pride over the concept of individuality, independence and uniqueness is not applicable in the real and practical
+    life.
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Writing</h3>
+    <br>
+    <span>A. Write an essay on &ldquo;Independence vs. Interdependence&rdquo; in about 250 words.</span>
+    <br>
+    <br>
+    <p style="text-align: center; font-weight: bold;">Independence vs. Interdependence</p>
+    <br>
+    Human beings usually categorize themselves into individual or group entities. These self-conceptions usually emanate
+    in people&rsquo;s minds and determine their motivation as well as cognitions. There are usually two perceptions that
+    people have about themselves regarding their relationship with others. The first is the independent self-concept
+    where an individual&rsquo;s conception about his or her existence is that he or she exists separate from other
+    people. Independent self-concept encompasses behaviour traits, preferences and attitudes of an individual. The
+    second perception is the interdependent self-concept where a person is affiliated or feels connected to others. This
+    paper explores the advantages of interdependence as opposed to independence. Gish Jen argues that &ldquo;the joy of
+    a functioning interdependent relationship can be tremendous.&rdquo;
+    <br>
+    <br>
+    Unlike independent-self which focuses on individual responsibility separate from the entire society, interdependent
+    self-concept emphasizes shared responsibilities. The main tenet of interdependence self-concept is the reliance that
+    exists among individuals in the society for survival and mutual development. Interdependence self-instils the idea
+    that people are not alone in their attempts at mental growth and development. People also provided support for one
+    another to grow socially. Interdependent self-concept also promotes responsibility sharing by encouraging
+    individuals to take various roles, which contribute to the development and growth of the society.
+    <br>
+    <br>
+    Interdependent self-concept is also crucial for overcoming fear. Unlike independence, which puts an individual
+    against the rest of other members of the society, interdependence promotes cohesion among society members, thus
+    helping individuals to experience lower levels of fear and insecurity. The recognition of the fact that one has
+    support of others remains crucial for alleviating negative feelings, which could yield fear in individuals. Support
+    for each other is only possible in a society where people feel close to each other and the society is characterized
+    by high level of interdependence.
+    <br>
+    <br>
+    Interdependence emphasizes on how people relate with each other and get on well with existing norms of the society,
+    which dictate how people relate. Intrinsic attributes of individuals play no major role in the way individuals
+    think, feel or act. However, Jen also argues that &ldquo;we need both the interdependent and the independent
+    self,&rdquo; appealing that people from either side of self-concepts accommodates and understands each other.
+    <br>
+    <br>
+    <br>
+    <h3>B. Write a newspaper article highlighting the increasing individualism in the modern Nepali society.</h3>
+    <br>
+    <br>
+    <p style="text-align: center; font-weight: bold;">Increasing Individualism in the Modern<br>Nepali Society</p>
+    <br>
+    <b>
+        By Ramesh Thapa
+        <br>
+        March 12, 2019
+    </b>
+    <br>
+    <br>
+    Individualism is the moral stance, political philosophy, ideology and social outlook that emphasizes the intrinsic
+    worth of the individual. Individualists promote the exercise of one's goals and desires and to value independence
+    and self-reliance and advocate that interests of the individual should achieve precedence over the state or a social
+    group while opposing external interference upon one's own interests by society or institutions such as the
+    government. Individualism is often defined in contrast to totalitarianism, collectivism and more corporate social
+    forms.
+    <br>
+    <br>
+    In the modern Nepalese society, individualism is increasing rapidly. This increase appears to be due mostly to
+    increasing socio-economic development, including higher incomes, more education, urbanization, and a shift toward
+    white-collar jobs. Increases in these factors in a given region are reliably followed by gains in individualist
+    beliefs and practices in the ensuing decade Nepal comes under those few countries that bucked the global trend
+    toward individualism.
+    <br>
+    <br>
+    Rising prosperity and education are largely welcome changes that reflect not merely gains in wealth for the
+    already-wealthy, but for the desperately poor as well. Wealth, and the individualism that follows, are often
+    conflated with selfishness. This is, in part, because individualism's inverse &mdash; collectivism &mdash;
+    emphasizes close social ties and an interconnected rather than independent view of the self.
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Grammar</h3>
+    <br>
+    <span>A. Make passive sentences from the following information as in the example.</span>
+    <br>
+    <br>
+    <span>a. volleyball/every/country/play</span>
+    <br>
+    Volleyball is played in every country.
+    <br>
+    <br>
+    <span>b. spaghetti/boiling water/cook</span>
+    <br>
+    Spaghetti is cooked in boiling water.
+    <br>
+    <br>
+    <span>c. each lesson/an exercise/follow</span>
+    <br>
+    Each lesson is followed by an exercise.
+    <br>
+    <br>
+    <span>d. taxes/the price/include</span>
+    <br>
+    Taxes are included in the price.
+    <br>
+    <br>
+    <span>e. extensive information/the internet/find</span>
+    <br>
+    Extensive information is found on the internet.
+    <br>
+    <br>
+    <span>f. our order/the waiter/took</span>
+    <br>
+    Our order was taken by the waiter.
+    <br>
+    <br>
+    <span>g. the schedule/the participants/will distribute</span>
+    <br>
+    The schedule will be distributed by the participants.
+    <br>
+    <br>
+    <span>h. the police/footprint/found</span>
+    <br>
+    Footprint was found by the police.
+    <br>
+    <br>
+    <span>i. the children/the sandcastles/built</span>
+    <br>
+    The sandcastles were built by the children.
+    <br>
+    <br>
+    <span>j. the father/the window/not going to open</span>
+    <br>
+    The window is not going to be opened by the father.
+    <br>
+    <br>
+    <br>
+
+    <span>B. Rewrite the following sentences in the passive voice using the correct form of verbs in the brackets.</span>
+    <br>
+    <br>
+    a. Call the ambulance! Two boys <b>have been injured</b> (injure) in a motorbike accident.
+    <br>
+    <br>
+    b. The clock <b>has been used</b> (use) since the 17th century.
+    <br>
+    <br>
+    c. I had to wait outside the classroom while the classroom <b>was being cleaned</b> (clean).
+    <br>
+    <br>
+    d. The problem <b>is being discussed</b> (discuss) by the subject specialists at the moment.
+    <br>
+    <br>
+    e. By the time I came back, the task <b>has been finished</b> (finish).
+    <br>
+    <br>
+    f. Women <b>are said</b> (say) to be happier than men.
+    <br>
+    <br>
+    g. Look! The house <b>had been destroyed</b> (destroy) by the fire.
+    <br>
+    <br>
+    h. The other three reports <b>will be submitted</b> (submit) by next month.
+    <br>
+    <br>
+    i. Many people <b>have been resuced</b> (rescue) from the floods by the security persons this year.
+    <br>
+    <br>
+    j. The state of Florida <b>was hit</b> (hit) by a hurricane that did serious damage.
+    <br>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+
     If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com
+    <br><br>
 </body>
 
 </html>
