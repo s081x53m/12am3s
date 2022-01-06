@@ -5,16 +5,342 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        /* styling text content */
+        body {
+            padding-top: 4px;
+            padding-left: 15px;
+            padding-right: 15px;
+            line-height: 23px;
+            text-align: justify;
+            font-family: sans-serif;
+            font-size: 16px;
+            word-spacing: 2px;
+        }
+
+        center {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        h3 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        span {
+            font-weight: bold;
+            font-size: 16px;
+        }
+    </style>
 </head>
 
 <body>
+
     <br>
-    <center>
-        <h3 style="color:red">Notes will be available soon</h3>
-    </center>
+    <center>Unit 15
+        <br>
+        Leisure and Entertainment</center>
     <br>
+    <br>
+    <h3>Working with words </h3>
+    <br>
+    <span>A. The words in the crossword puzzle are from the text. Find them from the text to solve the puzzle based on
+        the clues given below.</span>
+    <br>
+    <br>
+    <b>Across</b>
+    <br>
+    <br>
+    1. outdated, of or relating to the Middle Ages : <b>Medieval</b>
+    <br>
+    3. the character and atmosphere of a place : <b>Ambience</b>
+    <br>
+    6. highly decorated : <b>Ornate</b>
+    <br>
+    7. beat with a strong, regular rhythm; survive : <b>Throb</b>
+    <br>
+    10. with the agreement of all people involved : <b>Unanimously</b>
+    <br>
+    11. the destructive effects of something : <b>Ravages</b>
+    <br>
+    <br>
+    <b>Down</b>
+    <br>
+    <br>
+    1. a large city : <b>Metropolis</b>
+    <br>
+    2. wandering from place to place without any purpose : <b>Loitering</b>
+    <br>
+    4. an unpleasant place; a place of extreme misery : <b>Hellhole</b>
+    <br>
+    5. an active revolt or uprising : <b>Insurgency</b>
+    <br>
+    8. paved with cobbles : <b>Cobbled</b>
+    <br>
+    9. prosperous and growing; flourishing : <b>Thriving</b>
+    <br>
+    <br>
+    <br>
+
+    <span>B. Look up the meanings of the following words in your dictionary.</span>
+    <br>
+    <br>
+    <b>Amenities</b>
+    <br>
+    a desirable or useful feature or facility of a building or place.
+    <br>
+    <br>
+    <b>Exquisite</b>
+    <br>
+    extremely beautiful and delicate.
+    <br>
+    <br>
+    <b>Etiquette</b>
+    <br>
+    the customary code of polite behaviour in society or among members of a particular profession or group
+    <br>
+    <br>
+    <b>Accommodation</b>
+    <br>
+    a room, group of rooms, or building in which someone may live or stay.
+    <br>
+    <br>
+    <b>Mainstay</b>
+    <br>
+    a person or thing on which something else is based or depends.
+    <br>
+    <br>
+    <b>Antique</b>
+    <br>
+    having a high value because of age and quality.
+    <br>
+    <br>
+    <br>
+    <span>C. Underline the content words in the following sentences.</span>
+    <br>
+    a. The cat sat lazily on the dirty mat.
+    <br>
+    b. She gives performances on the stage beautifully.
+    <br>
+    c. Don&rsquo;t count your chickens before they are hatched.
+    <br>
+    d. I came I saw I conquered.
+    <br>
+    e. It is my life, my very identity.
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h3>Comprehension</h3>
+    <br>
+    <span>Answer the following questions.</span>
+    <br>
+    <br>
+    <span>a. Why did the author and his classmates decide to visit Bandipur?</span>
+    <br>
+    The author and his classmates decided to visit Bandipur because all of them were fed up with the hectic pace of life
+    in the Kathmandu metropolis.
+    <br>
+    <br>
+    <span>b. What is special about Bandipur?</span>
+    <br>
+    Bandipur is special because it is a place where old Nepal still lives on in that cool, cobbled Newar settlement.
+    <br>
+    <br>
+    <span>c. How has the business changed in Bandipur today?</span>
+    <br>
+    Today, the traditional variety of business has changed into tourism-related business in Bandipur.
+    <br>
+    <br>
+    <span>d. Why do the local people who have migrated to Kathmandu visit Bandipur time and again?</span>
+    <br>
+    The local people who have migrated to Kathmandu visit Bandipur time and again because they want to be free from the
+    hectic life of Kathmandu.
+    <br>
+    <br>
+    <span>e. How do the local people learn to speak English in Bandipur?</span>
+    <br>
+    The local people learn to speak English in Bandipur from the local school children.
+    <br>
+    <br>
+    <span>f. What does the author mean when he says that &lsquo;time stops in the town of Bandipur&rsquo;?</span>
+    <br>
+    When the author says that &quot;time stops in the town of Bandipur', he means to appreciate the natural beauty of
+    Bandipur which catches attention in such a way that everyone gets lost in its beauty and originality.
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h3>Critical thinking</h3>
+    <br>
+    <span>a. The writer seems to believe that rural life is better than urban life. Do you agree with him?</span>
+    <br>
+    <br>
+    Yes, I agree with the writer that rural life is better than urban life. First and foremost, the tranquil
+    surroundings and environment attracts me a lot. The village is always described as a quiet and peaceful paradise,
+    which is a perfect place to unwind and escape from the rat-race and Hustle and bustle of the city life. Besides, the
+    rural areas are less crowded because there are not many people and cars. The scenery in a village is beautiful as
+    the beauty of nature is still well-conserved. Thus, people who live in the village can enjoy nature and have a
+    peaceful mind.
+    <br>
+    <br>
+    This condition is completely different with the city dwellers, who lead a hectic life and often feel annoyed due to
+    great stress in their daily life. The environment in the rural area is less polluted. The air in the village is
+    fresh and clean as there are plenty of undeveloped areas and greenery. In the rural area, there is less air
+    pollution since there are not many factories and cars around. Living in the city may have its benefits such as
+    better facilities and education. However, I am still in the opinion that living in the rural area brings more
+    advantages than living in the city.
+    <br>
+    <br>
+    <br>
+
+    <span>b. Is the writer&rsquo;s way of looking at Bandipur just a gaze of an urban tourist? Why? Why not?</span>
+    <br>
+    <br>
+    No, the writer's way of looking at Bandipur is not just a gaze of an urban tourist. He doesn't visit Bandipur just
+    as an urban tourist. Being fed with his hectic life in Kathmandu, he visit there along with his friends to feel the
+    peaceful environment and amazing beauty of the place by his heart.
+    <br>
+    <br>
+    Bandipur is a hilltop settlement and a rural Municipality which lies in Tanahu district of Nepal. This place is the
+    centre of attraction for various reasons. The true and original beauty of the place attracts most of the tourists to
+    this place. The amazing beauty and scenario of Bandipur also attracted the writer. At Bandipur, he and his friends
+    are amazed by the local cultures, behaviours and organic and delicious food items. He enjoys various places in
+    Bandipur along with his friends. He feels himself heartily connected to this place where he gets all sorts of
+    refreshments which he has been looking for. He learns about places, people and their tourism businesses. The writer
+    spends his best time in Bandipur. Thus, his gaze towards this beautiful place is more than an urban tourist.
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h3>Grammar</h3>
+    <br>
+    <span>A. Tick the correct one.</span>
+    <br>
+    <br>
+    a. He has obtained full mark/<b>marks</b>.
+    <br>
+    b. More than two boys <b>were</b>/was absent.
+    <br>
+    c. One of the boy/<b>boys</b> was not found there.
+    <br>
+    d. His wonder knew no <b>bounds</b>/bound.
+    <br>
+    e. I give you my words/<b>word</b>.
+    <br>
+    f. He gave me <b>much</b>/many good <b>advice</b>/advices.
+    <br>
+    g. He gave wrong <b>information</b>/informations.
+    <br>
+    h. Give me two dozens/<b>dozen</b> eggs.
+    <br>
+    i. Six miles <b>is</b>/are a long distance.
+    <br>
+    j. The clock has struck four <b>hours</b>/hour.
+    <br>
+    k. Would you lend me a ten rupees/<b>rupee</b> note?
+    <br>
+    l. Nepal government makes five <b>year</b>/years development plan.
+    <br>
+    m. They went to Singapore on a four days/<b>day</b> trip.
+    <br>
+    <br>
+    <br>
+
+    <span>B. Which of the sentence is correct in each pair? Rewrite the correct one.</span>
+    <br>
+    <br>
+    <span>a. My all books are lost. All my books are lost.</span>
+    <br>
+    All my books are lost.
+    <br>
+    <br>
+    <span>b. His both brothers are ill. Both his brothers are ill.</span>
+    <br>
+    Both his brothers are ill.
+    <br>
+    <br>
+    <span>c. Give me a hundred rupee. Give a hundred rupees.</span>
+    <br>
+    Give me a hundred rupee.
+    <br>
+    <br>
+    <span>d. Everybody except me was absent. Everybody except I was absent.</span>
+    <br>
+    Everbody except me was absent.
+    <br>
+    <br>
+    <span>e. He was died of fever. He died of fever.</span>
+    <br>
+    He died of fever.
+    <br>
+    <br>
+    <span>f. It is raining for a week. It has been raining for a week.</span>
+    <br>
+    It has been raining for a week.
+    <br>
+    <br>
+    <span>g. I have seen my friend long ago. I saw my friend long ago.</span>
+    <br>
+    I saw my friend long ago.
+    <br>
+    <br>
+    <span>h. My friend has gone out before I arrived. My friend had gone out before I arrived.</span>
+    <br>
+    My friend had gone out before I arrived.
+    <br>
+    <br>
+    <span>i. He said he has never seen him before. He said he had never seen him before.</span>
+    <br>
+    He said he had never seen him before.
+    <br>
+    <br>
+    <span>j. He assured he will come. He assured he would come.</span>
+    <br>
+    He assured he would come.
+    <br>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
     If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com
+    <br><br>
 </body>
 
 </html>
