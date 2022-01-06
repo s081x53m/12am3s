@@ -5,16 +5,542 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        /* styling text content */
+        body {
+            padding-top: 4px;
+            padding-left: 15px;
+            padding-right: 15px;
+            line-height: 23px;
+            text-align: justify;
+            font-family: sans-serif;
+            font-size: 16px;
+            word-spacing: 2px;
+        }
+
+        center {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        h3 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        span {
+            font-weight: bold;
+            font-size: 16px;
+        }
+    </style>
 </head>
 
 <body>
+
     <br>
-    <center>
-        <h3 style="color:red">Notes will be available soon</h3>
-    </center>
+    <center>Unit 14
+        <br>
+        Human Rights</center>
     <br>
+    <br>
+    <h3>Working with words </h3>
+    <br>
+    <span>A. Pair the following words as opposites.</span>
+    <br>
+    Despair : hope
+    <br>
+    Kind : cruel
+    <br>
+    Fresh : stale
+    <br>
+    Strange : familiar
+    <br>
+    Normal : eccentric
+    <br>
+    Fierce : gentle
+    <br>
+    Corrupt : honest
+    <br>
+    Selfish : generous
+    <br><br>
+    <span>B. By adding a suitable suffix to each word in the table, form another word as in the examples below.</span>
+    <br>
+    <br>
+    <b>into noun</b>
+    <br>
+    open-minded : open-mindedness
+    <br>
+    accommodate : accommodation
+    <br>
+    rehearse : rehearsal
+    <br>
+    transgress : transgression
+    <br>
+    angry : anger
+    <br>
+    mix : mixture
+    <br><br>
+
+    <b>into adjective</b>
+    <br>
+    pain : painful
+    <br>
+    differ : different
+    <br>
+    behave : behavior
+    <br>
+    remark : remarkable
+    <br>
+    indifferent : indifference
+    <br>
+    thought : thoughtful
+    <br><br>
+
+    <b>into verb</b>
+    <br>
+    less : lessen
+    <br>
+    sure : ensure
+    <br>
+    real : realize
+    <br>
+    glory : glorify
+    <br>
+    power : powering/powers
+    <br>
+    prison : prisoning/prisoned
+    <br><br><br>
+
+    <span>C. Pronounce the following words with the help of a dictionary.</span>
+    <br>
+    <br>
+    <table width=100%>
+        <tr>
+            <th>Words</th>
+            <th>Pronouncation</th>
+        </tr>
+        <tr>
+            <td>Viewer</td>
+            <td>/&#712;vju&#720;&#601;/</td>
+        </tr>
+        <tr>
+            <td>sure</td>
+            <td>/&#643;&#596;&#720;,&#643;&#650;&#601;/</td>
+        </tr>
+        <tr>
+            <td>cure</td>
+            <td>/kj&#650;&#601;,kj&#596;&#720;/</td>
+        </tr>
+        <tr>
+            <td>fluent</td>
+            <td>/&#712;flu&#720;&#601;nt/</td>
+        </tr>
+        <tr>
+            <td>poor</td>
+            <td>/p&#596;&#720;,p&#650;&#601;/</td>
+        </tr>
+        <tr>
+            <td>affluence</td>
+            <td>/&#712;afl&#650;&#601;ns/</td>
+        </tr>
+        <tr>
+            <td>flower</td>
+            <td>/&#712;fla&#650;&#601;/</td>
+        </tr>
+        <tr>
+            <td>curious</td>
+            <td>/&#712;kj&#650;&#601;r&#618;&#601;s/</td>
+        </tr>
+        <tr>
+            <td>tourist</td>
+            <td>/&#712;t&#650;&#601;r&#618;st/</td>
+        </tr>
+        <tr>
+            <td>allowance</td>
+            <td>/&#601;&#712;la&#650;&#601;ns/</td>
+        </tr>
+        <tr>
+            <td>usual</td>
+            <td>/&#712;ju&#720;&#658;&#650;&#601;l/</td>
+        </tr>
+        <tr>
+            <td>intellectual</td>
+            <td>/&#716;&#618;nt&#601;&#712;l&#603;kt&#643;&#650;&#601;l/</td>
+        </tr>
+        <tr>
+            <td>visual</td>
+            <td>/&#712;v&#618;&#658;(j)&#650;&#601;l,&#712;v&#618;zj&#650;&#601;l/</td>
+        </tr>
+        <tr>
+            <td>mature</td>
+            <td>/m&#601;&#712;t&#643;&#650;&#601;/</td>
+        </tr>
+        <tr>
+            <td>endure</td>
+            <td>/&#618;n&#712;dj&#650;&#601;,&#603;n&#712;dj&#650;&#601;,&#618;n&#712;d&#658;&#596;&#720;,&#603;n&#712;d&#658;&#596;&#720;/
+            </td>
+        </tr>
+        <tr>
+            <td>join
+            </td>
+            <td>/d&#658;&#596;&#618;n/</td>
+        </tr>
+        <tr>
+            <td>coin</td>
+            <td>/k&#596;&#618;n/</td>
+        </tr>
+        <tr>
+            <td>boy</td>
+            <td>/b&#596;&#618;/</td>
+        </tr>
+        <tr>
+            <td>voice</td>
+            <td>/v&#596;&#618;s/</td>
+        </tr>
+        <tr>
+            <td>noise</td>
+            <td>/n&#596;&#618;z/</td>
+        </tr>
+        <tr>
+            <td>soil</td>
+            <td>/sp&#596;&#618;l/</td>
+        </tr>
+        <tr>
+            <td>hoist</td>
+            <td>/h&#596;&#618;st/</td>
+        </tr>
+        <tr>
+            <td>moist</td>
+            <td>/m&#596;&#618;st/</td>
+        </tr>
+        <tr>
+            <td>avoid</td>
+            <td>/&#601;&#712;v&#596;&#618;d/</td>
+        </tr>
+        <tr>
+            <td>toy</td>
+            <td>/t&#596;&#618;/</td>
+        </tr>
+        <tr>
+            <td>toilet</td>
+            <td>/&#712;t&#596;&#618;l&#618;t/</td>
+        </tr>
+        <tr>
+            <td>annoy</td>
+            <td>/&#601;&#712;n&#596;&#618;/</td>
+        </tr>
+        <tr>
+            <td>enjoy</td>
+            <td>/&#618;n&#712;d&#658;&#596;&#618;,&#603;n&#712;d&#658;&#596;&#618;/</td>
+        </tr>
+        <tr>
+            <td>poison</td>
+            <td>/&#712;p&#596;&#618;z(&#601;)n/</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h3>Comprehension</h3>
+    <br>
+    <span>A. Write True or False after each statement. Give reason for your answer.</span>
+    <br>
+    <br>
+    a. The author says his father was an ideal person in the family. <b>False</b>
+    <br>
+    <i>He used to abuse his mother verbally and physically when he was drunk.</i>
+    <br><br>
+    b. The author wanted to forgive his father but he did not get an opportunity. <b>False</b>
+    <br>
+    <i>Because he had many pressure and stresses.</i>
+    <br><br>
+    c. It's worth forgiving a person if he/she realizes his/her mistakes. <b>True</b>
+    <br><br>
+    d. South Africa had dual type of education system in the 1960s. <b>True</b>
+    <br><br>
+    e. The author lived in a joint family. <b>False</b>
+    <br>
+    <i>Because the author had only his wife and two children in his family.</i>
+    <br><br>
+    f. The author regretted for not getting a chance to talk to his father. <b>True</b>
+    <br><br>
+    g. According to the author, all our glories and splendors are short lived. <b>True</b>
+    <br><br><br>
+
+    <span>B. Answer the following questions.</span>
+    <br>
+    <br>
+    <span>a. How does the author remember his family environment when he was a small boy?</span>
+    <br>
+    The author remembers his family environment when he was a small boy as his father was verbally and physically abused
+    to
+    his mother.
+    <br><br>
+    <span>b. Why does the author blame system more than his father?</span>
+    <br>
+    The author blames system more than his father because the system was the reason behind his father&rsquo;s stresses,
+    pressures and traumas.
+    <br><br>
+    <span>c. How does the principle of forgiveness work?</span>
+    <br>
+    The principle of forgiveness does not depend on the actions of others. . It is the way of self-healing and obtaining
+    peace and harmony. It releases our pain, brings the state of freedom in our heart and mind. It shows that people do
+    not
+    forgive for helping another person but they forgive for themselves as it is a matter of selfishness.
+    <br><br>
+    <span>d. How does the author interpret the noise, squalls and tantrums of his children?</span>
+    <br>
+    The author interpret the noise, squalls and tantrums of his children as the whole catalog of failures, irritations,
+    fatigue thought etc. for the parents.
+    <br><br>
+    <span>e. Why did the author decide to educate his children in Swaziland?</span>
+    <br>
+    He decided to educate his children in Swaziland because he was dissatisfied with the inferior education as a result
+    of
+    Bantu Education Act of South Africa to black children.
+    <br><br>
+    <span>f. How does the author define human life?</span>
+    <br>
+    According to the author, human life is a great mixture of goodness, beauty, cruelty, heartbreak, interference, love
+    and
+    so much more.
+    <br><br>
+    <span>g. According to the author, is it heredity or environment that shapes a man's character? Explain.</span>
+    <br>
+    According to the author, it is heredity or environment that shapes a man&rsquo;s character. The birth of every child
+    is
+    same. By birth, a child is neither a liar, nor a rapist. He/she is not born full of hatred or violence. No one is
+    born
+    in any less glory or goodness that us. Hence heredity doesn't shape a man's character. It is our surrounding
+    environment
+    that shapes out character.
+    <br><br>
+    <span>h. Why is forgiveness important in our life?</span>
+    <br>
+    Forgiveness is important in our life because it is the way of freeing ourselves from our past errors and moving
+    forward
+    into our future unaffected by the mistakes we made in the past.
+    <br><br><br><br>
+
+    <h3>Critical Thinking</h3>
+    <br>
+    <span>
+        a. Desmond Tutu once said, &quot;Forgiving is not forgetting; it is actually remembering-remembering and not using
+        your
+        right to hit back. It's a second chance for a new beginning.&quot; Does this quotation apply to this text? Analyze.
+    </span>
+    <br>
+    <br>
+    &quot;Forgiving is not forgetting; it is actually remembering-remembering and not using your right to hit back. It's
+    a
+    second chance for a new beginning.&quot; is one of the famous quotes of Desmond Tutu. Forgiveness is the way to
+    release
+    feelings of vengeance toward a person or group who harmed us, not matter they deserve forgiveness or not. It is not
+    to
+    deny seriousness of an offense against us or it doesn't mean forgetting. Here in the text, even if the author is
+    willing
+    to apologize, he is still a victim of his father&rsquo;s domestic violence. Desmond Tutu remembers the pain his
+    father
+    had given to his mother. He wanted to hurt back his father in his childhood. But later he forgives his father
+    justifying
+    that his father's rude behavior was because of the mistreat of white people to black people in South Africa.
+    Therefore
+    forgiving is not forgetting rather it is remembering-remembering and not using it to hit back.
+    <br><br><br>
+
+    <span>b. The author interprets &quot;I am sorry&quot; as three hardest words to say. How does it apply to your life?</span>
+    <br>
+    <br>
+    Committing mistakes are the part of human life. But accepting it and apologizing for it is the hardest task. In the
+    text, the author interprets &ldquo;I am sorry&rdquo; as three hardest words to say. Empathy is the ability to put
+    ourselves in another person&rsquo;s shoes and feel what they feel. This is something we need to develop. It takes
+    humility. Too often, we are preoccupied with our own feelings. Empathy is the recognition that it&rsquo;s not all
+    about
+    us. Other people matter. They have feelings, too, and those feelings are important. By saying we are
+    sorry&mdash;sincerely and with authentic humility&mdash;we validate them as human beings.
+    <br>
+    For me the three words &quot;I am sorry&quot; are hardest words to say when I hurt others. Instead to say sorry, I
+    remain aloof to them who have been hurt by me and don't go close to them to talk again. I don't talk and be close to
+    them unless they come to speak to me. I am so much proudly and sensitive person. I easily get hurt by other and feel
+    sad
+    and I wish them to come close to me and say &quot;sorry&quot;. But I never realize how much they are affected by my
+    misbehavior. I feel very uneasy and difficult to say, &quot;I am sorry.&quot; Thus, as a matter of pride, fear of
+    being
+    shameful, lack of awareness, sense of superiority, gap in understanding, overwhelming emotion of guilt etc. also
+    makes
+    me hard to say the three words &ldquo;I am sorry&rdquo;.
+    <br><br><br>
+    &#8195;
+    <br>
+    <h3>Writing</h3>
+    <br>
+    <span>
+        The author talks about dual education system based on race in South Africa in the second half of the twentieth
+        century.
+        We also have private schools and public schools in Nepal. What should be done to make education equal to all
+        citizens of
+        Nepal? Write a couple of paragraphs expressing your views.
+    </span>
+    <br><br>
+    Nepal has come a long way in improving equity in education. In most countries, factors like income, geography,
+    gender,
+    language and disability contribute to inequitable access and high drop-out rates. Nepal&rsquo;s education system has
+    faced many problems since the mid-1800s. The first education system in Nepal was only available to elite families,
+    and
+    Nepali people did not have access to education until 100 years later in the 1950s. Current day education in Nepal is
+    still in the developing stage and did not really start integrating the use of technology in the classroom until
+    2007.
+    <br><br>
+    To illustrate the issues that Nepal&rsquo;s public school systems face, the children need access to clean drinking
+    water
+    while they attend school as well as at home. The lack of water and high temperatures result in the children having
+    difficulty concentrating and comprehending the material at hand. Thus, this combined with child malnutrition in
+    Nepal,
+    children in public schools do not have an advantage to performing well and tend to fall behind or drop out of
+    school.
+    Given these facts, Nepal&rsquo;s school system is indeed fairly new and continuing to develop, but there is still
+    limited access to public schools. This limited access is a result of isolation of women from continuing education
+    which
+    leads families into poverty. In Nepal, there is an additional factor of caste and ethnicity which further aggravates
+    this situation. While the caste system was legally abolished in the 1960&rsquo;s, its legacy continues to impact the
+    population for many years thereafter, and people considered low-caste are often economically and socially
+    disadvantaged.
+    In the past, children from such castes did not have access to schools. This has now changed with government
+    initiatives
+    such as school enrollment campaigns and scholarships for marginalized children.
+    <br><br><br><br>
+
+    <h3>Grammar</h3>
+    <br>
+    <span>A. Join the following pairs of sentences using when and while</span>
+    <br><br>
+    <span>a. Bibha Kumari was doing her homework. The doorbell rang.</span>
+    <br>
+    i. Bibha Kumari was doing her homework when the doorbell rang.
+    <br>
+    ii. While Bibha Kumari was doing her homework, the doorbell rang.
+    <br><br>
+    <span>b. I heard the telephone ring. I picked it up.</span>
+    <br>
+    When I heard the telephone ring, I picked it up.
+    <br><br>
+    <span>c. Dil Maya found a thousand rupee note. She was washing her pants.</span>
+    <br>
+    i. While Dil Maya was washing her pants, she found a thousand rupee note.
+    <br>
+    ii. Dil Maya was washing her pants when she found a thousand rupee note.
+    <br><br>
+    <span>d. Tenjing gave his measurements to the dressmaker. He was visiting the market yesterday.</span>
+    <br>
+    i. When Tenjing gave his measurements to the dressmaker, he was visiting the market yesterday.
+    <br>
+    ii. While Tenjing was visiting the market, he gave his measurements to the dressmaker.
+    <br><br>
+    <span>e. I was at the butcher's shop. I met Harikala.</span>
+    <br>
+    When I was at the butcher's shop, I met Harikala.
+    <br><br>
+    <span>f. The sales agent was dealing with the customer. A thief stole the jewels.</span>
+    <br>
+    i. While the sales agent was dealing with the customer, a thief stole the jewels.
+    <br>
+    ii. The sales agent was dealing with the customer when a thief stole the jewels.
+    <br><br>
+    <span>g. My small brother was sleeping. I played chess with my father.</span>
+    <br>
+    i. While my small brother was sleeping, I played chess with my father.
+    <br>
+    ii. My small brother was sleeping when I played chess with my father.
+    <br><br>
+    <span>h. The old lady fell down. She was climbing up the stairs.</span>
+    <br>
+    i. When the old lady fell down, she was climbing up the stairs.
+    <br>
+    ii. The old lady fell down while she was climbing up the stairs.
+    <br><br>
+    <span>i. The leader was giving a speech loudly. He lost his voice.</span>
+    <br>
+    i. While the leader was giving a speech loudly, he lost his voice.
+    <br>
+    ii. The leader was giving a speech loudly when he lost his voice.
+    <br><br>
+    <span>j. Kanchan broke her backbone. She was lifting up the load.</span>
+    <br>
+    i. Kanchan was lifting up the load when she broke her backbone.
+    <br>
+    ii. While Kanchan was lifting up the load, she broke her backbone.
+    <br><br><br>
+    <span>B. Fill in the blanks with one of the connectives from the box.</span>
+    <br>
+    <i>so, because, as, since, due to, owing to, because of</i>
+    <br><br>
+    a. We didn't go for a morning walk today <b>since</b> it was raining.
+    <br>
+    <br>
+    b. I wanted to go home early <b>as</b> I was not feeling well.
+    <br>
+    <br>
+    c. My brother stayed at home <b>because of/ owing to</b> his illness.
+    <br>
+    <br>
+    d. I was late in the class <b>owing to</b> traffic jams.
+    <br>
+    <br>
+    e. He didn't like dogs <b>so</b> he was not happy when his wife brought a puppy at home.
+    <br>
+    <br>
+    f. He was not included in the team <b>owing to</b> his knee injury.
+    <br>
+    <br>
+    g. <b>As</b> I was tired, I went to bed early.
+    <br>
+    <br>
+    h. He was very unhappy <b>since</b> he lost one million rupees in share market.
+    <br>
+    <br>
+    i. We cancelled our trip to Rara Lake <b>owing to</b> the bad weather.
+    <br>
+    <br>
+    j. These two lines intersect with each <b>because</b> they are are not parallel lines.
+    <br>
+    <br>
+    <br>
+    <br>
+
     If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com
+    <br><br>
 </body>
 
 </html>
