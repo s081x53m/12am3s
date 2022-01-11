@@ -5,16 +5,367 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        /* styling text content */
+        body {
+            padding-top: 4px;
+            padding-left: 15px;
+            padding-right: 15px;
+            line-height: 23px;
+            text-align: justify;
+            font-family: sans-serif;
+            font-size: 16px;
+            word-spacing: 2px;
+        }
+
+        center {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        h3 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        span {
+            font-weight: bold;
+            font-size: 16px;
+        }
+    </style>
 </head>
 
 <body>
+
     <br>
-    <center>
-        <h3 style="color:red">Notes will be available soon</h3>
-    </center>
+    <center>Unit 16
+        <br>
+        Fantasy</center>
     <br>
+    <br>
+    <h3>Working with words </h3>
+    <br>
+    <span>A. Match the following words with their definitions.</span>
+    <br>
+    <br>
+    <b>a. snappy</b>
+    <br>
+    irritable and inclined to speak sharply
+    <br>
+    <br>
+    <b>b. discretion</b>
+    <br>
+    the ability to behave without causing embarrassment or attracting too much attention
+    <br>
+    <br>
+    <b>c. radiant</b>
+    <br>
+    showing great happiness, love or health
+    <br>
+    <br>
+    <b>d. irresolute</b>
+    <br>
+    not able to decide what to do
+    <br>
+    <br>
+    <b>e. brusque</b>
+    <br>
+    using very few words and sounding rude
+    <br>
+    <br>
+    <b>f. fitful</b>
+    <br>
+    a quiet period between times of activity
+    <br>
+    <br>
+    <b>g. harlequin</b>
+    <br>
+    a humorous character in some traditional plays
+    <br>
+    <br>
+    <b>h. lull</b>
+    <br>
+    happening only for short periods
+    <br>
+    <br>
+    <b>i. janitress</b>
+    <br>
+    a lady whose job is to take care of a building such as a school or a block of flats
+    <br>
+    <br>
+    <b>j. speck</b>
+    <br>
+    a very small spot
+    <br>
+    <br>
+    <br>
+
+    <span>B. Consult a dictionary or search over the internet and write definitions of the following terminologies used
+        in the
+        stock market.</span>
+    <br>
+    <br>
+    <b>a. Liquidity :</b> the availability of liquid assets (cash) to a market or company.
+    <br>
+    <br>
+    <b>b. IPO :</b> the process of offering shares of a private corporation to the public in a new stock issuance.
+    <br>
+    <br>
+    <b>c. NEPSE :</b> the only stock exchange of Nepal which stands for Nepal Stock Exchange
+    <br>
+    <br>
+    <b>d. index :</b> measurement of the value of a section of the stock market
+    <br>
+    <br>
+    <b>e. portfolio :</b> collection of financial investments like stocks, bonds, commodities, cash, and cash
+    equivalents,
+    including mutual funds and ETFs
+    <br>
+    <br>
+    <b>f. dividend :</b> a payment to shareholders that is made in shares rather than as cash
+    <br>
+    <br>
+    <b>g. turn over :</b> a measure of stock liquidity
+    <br>
+    <br>
+    <b>h. margin :</b> the amount of equity an investor has in their brokerage account
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h3>Comprehension</h3>
+    <br>
+    <span>
+        A. Write &lsquo;T&rsquo; for true statements, &lsquo;F&rsquo; for false ones or &lsquo;NG&rsquo; if the
+        information is not given in the text.
+    </span>
+    <br>
+    <br>
+    a. Harvey Maxwell was a stock broker. <b>T</b>
+    <br>
+    b. He was not happy with his clerk, Pitcher. <b>NG</b>
+    <br>
+    c. Miss Leslie had been married to Maxell for a year. <b>F</b>
+    <br>
+    d. Maxwell had hired a machine to work in his office. <b>NG</b>
+    <br>
+    e. He had instructed Pitcher to get a new stenographer. <b>T</b>
+    <br>
+    f. Miss Leslie was amazed by Maxwell&rsquo;s proposal. <b>T</b>
+    <br>
+    g. She thought that he had probably gone mad. <b>F</b>
+    <br>
+    h. She realized that he had been absent-minded due to his business. <b>T</b>
+    <br>
+    <br>
+    <br>
+
+    <span>B. Answer the following questions.</span>
+    <br>
+    <br>
+    <span>a. How did Maxwell enter his office?</span>
+    <br>
+    Maxwell entered his office briskly with the young lady stenographer and greeting Pitcher by saying &ldquo;Good
+    Morning&rdquo;.
+    <br>
+    <br>
+    <span>b. Describe the physical appearance of the young lady.</span>
+    <br>
+    She was beautiful in a way that was decidedly unstenographic. She forewent the pomp of the alluring pompadour. She
+    wore no chains, bracelets or lockets. She had not the air of being about to accept an invitation to luncheon. Her
+    dress was grey and plain, but it fitted her figure with fidelity and discretion. In her neat black turban hat was
+    the gold-green wing of a macaw. On this morning she was softly and shyly radiant. Her eyes were dreamily bright, her
+    cheeks genuine peachblow, her expression a happy one, tinged with reminiscence.
+    <br>
+    <br>
+    <span>c. What changes did Pitcher notice in the young lady?</span>
+    <br>
+    Pitcher noticed a difference in her ways this morning. Instead of going straight into the adjoining room, where her
+    desk was, she lingered, slightly irresolute, in the outer office. Once she moved over by Maxwell&rsquo;s desk, near
+    enough for him to be aware of her presence.
+    <br>
+    <br>
+    <span>d. What was Pitcher&rsquo;s reply to the young lady concerning a new stenographer?</span>
+    <br>
+    Pitcher&rsquo;s reply to the young lady concerning a new stenographer was that Maxwell had already told him to get
+    another stenographer and then he had notified agency a day before to send over a few samples that morning and none
+    of the candidates arrived till the time except her.
+    <br>
+    <br>
+    <span>e. What proposal did Maxwell make with Miss Leslie?</span>
+    <br>
+    Maxwell made a marriage proposal with Miss Leslie.
+    <br>
+    <br>
+    <span>f. How did she react to his proposal?</span>
+    <br>
+    She acted very queerly when he proposed her. At first she seemed overcome with amazement; then tears flowed from her
+    wondering eyes; and then she smiled sunnily through them, and one of her arms slid tenderly about the broker&rsquo;s
+    neck.
+    <br>
+    <br>
+    <br>
+    <br>
+
+<!-- 
+    <h3>Critical thinking</h3>
+    <br>
+    <span>a. What message does the writer want to give by presenting Maxwell as an extremely absent-minded person?</span>
+    <br>
+    <br>
+    Ans:
+    <br>
+    <br>
+    <br>
+
+    <span>
+        b. Imagine you are Miss Leslie. Write how you were troubled emotionally when your own husband came to you and
+        made a
+        marriage proposal.
+    </span>
+    <br>
+    <br>
+    Ans:
+    <br>
+    <br>
+    <br>
+    <br>
+
+-->
+    <h3>Grammar</h3>
+    <br>
+    <span>A. Study the following sentences and underline the relative clauses.</span>
+    <br>
+    <br>
+    a. I snatched a minute <b>when</b> things had slackened a minute.
+    <br>
+    <br>
+    b. Instead of going straight into the adjoining room, <b>where</b> her desk was, she lingered slightly irresolute in the
+    outer office.
+    <br>
+    <br>
+    c. She was beautiful in a way <b>that</b> was decidedly stenographic.
+    <br>
+    <br>
+    <br>
+
+    <span>B. Fill in the blanks with suitable relative pronouns: who, which, that, whom, whose, where, why, how, what or
+        when.</span>
+    <br>
+    <br>
+    a. There is a lady <b>whose</b> wallet has been stolen.
+    <br>
+    b. Do you know the man <b>who</b> sold these glasses?
+    <br>
+    c. The knife <b>which</b> you cut the bread with is very sharp.
+    <br>
+    d. Why do you blame him for everything <b>that</b> goes wrong?
+    <br>
+    e. A cemetery is a place <b>where</b> dead bodies are buried.
+    <br>
+    f. This school is for those children <b>whose</b> mother tongue is not Nepali.
+    <br>
+    g. I don&rsquo;t know the name of the person <b>whom</b> I spoke over the telephone.
+    <br>
+    h. I came to Kathmandu on the day <b>when</b> the devastating earthquake took place.
+    <br>
+    i. In the application form she wrote <b>when</b> she needed a good payment.
+    <br>
+    j. The pilot explained <b>why</b> he made force landing on the road.
+    <br>
+    <br>
+    <br>
+
+    <span>C. Join the following pairs of sentences using who, which, that, whose, whom, where, when or what.</span>
+    <br>
+    <br>
+    <span>a. The building was destroyed in the fire. It has now been rebuilt.</span>
+    <br>
+    The building which was destroyed in the fire, has now been rebuilt.
+    <br>
+    <br>
+    <span>b. A new cricket stadium is being made in Chitwan. It can accommodate one hundred thousand people.</span>
+    <br>
+    A new cricket stadium which is being made in Chitwan, can accommodate one hundred thousand people.
+    <br>
+    <br>
+    <span>c. Shanghai is the most populated city in the world. I stayed there for five years.</span>
+    <br>
+    Shanghai, where I stayed there for five years, is the most populated city in the world.
+    <br>
+    <br>
+    <span>d. This is the man. I gave some money to him this morning.</span>
+    <br>
+    This is the man whom I gave some money this morning.
+    <br>
+    <br>
+    <span>e. Do know the man? His son was awarded in the school yesterday.</span>
+    <br>
+    Do you know the man whose son was awarded in the school yesterday?
+    <br>
+    <br>
+    <span>f. His step-mother was not very kind to him. He had been staying with her.</span>
+    <br>
+    His step-mother, with whom he had been staying, was not very kind to him.
+    <br>
+    <br>
+    <span>g. He can never forget Nakkhu Jail. He had spent 14 years there.</span>
+    <br>
+    He can never forget Nakkhu Jail where he had spent 14 years.
+    <br>
+    <br>
+    <span>h. He showed me his new tab. He had paid a hundred thousand rupees for it.</span>
+    <br>
+    He showed me his new tab for which he had paid a hundred thousand rupees.
+    <br>
+    <br>
+    <span>i. Nelson Mandela joined ANC in 1930s. He was a student then.</span>
+    <br>
+    Nelson Mandela joined ANC in 1930s when he was a student.
+    <br>
+    <br>
+    <span>j. She forgot to buy the things. Her mother had told to buy them.</span>
+    <br>
+    She forgot to buy the things which her mother had told her to buy.
+
+    <br>
+    <br>
+    <br>
+    <br>
+
     If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com
+    <br><br>
 </body>
 
 </html>
