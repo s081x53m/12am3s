@@ -5,16 +5,176 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        /* styling text content */
+        body {
+            padding-top: 4px;
+            padding-left: 15px;
+            padding-right: 15px;
+            line-height: 23px;
+            text-align: justify;
+            font-family: sans-serif;
+            font-size: 16px;
+            word-spacing: 2px;
+        }
+
+        center {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        h3 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        span {
+            font-weight: bold;
+            font-size: 16px;
+        }
+    </style>
 </head>
 
 <body>
+
+
     <br>
-    <center>
-        <h3 style="color:red">Notes will be available soon</h3>
-    </center>
+    <center>Human Rights and the Age of Inequality</center>
     <br>
-    If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com
+    <p style="font-weight: bold;  color: grey;">Notes By: Siddhant Poudel</p>
+    <br>
+    <h3>Understanding the text </h3>
+    <br>
+    <span>Answer the following questions. </span>
+    <br>
+    <br>
+    <span>a. What is the first human rights declaration adopted by the United Nations?</span>
+    <br>
+    The first human rights declaration adopted by the United Nations is mobilization for economic and social rights.
+    <br>
+    <br>
+    <span>b. When is Human Rights Day observed?</span>
+    <br>
+    Human rights day is observed on 10th December every year.
+    <br>
+    <br>
+    <span>c. What is the goal of the Universal Declaration of Human Rights?</span>
+    <br>
+    The goal of the Universal Declaration of human rights is to assure the most basic entitlements and key values of
+    human welfare and rights like equality, dignity, freedom, fairness and respect. Also, its goal is to assert justice
+    and peace in the world alongside the foundation of freedom.
+    <br>
+    <br>
+    <span>d. What are two big stages that involve writing the history of human rights about that of political
+        economy?</span>
+    <br>
+    The two big stages that involve writing the history of human rights about that of the political economy include the
+    heroic age of national welfare after the condition of World War II and the bitter enemies of the new cold war era in
+    1948.
+    <br>
+    <br>
+    <span>e. What are the facts that have been missed in Roosevelt&rsquo;s call for a &ldquo;second Bill of
+        Rights&rdquo;?</span>
+    <br>
+    The facts that have been missed in Roosevelt's call for a &ldquo;second Bill of rights&rdquo; are:
+    <br>
+    - It marked a provincial America&rsquo;s late and ginger entry into a North Atlantic consensus which is already
+    foreordained.
+    <br>
+    - His highest promise was &ldquo;special privileges for the few&rdquo; instead of protection of masses which creates
+    a ceiling of inequality.
+    <br>
+    - He hoped that it would span the globe but it was organized nationally instead of organizing internationally.
+    <br>
+    <br>
+    <span>f. Write the truth expressed in Herodotus&rsquo;s Histories.</span>
+    <br>
+    The truth expressed in Herodotus&rsquo; histories is to assure global socio-economic justice, local socio-economic
+    justice. it would require redistribution from rich to poor by novel forms of legal activism.
+    <br>
+    <br>
+    <span>g. Why is the Universal Declaration of Human Rights important to you?</span>
+    <br>
+    The universal declaration of human rights is important to me as it assures the basic rights of humans and provides
+    justice, equality, equity for all human beings equally. it aimed to remove injustice, partiality, discrimination,
+    inequality and so many inhuman behaviours from society.
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Reference to the context </h3>
+    <br>
+    <span>a. Does the essay give ways on how to stigmatize inequality? Explain.</span>
+    <br>
+    <br>
+    The essay &ldquo;human rights and age of inequality&rdquo; written by Samuel Moyn is the essay briefing about how
+    the concept of human rights arises and what it brought to human welfare. The essay focuses on the stigmatization of
+    inequality rather than giving some specific ways how to stigmatize inequality. History shows us that there are wrong
+    kinds of agents who are not fearful enough to provoke redistribution. Surely, opponents will arise someday if
+    inequality grows like this.
+    <br>
+    <br>
+    Thus the need for justice and equality is in demand. so the new human rights movement sorted of different views for
+    the common people can bring and justify social equality and liberation. it is very necessary to remove partiality
+    and discrimination by proper supervision, monitoring and enacting strict laws. For the welfare of common people and
+    all human beings, inequality must be removed as it is believed to be a stigma for society.
+    <br>
+    <br>
+    <br>
+    <span>b. Is another human rights movement necessary? Why?</span>
+    <br>
+    <br>
+    In my opinion, another human rights movement is necessary. Also as the essayist finds human rights is functioning
+    under different political and economical suppression, I also agree on that point. He wishes to see other human
+    rights movements in the coming days due to many reasons. The people with political and economical power and in
+    higher positions are violating the law. In human affairs, inequality has been contained. The practice of nepotism
+    and favoritism is still in use and it has suppressed different new ideas and talents. More than that political and
+    social hegemony is still prevalent. Laws and rights are only documented rather than taken into practice. And the
+    major thing is the classification of society based on their economic conditions like rich or poor has brought
+    injustice and inequality. Thus the need for another human rights movement is true.
+    <br>
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <span>If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com</span>
+
+
+    <br>
+    <br>
 </body>
 
 </html>
