@@ -5,16 +5,153 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        /* styling text content */
+        body {
+            padding-top: 4px;
+            padding-left: 15px;
+            padding-right: 15px;
+            line-height: 23px;
+            text-align: justify;
+            font-family: sans-serif;
+            font-size: 16px;
+            word-spacing: 2px;
+        }
+
+        center {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        h3 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        span {
+            font-weight: bold;
+            font-size: 16px;
+        }
+    </style>
 </head>
 
 <body>
+
     <br>
-    <center>
-        <h3 style="color:red">Notes will be available soon</h3>
-    </center>
+    <center>Humility</center>
     <br>
-    If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com
+    <p style="font-weight: bold;  color: grey;">Notes By: Siddhant Poudel</p>
+    <br>
+    <h3>Understanding the text </h3>
+    <br>
+    <span>Answer the following questions. </span>
+    <br>
+    <br>
+    <span>a. Describe the claim of the Chinese nationalists about human history.</span>
+    <br>
+    Chinese nationalists claim that history began with the Yellow Emperor and the Xia and Shang dynasties. They believe
+    that anything that was accomplished by other rulers like westerners, Muslims or Indians is a bit imitation of
+    Chinese achievement.
+    <br>
+    <br>
+    <span>b. What do pious Muslims believe about human history?</span>
+    <br>
+    Pious Muslims believe that all history follows the Quran. All the history before Prophet Muhammad was mostly
+    meaningless and all history after that following Quran's revelation revolves around the Muslim ummah.
+    <br>
+    <br>
+    <span>c. What did the Aztecs firmly believe about the universe?</span>
+    <br>
+    The Aztecs firmly believed about the universe that annual sacrifice is the reason behind the existence of the
+    universe. Without annual sacrifice, the sun wouldn't rise and the whole cosmos would collapse.
+    <br>
+    <br>
+    <span>d. What, according to the essay, are the universal human abilities?</span>
+    <br>
+    According to the essay, the universal human abilities are art, creativity, spirituality and mortality.
+    <br>
+    <br>
+    <span>e. How are the basic yoga postures derived from the shape of the letters of the Hebrew alphabet? </span>
+    <br>
+    The basic yoga postures derived from the shape of letters of the Hebrew alphabet as the yoga posture Tuladandasana
+    imitates the letter 'daled', Trikonasana imitated the form of the Hebrew letter 'aleph' and so on.
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Reference to the context </h3>
+    <br>
+    <span>a. How do Hindu nationalists refute the Chinese claim that human history began with the Yellow Emperor and the
+        Xia and Shang dynasties? Who do you agree with, and why?</span>
+    <br>
+    <br>
+    Hindu nationalists refute the Chinese claim that humans began with the Yellow Emperor and the Xia and Shang
+    dynasties by claiming that Indian sages developed the theory of planes and nuclear weapons long before Plato,
+    Confucius or Einstein and the Wright brothers.
+    <br>
+    <br>
+    In the Hindu holy books of Hindus, different evidence of discoveries and inventions are found long before any
+    scientists proved them. Hinduism is found to be the oldest religion in the world according to various scientific as
+    well as archaeological studies. Thus I agree with the Hindu nationalists over Chinese claims through different
+    evidence that was found in Hinduism.
+    <br>
+    <br>
+    <br>
+    <br>
+    <span>b. The author has dealt with a controversial debate on human history. Why do you think history has been a
+        major contested issue in the present world?</span>
+    <br>
+    <br>
+    The essay 'Humility' written by Yuval Noah Harari is about the different controversies about human history. The
+    essay presents the thoughts and people's beliefs in human history according to their religion.
+    <br>
+    <br>
+    In my opinion, history has been a major contested issue in the present world due to egoism. I would like to call
+    egoism the supremacy of their belief in their religion only rather than understanding others. Most individuals
+    believe that their religion is the oldest and they are the center of the universe. They believe that their culture
+    is superior to all others. According to them, everything originated from their culture. So because of egoism human
+    history has been a major contested issue. The author wishes to remove a sense of superiority and domination from
+    humanity.
+    <br>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <span>If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com</span>
+
+    <br>
+    <br>
 </body>
 
 </html>
