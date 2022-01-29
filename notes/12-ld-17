@@ -5,16 +5,447 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+    <script>
+        document.addEventListener("contextmenu", function (evt) {
+            evt.preventDefault();
+        }, false);
+        document.addEventListener("copy", function (evt) {
+            // Change the copied text if you want
+            evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+            // Prevent the default copy action
+            evt.preventDefault();
+        }, false);
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
+        /* NO SELECT + HIGHLIGHT COLOR */
+        * {
+            user-select: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        *::selection {
+            background: none;
+        }
+
+        *::-moz-selection {
+            background: none;
+        }
+
+        /* styling text content */
+        body {
+            padding-top: 4px;
+            padding-left: 15px;
+            padding-right: 15px;
+            line-height: 23px;
+            text-align: justify;
+            font-family: sans-serif;
+            font-size: 16px;
+            word-spacing: 2px;
+        }
+
+        center {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        h3 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        span {
+            font-weight: bold;
+            font-size: 16px;
+        }
+    </style>
 </head>
 
 <body>
+
     <br>
-    <center>
-        <h3 style="color:red">Notes will be available soon</h3>
-    </center>
+    <center>Unit 17
+        <br>
+        War and Peace</center>
     <br>
+    <h3>Working with words</h3>
+    <br>
+    <span>A. What do the underlined words in the following sentences mean? Tick the best answer.</span>
+    <br>
+    <br>
+    a. clamour : a loud and confused noise
+    <br>
+    b. precariously : not securely
+    <br>
+    c. scrutiny : examination
+    <br>
+    d. absconded : hid somewhere secretly
+    <br>
+    e. anglicized : characteristics of English
+    <br>
+    f. platitudes : doubtful remarks
+    <br>
+    <br>
+    <br>
+    <span>
+        B. Many words have been borrowed in English from different languages.
+        <br>
+        Find the meaning of the following words which are borrowed from Hindi language.
+    </span>
+    <br>
+    <br>
+    <b>Veranda :</b> a roofed platform along the outside of a house, level with the ground floor.
+    <br>
+    <br>
+    <b>Khaki :</b> A strong cloth of wool or cotton, often used for military or other uniforms.
+    <br>
+    <br>
+    <b>Pashmina :</b> a shawl made from fine-quality goat's wool.
+    <br>
+    <br>
+    <b>Pajamas :</b> loose-fitting jacket and trousers for sleeping in.
+    <br>
+    <br>
+    <b>Pukka :</b> genuine, excellent
+    <br>
+    <br>
+    <b>Pundit :</b> an expert in a particular subject or field who is frequently called upon to give their opinions to
+    the
+    public.
+    <br>
+    <br>
+    <b>Avatar :</b> the incarnation of a deity, particularly Vishnu.
+    <br>
+    <br>
+    <b>Bangle :</b> A rigid bracelet or anklet, especially one with no clasp.
+    <br>
+    <br>
+    <b>Cheetah :</b> a large slender spotted cat found in Africa and parts of Asia.
+    <br>
+    <br>
+    <b>Guru :</b> A Hindu or Sikh spiritual teacher.
+    <br>
+    <br>
+    <b>Jungle :</b> an area of land overgrown with dense forest and tangled vegetation, typically in the tropics.
+    <br>
+    <br>
+    <b>Karma :</b> good or bad luck, viewed as resulting from one's actions.
+    <br>
+    <br>
+    <b>Nirvana :</b> Complete cessation of suffering; a blissful state attained through realization of sunyata;
+    enlightened
+    experience.
+    <br>
+    <br>
+    <b>Shampoo :</b> an ideal or idyllic state or place.
+    <br>
+    <br>
+    <b>Raita :</b> an Indian side dish of yogurt containing chopped cucumber or other vegetables, and spices.
+    <br>
+    <br>
+    <br>
+    <span>C. Add the given suffixes to the following words to make new words. Notice whether &lsquo;e&rsquo; is retained
+        or</span>
+    dropped.
+    <br>
+    <br>
+    <b>a. change + -able / -ing / -ed / - less</b>
+    <br>
+    changeable, changing, changed, changeless
+    <br>
+    <br>
+    <b>b. time + -ly / -ing / -ed / -less</b>
+    <br>
+    timely, timing, timed, timeless
+    <br>
+    <br>
+    <b>c. notice + -able / -ing / -ed</b>
+    <br>
+    noticable, noticing, noticed
+    <br>
+    <br>
+    <b>d. praise + -worthy / -ing / -ed</b>
+    <br>
+    praiseworthy, praising, praised
+    <br>
+    <br>
+    <b>e. home + -less / -ing / -ly</b>
+    <br>
+    homeless, homing, homely
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Comprehension</h3>
+    <br>
+    <span>Answer the following questions.</span>
+    <br>
+    <br>
+    <span>a. Why did Iqbal want to sleep in the afternoon?</span>
+    <br>
+    Iqbal wanted to sleep in the afternoon because he had spent the night sitting on his bedroll in a crowded
+    third-class compartment of the train.
+    <br>
+    <br>
+    <span>b. How did people react with each other in the train?</span>
+    <br>
+    People reacted in a very loud way with each other in the train.
+    <br>
+    <br>
+    <span>c. Why did the book Iqbal was reading bring commotion in the compartment?</span>
+    <br>
+    The book Iqbal was reading brought commotion in the compartment because the book was an English book and the people
+    thought that reading the book in the English language as wise, praiseworthy and prestigious.
+    <br>
+    <br>
+    <span>d. Why did Iqbal have to give clarification with his personal details?</span>
+    <br>
+    Iqbal had to give clarification with his personal details about his background because the travelers in the train
+    thought him as an intellectual and wise person and therefore, they insisted him to reveal his personal details.
+    <br>
+    <br>
+    <span>e. Who was Meet Singh and what did he report to Iqbal?</span>
+    <br>
+    Meet Singh was a priest of Gurudwara and he reported to Iqbal about the murder of a fellow villager perhaps by a
+    village's dacoit named Jugga.
+    <br>
+    <br>
+    <span>f. How according to Meet Singh, was Jugga Sing different from his forefathers?</span>
+    <br>
+    According to Meet Singh, Jugga Singh was different from his forefathers in the sense that his forefathers were also
+    dacoits like him in the past. They never looted or harm their own village or its people. They used to keep the
+    villagers safe from dacoits. But Jugga robbed the people of his own village and even killed the people of his
+    villager. He killed one of the people of his village.
+    <br>
+    <br>
+    <span>g. How does the author show contradiction in Meet Singh's character?</span>
+    <br>
+    The author shows contradiction in Meet Singh's character by saying that Meet Singh was not bothered by Jugga's act
+    of murdering fellow villager and as a priest of Gurudwara, he even wanted to swear on the holy Granth to defend
+    Jugga from the crime of murder.
+    <br>
+    <br>
+    <span>h. Who was Hukum Chand and how did he succeed in his career?</span>
+    <br>
+    Hukum Chand was the Deputy Shahib, also known as Nar Adami. He succeeded in his career by pleasing his Shaibs and
+    getting promotions one after.
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Critical Thinking</h3>
+    <br>
+    <span>a. Iqbal is addressed as Babu Sahib by general folk simply because he knew English. Are Nepali people who can
+        speak
+        English taken with respect? Discuss the importance of learning English in the Nepali context.</span>
+    <br>
+    <br>
+    Yes, Nepali people who can speak English are taken with respect. In Nepal, English is treated as a language of elite
+    class. Most of the Nepalese think that English is closely associated with class and social status of a person. If
+    you are fluent in English you'll be perceived as a very respectable person who has achieved great things in life.
+    It's almost same as visiting a store wearing classy clothes and getting all the attention from the salespeople
+    there. If you visit the same store with normal clothes, you are bound to get less attention. People often judge a
+    book by its cover. For Nepalese, if the cover is in English they'll directly buy the book, not just judge it.
+    <br>
+    <br>
+    <br>
+    <span>b. Do you agree with Iqbal&rsquo;s comments on crime and punishment? In your view, what should the state,
+        society
+        and individuals do for peace and order in social lives?</span>
+    <br>
+    <br>
+    Yes, I agree with Iqbal comments on crime and punishment. To cultivate and maintain a culture of peace, state,
+    society and individuals ought to work together.
+    <br>
+    <br>
+    Peace begins with the individual. We must realize that, as individuals, we are not powerless and that the power of
+    one can make a difference. As individuals we must accept the responsibility to end the scourge of war and culminate
+    a culture of peace. We must realize that peace is more than the absence of war. War is a drain on both human and
+    financial resources and as history proves, is not an effective means of resolving conflict. Peace involves a process
+    of individual and communal participation. It requires justice, equal rights and equal opportunities.
+    <br>
+    <br>
+    Next, society plays a very important role in maintaining peace and order in social lives. In society, every family
+    has to be united to make their society a fine and secure place to live in. There should be a formation of a special
+    team in society who takes care of peace and order in society. This team has to perform its duty for peace and order
+    management and determine the punishment to the criminals.
+    <br>
+    <br>
+    The state also plays a very important and responsible role in maintaining peace and order in social lives. The state
+    has to implement various rules and regulations for the sake of peace and order in social lives. It should focus
+    attention on the security of social lives by minimizing the crime and violence from the state. The state must have
+    strict rules against crime and criminals. It should have the proper management of punishment to the criminals too.
+    <br>
+    <br>
+    These are the things the state, society and individuals should do for peace and order in social lives.
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Writing</h3>
+    <br>
+    <span>A. Meet Singh says Jugga a badmash. There can be such people in your locality, too. Write a paragraph
+        describing him
+        / her.</span>
+    <br>
+    <br>
+    I met a guy during my school days, initially he was so good to me. Later he turned out to be the most dishonest guy
+    I have ever met. I used to share all tiny and big secrets of mine with him as we had become good friends in no time.
+    As time passed, I found out that he was not worth that. He used to reveal all those things of mine with his stupid
+    friends and misinterpret me. When I got to know that, I was completely broken and frustrated. But being strong, I
+    forgave him, who didn&rsquo;t even sincerely apologize. I believe in &mdash; forget, forgive and move on and that is
+    how we should deal with such people. But don&rsquo;t forget the lesson you learn from them.
+    <br>
+    <br>
+    <br>
+    <span>B. You may have travelled by bus or train. During your travel, you might have got different experiences. Write
+        a letter to your friend describing about your unforgettable journey.</span>
+    <br>
+    <br>
+    <p style="text-align: right;">
+        Date: 2078-10-13
+        <br>
+        Pokhara-7, Kaski
+    </p>
+    <br>
+    Dear Pratik,
+    <br>
+    <br>
+    Hope this letter of mine finds you in the best of health and spirit. My heart fills with joy to share with you about
+    one of my experience of travelling in bus to my hometown Sankhuwasabha. I traveled in Manakamana Yatayat numbered
+    Nine Hundred and Ten boarded at 05:30 AM on 10/10/2078 and reached the destination at 06:30 PM on the same day.
+    <br>
+    <br>
+    The journey throughout was amazing and relaxing. The view from the windowpane while it feels like trees running far
+    from us looks so relaxing and calming. Waterfalls going by our side, fresh air coming through the window also adds
+    excitement to the journey. The ticket price was not much expensive and was reasonable. Meals expenses were included
+    in the ticket pricing. I got the corner seat. People traveling along with me were so friendly that we played cards/
+    ludo/ chess while traveling and the time passed very easily.
+    <br>
+    <br>
+    I believe this is some experience everyone should have at least once in the whole lifetime. The time spent on the
+    bus that day was very comforting and enjoyable. I will surely be making another trip plan in the coming days and
+    will be asking you to join me. Till then, take care.
+    <br>
+    <br>
+    <p style="text-align: right;">
+        Much love,
+        <br>
+        Aayush Sharma
+    </p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>Grammar</h3>
+    <br>
+    <span>C. Fill in the gaps with the suitable form of the verb in the brackets. Use past simple/past continuous/past
+        perfect
+        tenses. You may need to use negative too.</span>
+    <br>
+    <br>
+    It was Sunday afternoon. I <b>was watching</b> (watch) a cookery programme on TV when I <b>realised</b> (realise)
+    how hungry I
+    was. But of course, I was hungry; I <b>hadn't eaten</b> (eat) anything since lunch, and I <b>had run</b> (run) a
+    race in the
+    morning. &quot;Biscuits!&quot; I thought (think). My mother <b>had given</b> (give) me a jar of delicious home-made
+    biscuits.
+    <br>
+    <br>
+    I <b>went</b> (go) into the kitchen, <b>opened</b> (open) the fridge and <b>poured</b> (pour) some milk in a big
+    glass. Then I <b>looked</b>
+    (look) for the kitchen chair but it wasn't (be) there: somebody <b>had taken</b> (take) it away. And there were no
+    biscuits
+    in the biscuit jar: somebody <b>had eaten</b> (eat) them all! I was sure I <b>had put</b> (put) the jar there the
+    previous day and
+    I <b>had eaten</b> (eat) only one cookie. It was very strange.
+    <br>
+    <br>
+    A few minutes later, I <b>was drinking</b> (drink) my glass of milk when I <b>heard</b> (hear) a loud noise coming
+    from the dining
+    room. I <b>went</b> (go) there quickly and I <b>opened</b> (open) the door. I couldn't believe my eyes. An enormous
+    monkey <b>
+        was
+        eating
+    </b> (eat) the biscuits excitedly on the kitchen chair.
+    <br>
+    <br>
+    <br>
+    <span>D. Rewrite the following sentences correcting the mistakes.</span>
+    <br>
+    <br>
+    <span>a. She played the flute and then she had sung in their choir.</span>
+    <br>
+    She had played the flute and then she had sung in their choir.
+    <br>
+    <br>
+    <span>b. I borrowed Rima&rsquo;s car. Had you known about it?</span>
+    <br>
+    I had borrowed Rima&rsquo;s car. Had you known about it?
+    <br>
+    <br>
+    <span>c. After the lesson had finished, we run out of school.</span>
+    <br>
+    After the lesson had finished, we ran out of school.
+    <br>
+    <br>
+    <span>d. Had you be there? - Yes, the previous year.</span>
+    <br>
+    Had you been there? -Yes, the previous year.
+    <br>
+    <br>
+    <span>e. Did you liked my article published in the Himalayan Times yesterday?</span>
+    <br>
+    Did you like my article published in the Himalayan Times yesterday?
+    <br>
+    <br>
+    <span>f. I recognized him because I saw him before.</span>
+    <br>
+    I recognized him because I had seen him before.
+    <br>
+    <br>
+    <span>g. I hadn&rsquo;t gone out because I hadn&rsquo;t finished my homework.</span>
+    <br>
+    I didn't go out because I hadn&rsquo;t finished my homework.
+    <br>
+    <br>
+    <span>h. We had done nothing like this at that time.</span>
+    <br>
+    We did nothing like this at that time.
+    <br>
+    <br>
+    <span>i. It was quite difficult. I had had no idea what to do.</span>
+    <br>
+    It had been quite difficult. I had no idea what to do.
+    <br>
+    <br>
+    <span>j. As far as I&rsquo;d known, she had always had some pets.</span>
+    <br>
+    As far as I knew, she had always had some pets.
+    <br>
+    <br>
+    <span>k. When I met Jim, he was already a soldier for three years.</span>
+    <br>
+    When I met Jim, he had already been a soldier for three years.
+    <br>
+    <br>
+    <span>l. He had gone to the coffee because somebody had told him.</span>
+    <br>
+    He went to the the coffee because somebody had told him.
+    <br>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+
     If you have any suggestions or feedbacks, please write to us at plus2help@gmail.com
+    <br><br>
 </body>
 
 </html>
